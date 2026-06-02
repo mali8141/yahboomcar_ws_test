@@ -1,0 +1,1 @@
+Invoking command in '/home/pawan/yahboomcar_ws/build/arm_interface': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pawan/yahboomcar_ws/src/arm_interface -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pawan/yahboomcar_ws/install/arm_interface

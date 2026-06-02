@@ -1,0 +1,57 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pawan/yahboomcar_ws/build/test_config
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/ament_index/resource_index/package_run_dependencies/test_config
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/ament_index/resource_index/parent_prefix_path/test_config
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/environment/ament_prefix_path.sh
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/environment/path.sh
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/environment/path.dsv
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/local_setup.bash
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/local_setup.sh
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/local_setup.zsh
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/local_setup.dsv
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/package.dsv
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/ament_index/resource_index/packages/test_config
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/cmake/test_configConfig.cmake
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/cmake/test_configConfig-version.cmake
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/package.xml
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/launch/.ipynb_checkpoints/demo.launch-checkpoint.py
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/launch/demo.launch.py
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/launch/move_group.launch.py
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/launch/moveit_rviz.launch.py
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/launch/rsp.launch.py
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/launch/setup_assistant.launch.py
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/launch/spawn_controllers.launch.py
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/launch/static_virtual_joint_tfs.launch.py
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/launch/warehouse_db.launch.py
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/config/.ipynb_checkpoints/joint_limits-checkpoint.yaml
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/config/dofbot_pro_descripton.ros2_control.xacro
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/config/dofbot_pro_descripton.srdf
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/config/dofbot_pro_descripton.urdf.xacro
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/config/initial_positions.yaml
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/config/joint_limits.yaml
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/config/kinematics.yaml
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/config/moveit.rviz
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/config/moveit_controllers.yaml
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/config/pilz_cartesian_limits.yaml
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/config/ros2_controllers.yaml
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/config/sensors_3d.yaml
+-- Symlinking: /home/pawan/yahboomcar_ws/install/test_config/share/test_config/.setup_assistant

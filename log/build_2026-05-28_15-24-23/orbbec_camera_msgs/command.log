@@ -1,0 +1,1 @@
+Invoking command in '/home/pawan/yahboomcar_ws/build/orbbec_camera_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pawan/yahboomcar_ws/src/OrbbecSDK_ROS2/orbbec_camera_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pawan/yahboomcar_ws/install/orbbec_camera_msgs
