@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "yahboomcar_msgs__rs",
+		"source" : "/home/pawan/yahboomcar_ws/build/yahboomcar_msgs/yahboomcar_msgs__rs"
+	}
+}
