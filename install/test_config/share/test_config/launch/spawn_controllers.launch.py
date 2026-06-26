@@ -1,1 +1,0 @@
-/home/pawan/yahboomcar_ws/src/test_config/launch/spawn_controllers.launch.py
