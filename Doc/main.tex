@@ -127,5 +127,27 @@ The existing \texttt{yahboomcar\_keyboard.py} node can be used without any chang
     \label{fig:S_control_pipeline}
 \end{figure}
 
+\section{understand the repo structure and debug the errors}
+What's actually in this repo
+    \begin{itemize}
+    \item Two workspaces: {yahboomcar\_ws} (arm driver, robot description/URDF, MoveIt2 config, laser, depth camera) and {M3Pro\_ws} (navigation2, SLAM, calibration, and a big ``largemodel'' AI/voice stack).
+    \item The {Docker\_M3Pro-*.sh} scripts pull an image from 192.168.2.51:5000 --- that's a private LAN registry inside Yahboom's factory network, not reachable from your our system at all.
+    \item Hardware drivers are hardcoded, e.g. {arm\_driver.py} does {Rosmaster("/dev/ttyUSB0")} using a proprietary \texttt{Rosmaster\_Lib} pip package. Without hardware, this will throw \texttt{SerialException: could not open port /dev/ttyUSB0}.
+    \item The only working "no-hardware" launch files are plain URDF viewers (display.launch.py), which just start robot\_state\_publisher + joint\_state\_publisher.
+
+\end{itemize}
+
+\subsection{RViz2 / Robot Description Debugging}
+During comiling the repo, I encountered some errors related to missing packages and dependencies. To resolve these issues, I followed these steps:
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{Img/urdf.png}
+    \caption{URDF errors}
+    \label{fig:URDF_errors}
+\end{figure}
+The robot model initially showed an error because the package name in the URDF file was incorrect. The error was found at lines 1098 and 1113. According to the correction, rebuilt the workspace using colcon build, and launched the model again. After the correction, the robot appeared successfully without errors.
+
+
 \end{document}
 

@@ -1,63 +1,63 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.6.7)  9 JUN 2026 11:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.7.8)  8 JUL 2026 22:04
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/malip/Downloads/ROSmasterM3/Doc/main.tex
-(c:/Users/malip/Downloads/ROSmasterM3/Doc/main.tex
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-08-13>
-(C:\Users\malip\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
-Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
-(C:\Users\malip\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
-File: size10.clo 2025/01/22 v1.4n Standard LaTeX file (size option)
+**/home/pawan/yahboomcar_ws_test/Doc/main.tex
+(/home/pawan/yahboomcar_ws_test/Doc/main.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-01-21> (/usr/share/texlive/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
 )
-\c@part=\count275
-\c@section=\count276
-\c@subsection=\count277
-\c@subsubsection=\count278
-\c@paragraph=\count279
-\c@subparagraph=\count280
-\c@figure=\count281
-\c@table=\count282
-\abovecaptionskip=\skip49
-\belowcaptionskip=\skip50
-\bibindent=\dimen148
-) (C:\Users\malip\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
-Package: fontenc 2024/12/21 v2.1c Standard LaTeX package
-) (C:\Users\malip\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
-Package: inputenc 2024/02/08 v1.3d Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
-) (C:\Users\malip\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
-Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\malip\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
-\KV@toks@=\toks19
-) (C:\Users\malip\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
-Package: graphics 2024/08/06 v1.4g Standard LaTeX Graphics (DPC,SPQR)
- (C:\Users\malip\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
-Package: trig 2023/12/02 v1.11 sin cos tan (DPC)
-) (C:\Users\malip\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.cfg
+\c@part=\count185
+\c@section=\count186
+\c@subsection=\count187
+\c@subsubsection=\count188
+\c@paragraph=\count189
+\c@subparagraph=\count190
+\c@figure=\count191
+\c@table=\count192
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks16
+\inpenc@posthook=\toks17
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks18
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+) (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
-Package graphics Info: Driver file: pdftex.def on input line 106.
- (C:\Users\malip\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
-File: pdftex.def 2024/04/13 v1.2c Graphics/color driver for pdftex
+Package graphics Info: Driver file: pdftex.def on input line 107.
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen149
-\Gin@req@width=\dimen150
-) (C:\Users\malip\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+\Gin@req@height=\dimen139
+\Gin@req@width=\dimen140
+) (/usr/share/texlive/texmf-dist/tex/latex/float/float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count283
-\float@exts=\toks20
-\float@box=\box53
-\@float@everytoks=\toks21
-\@floatcapt=\box54
-) (C:\Users\malip\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-06-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count284
-) (main.aux
+\c@float@type=\count193
+\float@exts=\toks19
+\float@box=\box50
+\@float@everytoks=\toks20
+\@floatcapt=\box51
+) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count194
+\l__pdf_internal_box=\box52
+) (./main.aux
 
 LaTeX Warning: Label `fig:H_control_pipeline' multiply defined.
 
@@ -81,24 +81,24 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
 LaTeX Font Info:    ... okay on input line 11.
- (C:\Users\malip\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+ (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count285
-\scratchdimen=\dimen151
-\scratchbox=\box55
-\nofMPsegments=\count286
-\nofMParguments=\count287
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count288
-\MPscratchDim=\dimen152
-\MPnumerator=\count289
-\makeMPintoPDFobject=\count290
-\everyMPtoPDFconversion=\toks23
-) (C:\Users\malip\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
+\scratchcounter=\count195
+\scratchdimen=\dimen141
+\scratchbox=\box53
+\nofMPsegments=\count196
+\nofMParguments=\count197
+\everyMPshowfont=\toks21
+\MPscratchCnt=\count198
+\MPscratchDim=\dimen142
+\MPnumerator=\count199
+\makeMPintoPDFobject=\count266
+\everyMPtoPDFconversion=\toks22
+) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
- (C:\Users\malip\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
-File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+ (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 12.
@@ -111,76 +111,80 @@ File: Img/Repo_Downloaded.png Graphic file (type png)
 <use Img/Repo_Downloaded.png>
 Package pdftex.def Info: Img/Repo_Downloaded.png  used on input line 19.
 (pdftex.def)             Requested size: 310.4979pt x 338.121pt.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 27.
+ (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
+File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+) [1
 
-
-[1
-
-{C:/Users/malip/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <./Img/Repo_Downloaded.png>]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Img/Repo_Downloaded.png>]
 Overfull \hbox (2.33104pt too wide) in paragraph at lines 37--38
 []\T1/cmr/bx/n/10 yahboom_M3Pro_DepthCam\T1/cmr/m/n/10 : Depth cam-era ex-am-ples in-clud-ing dis-
  []
-
-
 
 [2]
 Overfull \hbox (6.89777pt too wide) in paragraph at lines 69--69
 []\T1/cmr/bx/n/14.4 Complete Hard-ware and soft-ware based pipeline 
  []
 
-<Img/H_control_pipeline.png, id=19, 1085.05376pt x 259.97125pt>
+<Img/H_control_pipeline.png, id=20, 1085.05376pt x 259.97125pt>
 File: Img/H_control_pipeline.png Graphic file (type png)
 <use Img/H_control_pipeline.png>
 Package pdftex.def Info: Img/H_control_pipeline.png  used on input line 74.
 (pdftex.def)             Requested size: 310.4979pt x 74.39404pt.
-<Img/S_control_pipeline.png, id=20, 1155.31625pt x 231.86626pt>
+<Img/S_control_pipeline.png, id=21, 1155.31625pt x 231.86626pt>
 File: Img/S_control_pipeline.png Graphic file (type png)
 <use Img/S_control_pipeline.png>
 Package pdftex.def Info: Img/S_control_pipeline.png  used on input line 88.
 (pdftex.def)             Requested size: 310.4979pt x 62.3146pt.
-
-
 [3 <./Img/H_control_pipeline.png> <./Img/S_control_pipeline.png>]
-<Img/Keyboard Hardware pipeline.png, id=26, 156.585pt x 392.46625pt>
+<Img/Keyboard Hardware pipeline.png, id=27, 156.585pt x 392.46625pt>
 File: Img/Keyboard Hardware pipeline.png Graphic file (type png)
 <use Img/Keyboard Hardware pipeline.png>
 Package pdftex.def Info: Img/Keyboard Hardware pipeline.png  used on input line 114.
 (pdftex.def)             Requested size: 86.25pt x 216.18646pt.
-
-
-[4]
+ [4]
 Overfull \hbox (7.94525pt too wide) in paragraph at lines 119--120
 []\T1/cmr/m/n/10 The ex-ist-ing \T1/cmtt/m/n/10 yahboomcar_keyboard.py \T1/cmr/m/n/10 node can be used with-out any changes. 
  []
 
-<Img/Keyboard software pipeline.png, id=30, 164.615pt x 352.31625pt>
+<Img/Keyboard software pipeline.png, id=31, 164.615pt x 352.31625pt>
 File: Img/Keyboard software pipeline.png Graphic file (type png)
 <use Img/Keyboard software pipeline.png>
 Package pdftex.def Info: Img/Keyboard software pipeline.png  used on input line 125.
 (pdftex.def)             Requested size: 86.25pt x 184.59785pt.
+[5 <./Img/Keyboard Hardware pipeline.png> <./Img/keyboard software pipeline.png>]
+Overfull \hbox (55.81567pt too wide) in paragraph at lines 135--136
+[]\T1/cmr/m/n/10 Hardware drivers are hard-coded, e.g. arm_driver.py does Ros-mas-ter("/dev/ttyUSB0")
+ []
 
 
-[5 <./Img/Keyboard Hardware pipeline.png> <./Img/Keyboard software pipeline.png>] (main.aux)
- ***********
-LaTeX2e <2025-06-01> patch level 1
-L3 programming layer <2025-08-13>
- ***********
+Overfull \hbox (32.52505pt too wide) in paragraph at lines 136--137
+\T1/cmr/m/n/10 play.launch.py), which just start robot_state_publisher + joint_state_publisher. 
+ []
 
+<Img/urdf.png, id=37, 743.77875pt x 451.6875pt>
+File: Img/urdf.png Graphic file (type png)
+<use Img/urdf.png>
+Package pdftex.def Info: Img/urdf.png  used on input line 145.
+(pdftex.def)             Requested size: 276.00105pt x 167.61798pt.
+[6 <./Img/urdf.png>] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1674 strings out of 468133
- 26665 string characters out of 5430713
- 435301 words of memory out of 5000000
- 30310 multiletter control sequences out of 15000+600000
- 635599 words of font info for 58 fonts, out of 8000000 for 9000
+ 1682 strings out of 478287
+ 26731 string characters out of 5849290
+ 318442 words of memory out of 5000000
+ 19888 multiletter control sequences out of 15000+600000
+ 478033 words of font info for 46 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 57i,6n,65p,1135b,228s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\malip\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\malip\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\malip\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\malip\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\malip\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\malip\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\malip\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\malip\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk>
-Output written on main.pdf (5 pages, 126481 bytes).
+ 55i,6n,62p,1129b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on main.pdf (6 pages, 302595 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
+ 76 PDF objects out of 1000 (max. 8388607)
+ 40 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 26 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 31 words of extra memory for PDF output out of 10000 (max. 10000000)
 
