@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pawan/yahboomcar_ws/src/arm_interface
+CMAKE_SOURCE_DIR = /home/pawan/yahboomcar_ws_test/yahboomcar_ws/src/arm_interface
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pawan/yahboomcar_ws/build/arm_interface
+CMAKE_BINARY_DIR = /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/arm_interface
 
 # Utility rule file for arm_interface_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/arm_interface_uninstall.dir/compiler_depend.make
 include CMakeFiles/arm_interface_uninstall.dir/progress.make
 
 CMakeFiles/arm_interface_uninstall:
-	/usr/bin/cmake -P /home/pawan/yahboomcar_ws/build/arm_interface/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/arm_interface/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 arm_interface_uninstall: CMakeFiles/arm_interface_uninstall
 arm_interface_uninstall: CMakeFiles/arm_interface_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/arm_interface_uninstall.dir/clean:
 .PHONY : CMakeFiles/arm_interface_uninstall.dir/clean
 
 CMakeFiles/arm_interface_uninstall.dir/depend:
-	cd /home/pawan/yahboomcar_ws/build/arm_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pawan/yahboomcar_ws/src/arm_interface /home/pawan/yahboomcar_ws/src/arm_interface /home/pawan/yahboomcar_ws/build/arm_interface /home/pawan/yahboomcar_ws/build/arm_interface /home/pawan/yahboomcar_ws/build/arm_interface/CMakeFiles/arm_interface_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/arm_interface && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pawan/yahboomcar_ws_test/yahboomcar_ws/src/arm_interface /home/pawan/yahboomcar_ws_test/yahboomcar_ws/src/arm_interface /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/arm_interface /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/arm_interface /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/arm_interface/CMakeFiles/arm_interface_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/arm_interface_uninstall.dir/depend
 

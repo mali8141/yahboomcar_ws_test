@@ -1,0 +1,2 @@
+string resquest_type
+string user_promt

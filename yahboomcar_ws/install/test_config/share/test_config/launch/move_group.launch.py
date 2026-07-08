@@ -1,1 +1,7 @@
-/home/pawan/yahboomcar_ws/src/test_config/launch/move_group.launch.py
+from moveit_configs_utils import MoveItConfigsBuilder
+from moveit_configs_utils.launches import generate_move_group_launch
+
+
+def generate_launch_description():
+    moveit_config = MoveItConfigsBuilder("dofbot_pro_descripton", package_name="test_config").to_moveit_configs()
+    return generate_move_group_launch(moveit_config)

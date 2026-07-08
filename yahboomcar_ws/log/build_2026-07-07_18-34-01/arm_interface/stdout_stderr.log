@@ -1,0 +1,365 @@
+[35m[1mConsolidate compiler generated dependencies of target arm_interface__rosidl_generator_c[0m
+[  1%] Built target arm_interface__rs
+[  2%] Built target arm_interface__cpp
+[ 13%] Built target arm_interface__rosidl_generator_c
+[ 13%] Built target ament_cmake_python_copy_arm_interface
+[35m[1mConsolidate compiler generated dependencies of target arm_interface__rosidl_typesupport_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_interface__rosidl_typesupport_introspection_cpp[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_interface__rosidl_typesupport_c[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_interface__rosidl_typesupport_introspection_c[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_interface__rosidl_typesupport_fastrtps_cpp[0m
+[ 25%] Built target arm_interface__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target arm_interface__rosidl_typesupport_fastrtps_c[0m
+[ 36%] Built target arm_interface__rosidl_typesupport_introspection_c
+[ 47%] Built target arm_interface__rosidl_typesupport_introspection_cpp
+[ 59%] Built target arm_interface__rosidl_typesupport_cpp
+[ 70%] Built target arm_interface__rosidl_typesupport_fastrtps_cpp
+[ 82%] Built target arm_interface__rosidl_typesupport_fastrtps_c
+[ 82%] Built target arm_interface
+[ 83%] Built target arm_interface__py
+[35m[1mConsolidate compiler generated dependencies of target arm_interface__rosidl_generator_py[0m
+[ 93%] Built target arm_interface__rosidl_generator_py
+[35m[1mConsolidate compiler generated dependencies of target arm_interface__rosidl_typesupport_fastrtps_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_interface__rosidl_typesupport_c__pyext[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_interface__rosidl_typesupport_introspection_c__pyext[0m
+[ 95%] Built target arm_interface__rosidl_typesupport_fastrtps_c__pyext
+[100%] Built target arm_interface__rosidl_typesupport_c__pyext
+[100%] Built target arm_interface__rosidl_typesupport_introspection_c__pyext
+running egg_info
+writing arm_interface.egg-info/PKG-INFO
+writing dependency_links to arm_interface.egg-info/dependency_links.txt
+writing top-level names to arm_interface.egg-info/top_level.txt
+reading manifest file 'arm_interface.egg-info/SOURCES.txt'
+writing manifest file 'arm_interface.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_arm_interface_egg
+-- Install configuration: ""
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/ament_index/resource_index/rosidl_interfaces/arm_interface
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/center_xy.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/target_xy_roll.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/position.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/cur_joints__functions.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/yolov5_detect__functions.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/shape_info__functions.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/april_tag_info__functions.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/arm_joint__type_support.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/april_tag_info__functions.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/center_xy__struct.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/arm_joint__functions.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/shape_info__functions.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/position__type_support.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/position__functions.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/cur_joints__functions.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/shape_info__struct.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/yolov5_detect__functions.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/center_xy__type_support.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/cur_joints__type_support.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/cur_joints__struct.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/target_xy_roll__functions.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/position__struct.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/center_xy__functions.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/shape_info__type_support.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/arm_joint__functions.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/target_xy_roll__struct.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/center_xy__functions.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/position__functions.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/yolov5_detect__struct.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/yolov5_detect__type_support.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/arm_joint__struct.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/target_xy_roll__type_support.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/target_xy_roll__functions.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/april_tag_info__struct.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/april_tag_info__type_support.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/cur_joints.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/shape_info.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/yolov5_detect.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/rosidl_generator_c__visibility_control.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/arm_joint.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/april_tag_info.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail/arm_kinemarics__functions.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail/arm_kinemarics__struct.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail/arm_kinemarics__functions.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail/arm_kinemarics__type_support.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/arm_kinemarics.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/environment/library_path.sh
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/environment/library_path.dsv
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/lib/libarm_interface__rosidl_generator_c.so
+-- Set runtime path of "/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/lib/libarm_interface__rosidl_generator_c.so" to ""
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/position__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/center_xy__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/april_tag_info__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/yolov5_detect__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/arm_joint__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/target_xy_roll__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/shape_info__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/cur_joints__rosidl_typesupport_fastrtps_c.h
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail/arm_kinemarics__rosidl_typesupport_fastrtps_c.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/lib/libarm_interface__rosidl_typesupport_fastrtps_c.so
+-- Set runtime path of "/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/lib/libarm_interface__rosidl_typesupport_fastrtps_c.so" to ""
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/rosidl_generator_cpp__visibility_control.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/april_tag_info.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/shape_info.hpp
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/april_tag_info__struct.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/yolov5_detect__builder.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/yolov5_detect__type_support.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/center_xy__type_support.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/shape_info__type_support.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/cur_joints__traits.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/arm_joint__builder.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/shape_info__builder.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/yolov5_detect__struct.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/position__type_support.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/yolov5_detect__traits.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/cur_joints__type_support.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/position__struct.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/arm_joint__traits.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/target_xy_roll__traits.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/april_tag_info__builder.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/center_xy__struct.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/target_xy_roll__builder.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/cur_joints__struct.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/shape_info__struct.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/cur_joints__builder.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/target_xy_roll__type_support.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/center_xy__traits.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/arm_joint__struct.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/shape_info__traits.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/center_xy__builder.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/target_xy_roll__struct.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/position__builder.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/april_tag_info__type_support.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/april_tag_info__traits.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/position__traits.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/arm_joint__type_support.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/cur_joints.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/arm_joint.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/center_xy.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/target_xy_roll.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/position.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/yolov5_detect.hpp
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail/arm_kinemarics__type_support.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail/arm_kinemarics__traits.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail/arm_kinemarics__builder.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail/arm_kinemarics__struct.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/arm_kinemarics.hpp
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/april_tag_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/arm_joint__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/target_xy_roll__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/position__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/shape_info__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/cur_joints__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/dds_fastrtps
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/center_xy__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/yolov5_detect__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail/dds_fastrtps
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail/arm_kinemarics__rosidl_typesupport_fastrtps_cpp.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/lib/libarm_interface__rosidl_typesupport_fastrtps_cpp.so
+-- Set runtime path of "/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/lib/libarm_interface__rosidl_typesupport_fastrtps_cpp.so" to ""
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/rosidl_typesupport_introspection_c__visibility_control.h
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/position__rosidl_typesupport_introspection_c.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/target_xy_roll__type_support.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/target_xy_roll__rosidl_typesupport_introspection_c.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/cur_joints__type_support.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/yolov5_detect__type_support.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/shape_info__type_support.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/arm_joint__rosidl_typesupport_introspection_c.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/yolov5_detect__rosidl_typesupport_introspection_c.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/cur_joints__rosidl_typesupport_introspection_c.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/shape_info__rosidl_typesupport_introspection_c.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/center_xy__rosidl_typesupport_introspection_c.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/center_xy__type_support.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/april_tag_info__rosidl_typesupport_introspection_c.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/arm_joint__type_support.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/april_tag_info__type_support.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/position__type_support.c
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail/arm_kinemarics__rosidl_typesupport_introspection_c.h
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail/arm_kinemarics__type_support.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/lib/libarm_interface__rosidl_typesupport_introspection_c.so
+-- Set runtime path of "/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/lib/libarm_interface__rosidl_typesupport_introspection_c.so" to ""
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/lib/libarm_interface__rosidl_typesupport_c.so
+-- Set runtime path of "/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/lib/libarm_interface__rosidl_typesupport_c.so" to ""
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/arm_joint__type_support.cpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/shape_info__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/april_tag_info__type_support.cpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/yolov5_detect__type_support.cpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/cur_joints__type_support.cpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/position__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/center_xy__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/position__type_support.cpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/cur_joints__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/center_xy__type_support.cpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/shape_info__type_support.cpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/target_xy_roll__type_support.cpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/yolov5_detect__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/target_xy_roll__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/arm_joint__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/msg/detail/april_tag_info__rosidl_typesupport_introspection_cpp.hpp
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv
+-- Up-to-date: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail/arm_kinemarics__type_support.cpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/include/arm_interface/arm_interface/srv/detail/arm_kinemarics__rosidl_typesupport_introspection_cpp.hpp
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/lib/libarm_interface__rosidl_typesupport_introspection_cpp.so
+-- Set runtime path of "/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/lib/libarm_interface__rosidl_typesupport_introspection_cpp.so" to ""
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/lib/libarm_interface__rosidl_typesupport_cpp.so
+-- Set runtime path of "/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/lib/libarm_interface__rosidl_typesupport_cpp.so" to ""
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/environment/pythonpath.sh
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/environment/pythonpath.dsv
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface-0.0.0-py3.10.egg-info
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface-0.0.0-py3.10.egg-info/dependency_links.txt
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface-0.0.0-py3.10.egg-info/SOURCES.txt
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface-0.0.0-py3.10.egg-info/PKG-INFO
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface-0.0.0-py3.10.egg-info/top_level.txt
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/__init__.py
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/_arm_interface_s.ep.rosidl_typesupport_fastrtps_c.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/arm_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/libarm_interface__rosidl_generator_py.so
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/__init__.py
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_april_tag_info_s.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_center_xy_s.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_target_xy_roll.py
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_cur_joints.py
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_shape_info_s.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_april_tag_info.py
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_position_s.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_shape_info.py
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_yolov5_detect_s.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_yolov5_detect.py
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_cur_joints_s.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_target_xy_roll_s.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_position.py
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_arm_joint.py
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_center_xy.py
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_arm_joint_s.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/_arm_interface_s.ep.rosidl_typesupport_c.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/arm_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/srv
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/srv/__init__.py
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/srv/_arm_kinemarics.py
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/srv/_arm_kinemarics_s.c
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/arm_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/_arm_interface_s.ep.rosidl_typesupport_introspection_c.c
+Listing '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface'...
+Compiling '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/__init__.py'...
+Listing '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg'...
+Compiling '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/__init__.py'...
+Compiling '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_april_tag_info.py'...
+Compiling '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_arm_joint.py'...
+Compiling '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_center_xy.py'...
+Compiling '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_cur_joints.py'...
+Compiling '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_position.py'...
+Compiling '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_shape_info.py'...
+Compiling '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_target_xy_roll.py'...
+Compiling '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/msg/_yolov5_detect.py'...
+Listing '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/srv'...
+Compiling '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/srv/__init__.py'...
+Compiling '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/srv/_arm_kinemarics.py'...
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/arm_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/arm_interface_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/arm_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/arm_interface_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/arm_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+-- Set runtime path of "/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/local/lib/python3.10/dist-packages/arm_interface/arm_interface_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/lib/libarm_interface__rosidl_generator_py.so
+-- Set runtime path of "/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/lib/libarm_interface__rosidl_generator_py.so" to ""
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/ament_index/resource_index/rust_packages/arm_interface
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/rust
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/rust/Cargo.toml
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/rust/src
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/rust/src/srv.rs
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/rust/src/msg
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/rust/src/msg/rmw.rs
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/rust/src/msg.rs
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/rust/src/lib.rs
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/rust/src/srv
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/rust/src/srv/rmw.rs
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/rust/build.rs
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/srv/ArmKinemarics.idl
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/msg/ArmJoint.idl
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/msg/AprilTagInfo.idl
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/msg/CenterXY.idl
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/msg/ShapeInfo.idl
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/msg/Yolov5Detect.idl
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/msg/Position.idl
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/msg/CurJoints.idl
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/msg/TargetXYRoll.idl
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/srv/ArmKinemarics.srv
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/srv/ArmKinemarics_Request.msg
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/srv/ArmKinemarics_Response.msg
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/msg/ArmJoint.msg
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/msg/AprilTagInfo.msg
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/msg/CenterXY.msg
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/msg/ShapeInfo.msg
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/msg/Yolov5Detect.msg
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/msg/Position.msg
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/msg/CurJoints.msg
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/msg/TargetXYRoll.msg
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/ament_index/resource_index/package_run_dependencies/arm_interface
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/ament_index/resource_index/parent_prefix_path/arm_interface
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/environment/ament_prefix_path.sh
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/environment/ament_prefix_path.dsv
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/environment/path.sh
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/environment/path.dsv
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/local_setup.bash
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/local_setup.sh
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/local_setup.zsh
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/local_setup.dsv
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/package.dsv
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/ament_index/resource_index/packages/arm_interface
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/export_arm_interface__rosidl_generator_cExport.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/export_arm_interface__rosidl_generator_cExport-noconfig.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/export_arm_interface__rosidl_typesupport_fastrtps_cExport.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/export_arm_interface__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/export_arm_interface__rosidl_generator_cppExport.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/export_arm_interface__rosidl_typesupport_fastrtps_cppExport.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/export_arm_interface__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/arm_interface__rosidl_typesupport_introspection_cExport.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/arm_interface__rosidl_typesupport_introspection_cExport-noconfig.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/arm_interface__rosidl_typesupport_cExport.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/arm_interface__rosidl_typesupport_cExport-noconfig.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/arm_interface__rosidl_typesupport_introspection_cppExport.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/arm_interface__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/arm_interface__rosidl_typesupport_cppExport.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/arm_interface__rosidl_typesupport_cppExport-noconfig.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/export_arm_interface__rosidl_generator_pyExport.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/export_arm_interface__rosidl_generator_pyExport-noconfig.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/rosidl_cmake-extras.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/ament_cmake_export_libraries-extras.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/arm_interfaceConfig.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/cmake/arm_interfaceConfig-version.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface/share/arm_interface/package.xml

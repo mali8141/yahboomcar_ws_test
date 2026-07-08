@@ -1,0 +1,26 @@
+// generated from rosidl_adapter/resource/action.idl.em
+// with input from interfaces/action/Rot.action
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module action {
+    @verbatim (language="comment", text=
+      "请求定义")
+    struct Rot_Goal {
+      sequence<string> actions;
+
+      string llm_response;
+    };
+    @verbatim (language="comment", text=
+      "结果定义")
+    struct Rot_Result {
+      boolean success;
+    };
+    @verbatim (language="comment", text=
+      "反馈定义")
+    struct Rot_Feedback {
+      string status;
+    };
+  };
+};

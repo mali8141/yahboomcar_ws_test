@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from interfaces/srv/LargeScaleModel.srv
+// generated code does not contain a copyright notice
+
+
+module interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "请求部分")
+    struct LargeScaleModel_Request {
+      string promtrequest;
+
+      string infertype;
+    };
+    @verbatim (language="comment", text=
+      "响应部分")
+    struct LargeScaleModel_Response {
+      string response;
+
+      sequence<string> action_list;
+
+      boolean status;
+    };
+  };
+};

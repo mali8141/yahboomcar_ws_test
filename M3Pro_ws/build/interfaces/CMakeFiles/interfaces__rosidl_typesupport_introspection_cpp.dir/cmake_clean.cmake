@@ -1,0 +1,33 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/action/detail/rot__type_support.cpp.o"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/action/detail/rot__type_support.cpp.o.d"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/audio2__type_support.cpp.o"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/audio2__type_support.cpp.o.d"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/audio__type_support.cpp.o"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/audio__type_support.cpp.o.d"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/large_scale_model__type_support.cpp.o"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/large_scale_model__type_support.cpp.o.d"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/qwen25__type_support.cpp.o"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/qwen25__type_support.cpp.o.d"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/vision__type_support.cpp.o"
+  "CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/vision__type_support.cpp.o.d"
+  "libinterfaces__rosidl_typesupport_introspection_cpp.pdb"
+  "libinterfaces__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/interfaces/action/detail/rot__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/action/detail/rot__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/srv/detail/audio2__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/srv/detail/audio2__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/srv/detail/audio__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/srv/detail/audio__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/srv/detail/large_scale_model__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/srv/detail/large_scale_model__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/srv/detail/qwen25__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/srv/detail/qwen25__type_support.cpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/srv/detail/vision__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/interfaces/srv/detail/vision__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

@@ -1,0 +1,66 @@
+[0.772s] Invoking command in '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/arm_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/arm_msgs -- -j20 -l20
+[2.006s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.006s] [  5%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.006s] [  7%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[2.006s] [  7%] Built target ament_cmake_python_copy_arm_msgs
+[2.006s] running egg_info
+[2.006s] creating arm_msgs.egg-info
+[2.006s] writing arm_msgs.egg-info/PKG-INFO
+[2.006s] writing dependency_links to arm_msgs.egg-info/dependency_links.txt
+[2.006s] writing top-level names to arm_msgs.egg-info/top_level.txt
+[2.006s] writing manifest file 'arm_msgs.egg-info/SOURCES.txt'
+[2.006s] reading manifest file 'arm_msgs.egg-info/SOURCES.txt'
+[2.006s] writing manifest file 'arm_msgs.egg-info/SOURCES.txt'
+[2.007s] [  7%] Built target ament_cmake_python_build_arm_msgs_egg
+[2.007s] [  7%] Built target arm_msgs__rs
+[2.007s] [ 10%] [32mBuilding C object CMakeFiles/arm_msgs__rosidl_generator_c.dir/rosidl_generator_c/arm_msgs/msg/detail/arm_joint__functions.c.o[0m
+[2.007s] [ 12%] [32mBuilding C object CMakeFiles/arm_msgs__rosidl_generator_c.dir/rosidl_generator_c/arm_msgs/msg/detail/arm_joints__functions.c.o[0m
+[2.007s] [ 12%] Built target arm_msgs__cpp
+[2.007s] [ 15%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.007s] [ 17%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.007s] [ 20%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.007s] [ 22%] [32m[1mLinking C shared library libarm_msgs__rosidl_generator_c.so[0m
+[2.007s] [ 22%] Built target arm_msgs__rosidl_generator_c
+[2.007s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[2.008s] [ 27%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[2.009s] [ 30%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[2.009s] [ 32%] [32mBuilding CXX object CMakeFiles/arm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arm_msgs/msg/arm_joint__type_support.cpp.o[0m
+[2.009s] [ 35%] [32mBuilding CXX object CMakeFiles/arm_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/arm_msgs/msg/arm_joints__type_support.cpp.o[0m
+[2.009s] [ 37%] [32mBuilding CXX object CMakeFiles/arm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arm_msgs/msg/detail/arm_joint__type_support.cpp.o[0m
+[2.009s] [ 40%] [32mBuilding CXX object CMakeFiles/arm_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/arm_msgs/msg/detail/arm_joints__type_support.cpp.o[0m
+[2.009s] [ 42%] [32mBuilding CXX object CMakeFiles/arm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arm_msgs/msg/detail/dds_fastrtps/arm_joint__type_support.cpp.o[0m
+[2.010s] [ 45%] [32mBuilding CXX object CMakeFiles/arm_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/arm_msgs/msg/detail/dds_fastrtps/arm_joints__type_support.cpp.o[0m
+[2.010s] [ 47%] [32mBuilding CXX object CMakeFiles/arm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/arm_msgs/msg/arm_joint__type_support.cpp.o[0m
+[2.010s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/arm_msgs/msg/arm_joints__type_support.cpp.o[0m
+[2.010s] [ 52%] [32m[1mLinking CXX shared library libarm_msgs__rosidl_typesupport_cpp.so[0m
+[2.010s] [ 55%] [32m[1mLinking CXX shared library libarm_msgs__rosidl_typesupport_c.so[0m
+[2.010s] [ 62%] [32mBuilding C object CMakeFiles/arm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arm_msgs/msg/detail/arm_joint__type_support.c.o[0m
+[2.011s] [ 62%] [32mBuilding CXX object CMakeFiles/arm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arm_msgs/msg/detail/arm_joints__type_support_c.cpp.o[0m
+[2.011s] [ 62%] [32mBuilding CXX object CMakeFiles/arm_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/arm_msgs/msg/detail/arm_joint__type_support_c.cpp.o[0m
+[2.013s] [ 65%] [32mBuilding C object CMakeFiles/arm_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/arm_msgs/msg/detail/arm_joints__type_support.c.o[0m
+[2.013s] [ 65%] Built target arm_msgs__rosidl_typesupport_cpp
+[2.013s] [ 65%] Built target arm_msgs__rosidl_typesupport_c
+[2.013s] [ 67%] [32m[1mLinking C shared library libarm_msgs__rosidl_typesupport_introspection_c.so[0m
+[2.013s] [ 67%] Built target arm_msgs__rosidl_typesupport_introspection_c
+[2.124s] [ 70%] [32m[1mLinking CXX shared library libarm_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[2.148s] [ 70%] Built target arm_msgs__rosidl_typesupport_introspection_cpp
+[2.212s] [ 72%] [32m[1mLinking CXX shared library libarm_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[2.260s] [ 72%] Built target arm_msgs__rosidl_typesupport_fastrtps_cpp
+[2.283s] [ 75%] [32m[1mLinking CXX shared library libarm_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[2.349s] [ 75%] Built target arm_msgs__rosidl_typesupport_fastrtps_c
+[2.367s] [ 75%] Built target arm_msgs
+[2.386s] [ 77%] [34m[1mGenerating Python code for ROS interfaces[0m
+[2.642s] [ 77%] Built target arm_msgs__py
+[2.661s] [ 82%] [32mBuilding C object CMakeFiles/arm_msgs__rosidl_generator_py.dir/rosidl_generator_py/arm_msgs/msg/_arm_joint_s.c.o[0m
+[2.661s] [ 82%] [32mBuilding C object CMakeFiles/arm_msgs__rosidl_generator_py.dir/rosidl_generator_py/arm_msgs/msg/_arm_joints_s.c.o[0m
+[2.779s] [ 85%] [32m[1mLinking C shared library rosidl_generator_py/arm_msgs/libarm_msgs__rosidl_generator_py.so[0m
+[2.849s] [ 85%] Built target arm_msgs__rosidl_generator_py
+[2.874s] [ 87%] [32mBuilding C object CMakeFiles/arm_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/arm_msgs/_arm_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[2.875s] [ 90%] [32mBuilding C object CMakeFiles/arm_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/arm_msgs/_arm_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[2.883s] [ 92%] [32mBuilding C object CMakeFiles/arm_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/arm_msgs/_arm_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[2.983s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/arm_msgs/arm_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.041s] [ 95%] Built target arm_msgs__rosidl_typesupport_introspection_c__pyext
+[3.053s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/arm_msgs/arm_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.073s] [100%] [32m[1mLinking C shared library rosidl_generator_py/arm_msgs/arm_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[3.125s] [100%] Built target arm_msgs__rosidl_typesupport_fastrtps_c__pyext
+[3.189s] [100%] Built target arm_msgs__rosidl_typesupport_c__pyext

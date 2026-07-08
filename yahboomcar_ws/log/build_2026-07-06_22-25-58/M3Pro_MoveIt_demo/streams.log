@@ -1,0 +1,40 @@
+[1.518s] Invoking command in '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/src/M3Pro_MoveIt_demo': PYTHONPATH=/home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/M3Pro_MoveIt_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/M3Pro_MoveIt_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/M3Pro_MoveIt_demo build --build-base /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/M3Pro_MoveIt_demo/build install --record /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/M3Pro_MoveIt_demo/install.log --single-version-externally-managed install_data
+[1.754s] running egg_info
+[1.754s] creating ../../build/M3Pro_MoveIt_demo/M3Pro_MoveIt_demo.egg-info
+[1.754s] writing ../../build/M3Pro_MoveIt_demo/M3Pro_MoveIt_demo.egg-info/PKG-INFO
+[1.754s] writing dependency_links to ../../build/M3Pro_MoveIt_demo/M3Pro_MoveIt_demo.egg-info/dependency_links.txt
+[1.754s] writing entry points to ../../build/M3Pro_MoveIt_demo/M3Pro_MoveIt_demo.egg-info/entry_points.txt
+[1.754s] writing requirements to ../../build/M3Pro_MoveIt_demo/M3Pro_MoveIt_demo.egg-info/requires.txt
+[1.755s] writing top-level names to ../../build/M3Pro_MoveIt_demo/M3Pro_MoveIt_demo.egg-info/top_level.txt
+[1.755s] writing manifest file '../../build/M3Pro_MoveIt_demo/M3Pro_MoveIt_demo.egg-info/SOURCES.txt'
+[1.755s] reading manifest file '../../build/M3Pro_MoveIt_demo/M3Pro_MoveIt_demo.egg-info/SOURCES.txt'
+[1.756s] writing manifest file '../../build/M3Pro_MoveIt_demo/M3Pro_MoveIt_demo.egg-info/SOURCES.txt'
+[1.756s] running build
+[1.757s] running build_py
+[1.757s] creating /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/M3Pro_MoveIt_demo/build
+[1.757s] creating /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/M3Pro_MoveIt_demo/build/lib
+[1.757s] creating /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/M3Pro_MoveIt_demo/build/lib/M3Pro_MoveIt_demo
+[1.757s] copying M3Pro_MoveIt_demo/__init__.py -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/M3Pro_MoveIt_demo/build/lib/M3Pro_MoveIt_demo
+[1.757s] copying M3Pro_MoveIt_demo/random_move.py -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/M3Pro_MoveIt_demo/build/lib/M3Pro_MoveIt_demo
+[1.757s] copying M3Pro_MoveIt_demo/SimulationToMachine.py -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/M3Pro_MoveIt_demo/build/lib/M3Pro_MoveIt_demo
+[1.757s] running install
+[1.757s] running install_lib
+[1.758s] creating /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/M3Pro_MoveIt_demo/lib/python3.10/site-packages/M3Pro_MoveIt_demo
+[1.758s] copying /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/M3Pro_MoveIt_demo/build/lib/M3Pro_MoveIt_demo/__init__.py -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/M3Pro_MoveIt_demo/lib/python3.10/site-packages/M3Pro_MoveIt_demo
+[1.758s] copying /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/M3Pro_MoveIt_demo/build/lib/M3Pro_MoveIt_demo/random_move.py -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/M3Pro_MoveIt_demo/lib/python3.10/site-packages/M3Pro_MoveIt_demo
+[1.758s] copying /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/M3Pro_MoveIt_demo/build/lib/M3Pro_MoveIt_demo/SimulationToMachine.py -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/M3Pro_MoveIt_demo/lib/python3.10/site-packages/M3Pro_MoveIt_demo
+[1.758s] byte-compiling /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/M3Pro_MoveIt_demo/lib/python3.10/site-packages/M3Pro_MoveIt_demo/__init__.py to __init__.cpython-310.pyc
+[1.758s] byte-compiling /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/M3Pro_MoveIt_demo/lib/python3.10/site-packages/M3Pro_MoveIt_demo/random_move.py to random_move.cpython-310.pyc
+[1.758s] byte-compiling /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/M3Pro_MoveIt_demo/lib/python3.10/site-packages/M3Pro_MoveIt_demo/SimulationToMachine.py to SimulationToMachine.cpython-310.pyc
+[1.759s] running install_data
+[1.759s] creating /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/M3Pro_MoveIt_demo/share/ament_index
+[1.759s] creating /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/M3Pro_MoveIt_demo/share/ament_index/resource_index
+[1.759s] creating /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/M3Pro_MoveIt_demo/share/ament_index/resource_index/packages
+[1.759s] copying resource/M3Pro_MoveIt_demo -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/M3Pro_MoveIt_demo/share/ament_index/resource_index/packages
+[1.759s] copying package.xml -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/M3Pro_MoveIt_demo/share/M3Pro_MoveIt_demo
+[1.759s] running install_egg_info
+[1.760s] Copying ../../build/M3Pro_MoveIt_demo/M3Pro_MoveIt_demo.egg-info to /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/M3Pro_MoveIt_demo/lib/python3.10/site-packages/M3Pro_MoveIt_demo-0.0.0-py3.10.egg-info
+[1.760s] running install_scripts
+[1.774s] Installing SimulationToMachine script to /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/M3Pro_MoveIt_demo/lib/M3Pro_MoveIt_demo
+[1.774s] Installing random_move script to /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/M3Pro_MoveIt_demo/lib/M3Pro_MoveIt_demo
+[1.774s] writing list of installed files to '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/M3Pro_MoveIt_demo/install.log'

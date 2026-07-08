@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pawan/yahboomcar_ws/src/arm_msgs
+CMAKE_SOURCE_DIR = /home/pawan/yahboomcar_ws_test/yahboomcar_ws/src/arm_msgs
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pawan/yahboomcar_ws/build/arm_msgs
+CMAKE_BINARY_DIR = /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/arm_msgs
 
 # Utility rule file for arm_msgs.
 
@@ -66,8 +66,8 @@ include CMakeFiles/arm_msgs.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/arm_msgs.dir/progress.make
 
-CMakeFiles/arm_msgs: /home/pawan/yahboomcar_ws/src/arm_msgs/msg/ArmJoint.msg
-CMakeFiles/arm_msgs: /home/pawan/yahboomcar_ws/src/arm_msgs/msg/ArmJoints.msg
+CMakeFiles/arm_msgs: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/src/arm_msgs/msg/ArmJoint.msg
+CMakeFiles/arm_msgs: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/src/arm_msgs/msg/ArmJoints.msg
 
 arm_msgs: CMakeFiles/arm_msgs
 arm_msgs: CMakeFiles/arm_msgs.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/arm_msgs.dir/clean:
 .PHONY : CMakeFiles/arm_msgs.dir/clean
 
 CMakeFiles/arm_msgs.dir/depend:
-	cd /home/pawan/yahboomcar_ws/build/arm_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pawan/yahboomcar_ws/src/arm_msgs /home/pawan/yahboomcar_ws/src/arm_msgs /home/pawan/yahboomcar_ws/build/arm_msgs /home/pawan/yahboomcar_ws/build/arm_msgs /home/pawan/yahboomcar_ws/build/arm_msgs/CMakeFiles/arm_msgs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/arm_msgs && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pawan/yahboomcar_ws_test/yahboomcar_ws/src/arm_msgs /home/pawan/yahboomcar_ws_test/yahboomcar_ws/src/arm_msgs /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/arm_msgs /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/arm_msgs /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/arm_msgs/CMakeFiles/arm_msgs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/arm_msgs.dir/depend
 

@@ -1,8 +1,8 @@
-# Install script for directory: /home/pawan/yahboomcar_ws/build/yahboomcar_msgs/yahboomcar_msgs__rs
+# Install script for directory: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboomcar_msgs/yahboomcar_msgs__rs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/pawan/yahboomcar_ws/install/yahboomcar_msgs")
+  set(CMAKE_INSTALL_PREFIX "/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboomcar_msgs")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

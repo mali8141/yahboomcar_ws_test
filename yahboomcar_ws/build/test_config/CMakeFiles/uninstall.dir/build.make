@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/pawan/yahboomcar_ws/src/test_config
+CMAKE_SOURCE_DIR = /home/pawan/yahboomcar_ws_test/yahboomcar_ws/src/test_config
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/pawan/yahboomcar_ws/build/test_config
+CMAKE_BINARY_DIR = /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/test_config
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/pawan/yahboomcar_ws/build/test_config && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pawan/yahboomcar_ws/src/test_config /home/pawan/yahboomcar_ws/src/test_config /home/pawan/yahboomcar_ws/build/test_config /home/pawan/yahboomcar_ws/build/test_config /home/pawan/yahboomcar_ws/build/test_config/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/test_config && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/pawan/yahboomcar_ws_test/yahboomcar_ws/src/test_config /home/pawan/yahboomcar_ws_test/yahboomcar_ws/src/test_config /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/test_config /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/test_config /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/test_config/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

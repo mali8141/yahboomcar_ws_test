@@ -1,8 +1,8 @@
-# Install script for directory: /home/pawan/yahboomcar_ws/build/arm_interface/arm_interface__rs
+# Install script for directory: /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/arm_interface/arm_interface__rs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/pawan/yahboomcar_ws/install/arm_interface")
+  set(CMAKE_INSTALL_PREFIX "/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/arm_interface")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

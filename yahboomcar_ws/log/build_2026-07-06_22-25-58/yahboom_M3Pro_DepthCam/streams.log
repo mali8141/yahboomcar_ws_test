@@ -1,0 +1,44 @@
+[1.501s] Invoking command in '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/src/yahboom_M3Pro_DepthCam': PYTHONPATH=/home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_DepthCam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_M3Pro_DepthCam build --build-base /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_DepthCam/build install --record /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_DepthCam/install.log --single-version-externally-managed install_data
+[1.664s] running egg_info
+[1.665s] creating ../../build/yahboom_M3Pro_DepthCam/yahboom_M3Pro_DepthCam.egg-info
+[1.665s] writing ../../build/yahboom_M3Pro_DepthCam/yahboom_M3Pro_DepthCam.egg-info/PKG-INFO
+[1.665s] writing dependency_links to ../../build/yahboom_M3Pro_DepthCam/yahboom_M3Pro_DepthCam.egg-info/dependency_links.txt
+[1.665s] writing entry points to ../../build/yahboom_M3Pro_DepthCam/yahboom_M3Pro_DepthCam.egg-info/entry_points.txt
+[1.665s] writing requirements to ../../build/yahboom_M3Pro_DepthCam/yahboom_M3Pro_DepthCam.egg-info/requires.txt
+[1.665s] writing top-level names to ../../build/yahboom_M3Pro_DepthCam/yahboom_M3Pro_DepthCam.egg-info/top_level.txt
+[1.665s] writing manifest file '../../build/yahboom_M3Pro_DepthCam/yahboom_M3Pro_DepthCam.egg-info/SOURCES.txt'
+[1.666s] reading manifest file '../../build/yahboom_M3Pro_DepthCam/yahboom_M3Pro_DepthCam.egg-info/SOURCES.txt'
+[1.667s] writing manifest file '../../build/yahboom_M3Pro_DepthCam/yahboom_M3Pro_DepthCam.egg-info/SOURCES.txt'
+[1.667s] running build
+[1.667s] running build_py
+[1.667s] creating /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_DepthCam/build
+[1.668s] creating /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_DepthCam/build/lib
+[1.668s] creating /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_DepthCam/build/lib/yahboom_M3Pro_DepthCam
+[1.668s] copying yahboom_M3Pro_DepthCam/Measure_Distance.py -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_DepthCam/build/lib/yahboom_M3Pro_DepthCam
+[1.668s] copying yahboom_M3Pro_DepthCam/__init__.py -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_DepthCam/build/lib/yahboom_M3Pro_DepthCam
+[1.668s] copying yahboom_M3Pro_DepthCam/GetDepthColor.py -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_DepthCam/build/lib/yahboom_M3Pro_DepthCam
+[1.668s] copying yahboom_M3Pro_DepthCam/Edge_Detection.py -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_DepthCam/build/lib/yahboom_M3Pro_DepthCam
+[1.668s] running install
+[1.668s] running install_lib
+[1.669s] creating /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/lib/python3.10/site-packages/yahboom_M3Pro_DepthCam
+[1.669s] copying /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_DepthCam/build/lib/yahboom_M3Pro_DepthCam/Measure_Distance.py -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/lib/python3.10/site-packages/yahboom_M3Pro_DepthCam
+[1.669s] copying /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_DepthCam/build/lib/yahboom_M3Pro_DepthCam/__init__.py -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/lib/python3.10/site-packages/yahboom_M3Pro_DepthCam
+[1.669s] copying /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_DepthCam/build/lib/yahboom_M3Pro_DepthCam/GetDepthColor.py -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/lib/python3.10/site-packages/yahboom_M3Pro_DepthCam
+[1.669s] copying /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_DepthCam/build/lib/yahboom_M3Pro_DepthCam/Edge_Detection.py -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/lib/python3.10/site-packages/yahboom_M3Pro_DepthCam
+[1.671s] byte-compiling /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/lib/python3.10/site-packages/yahboom_M3Pro_DepthCam/Measure_Distance.py to Measure_Distance.cpython-310.pyc
+[1.671s] byte-compiling /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/lib/python3.10/site-packages/yahboom_M3Pro_DepthCam/__init__.py to __init__.cpython-310.pyc
+[1.671s] byte-compiling /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/lib/python3.10/site-packages/yahboom_M3Pro_DepthCam/GetDepthColor.py to GetDepthColor.cpython-310.pyc
+[1.671s] byte-compiling /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/lib/python3.10/site-packages/yahboom_M3Pro_DepthCam/Edge_Detection.py to Edge_Detection.cpython-310.pyc
+[1.671s] running install_data
+[1.671s] creating /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/share/ament_index
+[1.671s] creating /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/share/ament_index/resource_index
+[1.671s] creating /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/share/ament_index/resource_index/packages
+[1.671s] copying resource/yahboom_M3Pro_DepthCam -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/share/ament_index/resource_index/packages
+[1.671s] copying package.xml -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/share/yahboom_M3Pro_DepthCam
+[1.671s] running install_egg_info
+[1.672s] Copying ../../build/yahboom_M3Pro_DepthCam/yahboom_M3Pro_DepthCam.egg-info to /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/lib/python3.10/site-packages/yahboom_M3Pro_DepthCam-0.0.0-py3.10.egg-info
+[1.672s] running install_scripts
+[1.686s] Installing GetDepthColor script to /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/lib/yahboom_M3Pro_DepthCam
+[1.686s] Installing Measure_Distance script to /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/lib/yahboom_M3Pro_DepthCam
+[1.686s] Installing edge_detection script to /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_DepthCam/lib/yahboom_M3Pro_DepthCam
+[1.686s] writing list of installed files to '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_DepthCam/install.log'

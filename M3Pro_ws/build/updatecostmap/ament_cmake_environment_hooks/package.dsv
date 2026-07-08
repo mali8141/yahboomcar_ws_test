@@ -1,0 +1,4 @@
+source;share/updatecostmap/local_setup.bash
+source;share/updatecostmap/local_setup.dsv
+source;share/updatecostmap/local_setup.sh
+source;share/updatecostmap/local_setup.zsh
