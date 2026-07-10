@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.7.8)  8 JUL 2026 22:04
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.7.8)  10 JUL 2026 13:48
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -53,10 +53,47 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \float@box=\box50
 \@float@everytoks=\toks20
 \@floatcapt=\box51
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count194
+\lst@gtempboxa=\box52
+\lst@token=\toks21
+\lst@length=\count195
+\lst@currlwidth=\dimen141
+\lst@column=\count196
+\lst@pos=\count197
+\lst@lostspace=\dimen142
+\lst@width=\dimen143
+\lst@newlines=\count198
+\lst@lineno=\count199
+\lst@maxwidth=\dimen144
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count266
+\lst@skipnumbers=\count267
+\lst@framebox=\box53
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+ (/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+ (/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 ) (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count194
-\l__pdf_internal_box=\box52
+\l__color_backend_stack_int=\count268
+\l__pdf_internal_box=\box54
 ) (./main.aux
 
 LaTeX Warning: Label `fig:H_control_pipeline' multiply defined.
@@ -67,124 +104,151 @@ LaTeX Warning: Label `fig:S_control_pipeline' multiply defined.
 )
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 13.
+LaTeX Font Info:    ... okay on input line 13.
  (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count195
-\scratchdimen=\dimen141
-\scratchbox=\box53
-\nofMPsegments=\count196
-\nofMParguments=\count197
-\everyMPshowfont=\toks21
-\MPscratchCnt=\count198
-\MPscratchDim=\dimen142
-\MPnumerator=\count199
-\makeMPintoPDFobject=\count266
-\everyMPtoPDFconversion=\toks22
+\scratchcounter=\count269
+\scratchdimen=\dimen145
+\scratchbox=\box55
+\nofMPsegments=\count270
+\nofMParguments=\count271
+\everyMPshowfont=\toks22
+\MPscratchCnt=\count272
+\MPscratchDim=\dimen146
+\MPnumerator=\count273
+\makeMPintoPDFobject=\count274
+\everyMPtoPDFconversion=\toks23
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
+\c@lstlisting=\count275
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 12.
+(Font)              <12> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 12.
+(Font)              <8> on input line 14.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 12.
+(Font)              <6> on input line 14.
 <Img/Repo_Downloaded.png, id=1, 507.8975pt x 553.06625pt>
 File: Img/Repo_Downloaded.png Graphic file (type png)
 <use Img/Repo_Downloaded.png>
-Package pdftex.def Info: Img/Repo_Downloaded.png  used on input line 19.
+Package pdftex.def Info: Img/Repo_Downloaded.png  used on input line 21.
 (pdftex.def)             Requested size: 310.4979pt x 338.121pt.
-LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 27.
+LaTeX Font Info:    Trying to load font information for T1+cmtt on input line 29.
  (/usr/share/texlive/texmf-dist/tex/latex/base/t1cmtt.fd
 File: t1cmtt.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 ) [1
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./Img/Repo_Downloaded.png>]
-Overfull \hbox (2.33104pt too wide) in paragraph at lines 37--38
+Overfull \hbox (2.33104pt too wide) in paragraph at lines 39--40
 []\T1/cmr/bx/n/10 yahboom_M3Pro_DepthCam\T1/cmr/m/n/10 : Depth cam-era ex-am-ples in-clud-ing dis-
  []
 
 [2]
-Overfull \hbox (6.89777pt too wide) in paragraph at lines 69--69
+Overfull \hbox (6.89777pt too wide) in paragraph at lines 71--71
 []\T1/cmr/bx/n/14.4 Complete Hard-ware and soft-ware based pipeline 
  []
 
 <Img/H_control_pipeline.png, id=20, 1085.05376pt x 259.97125pt>
 File: Img/H_control_pipeline.png Graphic file (type png)
 <use Img/H_control_pipeline.png>
-Package pdftex.def Info: Img/H_control_pipeline.png  used on input line 74.
+Package pdftex.def Info: Img/H_control_pipeline.png  used on input line 76.
 (pdftex.def)             Requested size: 310.4979pt x 74.39404pt.
 <Img/S_control_pipeline.png, id=21, 1155.31625pt x 231.86626pt>
 File: Img/S_control_pipeline.png Graphic file (type png)
 <use Img/S_control_pipeline.png>
-Package pdftex.def Info: Img/S_control_pipeline.png  used on input line 88.
+Package pdftex.def Info: Img/S_control_pipeline.png  used on input line 90.
 (pdftex.def)             Requested size: 310.4979pt x 62.3146pt.
 [3 <./Img/H_control_pipeline.png> <./Img/S_control_pipeline.png>]
 <Img/Keyboard Hardware pipeline.png, id=27, 156.585pt x 392.46625pt>
 File: Img/Keyboard Hardware pipeline.png Graphic file (type png)
 <use Img/Keyboard Hardware pipeline.png>
-Package pdftex.def Info: Img/Keyboard Hardware pipeline.png  used on input line 114.
+Package pdftex.def Info: Img/Keyboard Hardware pipeline.png  used on input line 116.
 (pdftex.def)             Requested size: 86.25pt x 216.18646pt.
  [4]
-Overfull \hbox (7.94525pt too wide) in paragraph at lines 119--120
+Overfull \hbox (7.94525pt too wide) in paragraph at lines 121--122
 []\T1/cmr/m/n/10 The ex-ist-ing \T1/cmtt/m/n/10 yahboomcar_keyboard.py \T1/cmr/m/n/10 node can be used with-out any changes. 
  []
 
 <Img/Keyboard software pipeline.png, id=31, 164.615pt x 352.31625pt>
 File: Img/Keyboard software pipeline.png Graphic file (type png)
 <use Img/Keyboard software pipeline.png>
-Package pdftex.def Info: Img/Keyboard software pipeline.png  used on input line 125.
+Package pdftex.def Info: Img/Keyboard software pipeline.png  used on input line 127.
 (pdftex.def)             Requested size: 86.25pt x 184.59785pt.
 [5 <./Img/Keyboard Hardware pipeline.png> <./Img/keyboard software pipeline.png>]
-Overfull \hbox (55.81567pt too wide) in paragraph at lines 135--136
+Overfull \hbox (55.81567pt too wide) in paragraph at lines 137--138
 []\T1/cmr/m/n/10 Hardware drivers are hard-coded, e.g. arm_driver.py does Ros-mas-ter("/dev/ttyUSB0")
  []
 
 
-Overfull \hbox (32.52505pt too wide) in paragraph at lines 136--137
+Overfull \hbox (32.52505pt too wide) in paragraph at lines 138--139
 \T1/cmr/m/n/10 play.launch.py), which just start robot_state_publisher + joint_state_publisher. 
  []
 
 <Img/urdf.png, id=37, 743.77875pt x 451.6875pt>
 File: Img/urdf.png Graphic file (type png)
 <use Img/urdf.png>
-Package pdftex.def Info: Img/urdf.png  used on input line 145.
+Package pdftex.def Info: Img/urdf.png  used on input line 147.
 (pdftex.def)             Requested size: 276.00105pt x 167.61798pt.
-[6 <./Img/urdf.png>] (./main.aux)
+[6 <./Img/urdf.png>]
+<Img/topiclist.png, id=42, 736.7525pt x 447.6725pt>
+File: Img/topiclist.png Graphic file (type png)
+<use Img/topiclist.png>
+Package pdftex.def Info: Img/topiclist.png  used on input line 162.
+(pdftex.def)             Requested size: 345.0pt x 209.62737pt.
+ (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+) (/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+<Img/real_vs_fake_control_pipeline.png, id=43, 2730.2pt x 1204.5pt>
+File: Img/real_vs_fake_control_pipeline.png Graphic file (type png)
+<use Img/real_vs_fake_control_pipeline.png>
+Package pdftex.def Info: Img/real_vs_fake_control_pipeline.png  used on input line 185.
+(pdftex.def)             Requested size: 345.0pt x 152.19788pt.
+ [7 <./Img/topiclist.png>]
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 200.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 200.
+
+Overfull \hbox (28.8439pt too wide) in paragraph at lines 206--207
+\T1/cmr/m/n/10 robot model. The robot links and joints are still dis-played by \T1/cmtt/m/n/10 robot_state_publisher\T1/cmr/m/n/10 ,
+ []
+
+[8 <./Img/real_vs_fake_control_pipeline.png>] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 1682 strings out of 478287
- 26731 string characters out of 5849290
- 318442 words of memory out of 5000000
- 19888 multiletter control sequences out of 15000+600000
- 478033 words of font info for 46 fonts, out of 8000000 for 9000
+ 3945 strings out of 478287
+ 56386 string characters out of 5849290
+ 571479 words of memory out of 5000000
+ 22124 multiletter control sequences out of 15000+600000
+ 478346 words of font info for 47 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,6n,62p,1129b,226s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (6 pages, 302595 bytes).
+ 55i,6n,62p,1129b,1234s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on main.pdf (8 pages, 544520 bytes).
 PDF statistics:
- 76 PDF objects out of 1000 (max. 8388607)
- 40 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 52 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 31 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 41 words of extra memory for PDF output out of 10000 (max. 10000000)
 

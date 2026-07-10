@@ -3,6 +3,8 @@
 \usepackage[utf8]{inputenc}
 \usepackage{graphicx}
 \usepackage{float}
+\usepackage{listings}
+\usepackage{xcolor}
 
 \title{Explanation}
 \author{Pawan Mali }
@@ -147,6 +149,61 @@ During comiling the repo, I encountered some errors related to missing packages 
     \label{fig:URDF_errors}
 \end{figure}
 The robot model initially showed an error because the package name in the URDF file was incorrect. The error was found at lines 1098 and 1113. According to the correction, rebuilt the workspace using colcon build, and launched the model again. After the correction, the robot appeared successfully without errors.
+
+\subsection{RViz2 / Controlling the Robot movement}
+
+I tested the Chassis Control Course, especially section 3.3.1 - Controlling the Car’s Speed, without connecting the real robot hardware.
+
+
+After launching the robot description using display.launch.py. The URDF model loaded correctly in RViz, and the robot was visible without errors. I then checked the active ROS 2 nodes and topics. Only visualization-related nodes such as robot state publisher, joint state publisher, and RViz were running. There was no chassis driver or motor control node.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Img/topiclist.png}
+    \caption{Node and Topic List}
+    \label{fig:node and topic list}
+\end{figure}
+
+
+Next, a velocity command was published to the \texttt{/cmd\_vel} topic:
+
+\begin{lstlisting}[language=bash, basicstyle=\ttfamily\small, breaklines=true]
+ros2 topic pub /cmd_vel geometry_msgs/msg/Twist \
+"{linear: {x: 0.1, y: 0.0, z: 0.0}, angular: {x: 0.0, y: 0.0, z: 0.0}}" --once
+\end{lstlisting}
+
+The command continuously showed:
+
+\begin{lstlisting}[basicstyle=\ttfamily\small, breaklines=true]
+Waiting for at least 1 matching subscription(s)...
+\end{lstlisting}
+
+This happened because no node was subscribed to \texttt{/cmd\_vel}. On the real robot, the chassis driver receives this command, sends motor speed values to the STM32 controller through serial communication, reads encoder data, and publishes odometry. Since the hardware and chassis driver were not available, the velocity command had no receiver.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=1\textwidth]{Img/real_vs_fake_control_pipeline.png}
+    \caption{Real vs. Fake Control Pipeline}
+    \label{fig:real_vs_fake_control_pipeline}
+\end{figure}
+
+To test the chassis-control command without the real robot hardware, a temporary node called \texttt{fake\_odom\_driver.py} was added. The original command publishes velocity values on \texttt{/cmd\_vel}, but no real motor driver is available to receive them. Therefore, the robot cannot move in RViz using only \texttt{robot\_state\_publisher}.
+
+The fake driver works as a simple software replacement for the hardware driver. It subscribes to \texttt{/cmd\_vel} and reads the commanded forward, sideways, and rotational velocities. These values are stored as:
+
+\begin{lstlisting}[basicstyle=\ttfamily\small, breaklines=true]
+linear.x  -> forward/backward movement
+linear.y  -> sideways movement for mecanum wheels
+angular.z -> rotation
+\end{lstlisting}
+
+The node then calculates the robot's new position over time using simple dead-reckoning. It updates the robot's \(x\), \(y\), and heading angle based on the latest velocity command. After calculating the pose, it publishes an odometry message on \texttt{/odom} and broadcasts the TF transformation:
+
+\begin{lstlisting}[basicstyle=\ttfamily\small, breaklines=true]
+odom -> base_link
+\end{lstlisting}
+
+RViz uses this TF transformation to update the position of the complete robot model. The robot links and joints are still displayed by \texttt{robot\_state\_publisher}, while the fake driver changes the position of the robot base.
 
 
 \end{document}
