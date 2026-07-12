@@ -1,0 +1,70 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/pawan/yahboomcar_ws_test/M3Pro_ws/build/M3Pro
+-- Install configuration: ""
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/launch
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/launch/display_robot1.launch.py
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/launch/display.launch.py
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/launch/display_robot2.launch.py
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/launch/gazebo.launch.py
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/llink1.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/Gripping.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/rlink1.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/llink3.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/arm5.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/arm3.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/lwheel2.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/rwheel2.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/rlink3.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/DCW2.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/lwheel1.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/arm4.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/arm2.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/rwheel1.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/arm_base_Link.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/Camera.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/base_link.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/llink2.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/rlink2.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/arm1.STL
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/config
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/config/.ipynb_checkpoints
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/config/.ipynb_checkpoints/joint_names_M3-checkpoint.yaml
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/config/joint_names_M3.yaml
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/urdf
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/urdf/M3Pro.urdf
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/urdf/M3Pro_robot1.urdf
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/urdf/M3Pro.gazebo.xacro
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/urdf/M3Pro_robot2.urdf
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/urdf/M3Pro.collision_fix.urdf
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/urdf/M3.csv
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/ament_index/resource_index/package_run_dependencies/M3Pro
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/ament_index/resource_index/parent_prefix_path/M3Pro
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/environment/ament_prefix_path.sh
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/environment/ament_prefix_path.dsv
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/environment/path.sh
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/environment/path.dsv
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/local_setup.bash
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/local_setup.sh
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/local_setup.zsh
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/local_setup.dsv
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/package.dsv
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/ament_index/resource_index/packages/M3Pro
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/cmake/M3ProConfig.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/cmake/M3ProConfig-version.cmake
+-- Installing: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/package.xml

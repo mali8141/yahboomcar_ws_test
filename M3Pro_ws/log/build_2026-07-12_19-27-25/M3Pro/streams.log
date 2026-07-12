@@ -1,0 +1,57 @@
+[0.006s] Invoking command in '/home/pawan/yahboomcar_ws_test/M3Pro_ws/build/M3Pro': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/M3Pro_ws/build/M3Pro -- -j20 -l20
+[0.043s] Invoked command in '/home/pawan/yahboomcar_ws_test/M3Pro_ws/build/M3Pro' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/M3Pro_ws/build/M3Pro -- -j20 -l20
+[0.054s] Invoking command in '/home/pawan/yahboomcar_ws_test/M3Pro_ws/build/M3Pro': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/M3Pro_ws/build/M3Pro
+[0.062s] -- Install configuration: ""
+[0.062s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/launch
+[0.062s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/launch/display_robot1.launch.py
+[0.062s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/launch/display.launch.py
+[0.062s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/launch/display_robot2.launch.py
+[0.062s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/launch/gazebo.launch.py
+[0.062s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes
+[0.062s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/llink1.STL
+[0.063s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/Gripping.STL
+[0.063s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/rlink1.STL
+[0.063s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/llink3.STL
+[0.063s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/arm5.STL
+[0.063s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/arm3.STL
+[0.063s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/lwheel2.STL
+[0.063s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/rwheel2.STL
+[0.063s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/rlink3.STL
+[0.063s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/DCW2.STL
+[0.063s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/lwheel1.STL
+[0.063s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/arm4.STL
+[0.063s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/arm2.STL
+[0.063s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/rwheel1.STL
+[0.063s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/arm_base_Link.STL
+[0.063s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/Camera.STL
+[0.064s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/base_link.STL
+[0.064s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/llink2.STL
+[0.064s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/rlink2.STL
+[0.064s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/meshes/arm1.STL
+[0.064s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/config
+[0.064s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/config/.ipynb_checkpoints
+[0.064s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/config/.ipynb_checkpoints/joint_names_M3-checkpoint.yaml
+[0.064s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/config/joint_names_M3.yaml
+[0.064s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/urdf
+[0.064s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/urdf/M3Pro.urdf
+[0.064s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/urdf/M3Pro_robot1.urdf
+[0.064s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/urdf/M3Pro.gazebo.xacro
+[0.065s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/urdf/M3Pro_robot2.urdf
+[0.065s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/urdf/M3Pro.collision_fix.urdf
+[0.065s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/urdf/M3.csv
+[0.065s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/ament_index/resource_index/package_run_dependencies/M3Pro
+[0.065s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/ament_index/resource_index/parent_prefix_path/M3Pro
+[0.065s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/environment/ament_prefix_path.sh
+[0.065s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/environment/ament_prefix_path.dsv
+[0.065s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/environment/path.sh
+[0.065s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/environment/path.dsv
+[0.065s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/local_setup.bash
+[0.065s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/local_setup.sh
+[0.065s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/local_setup.zsh
+[0.066s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/local_setup.dsv
+[0.066s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/package.dsv
+[0.066s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/ament_index/resource_index/packages/M3Pro
+[0.066s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/cmake/M3ProConfig.cmake
+[0.066s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/cmake/M3ProConfig-version.cmake
+[0.066s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/M3Pro_ws/install/M3Pro/share/M3Pro/package.xml
+[0.066s] Invoked command in '/home/pawan/yahboomcar_ws_test/M3Pro_ws/build/M3Pro' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/M3Pro_ws/build/M3Pro
