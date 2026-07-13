@@ -1,0 +1,16 @@
+[0.386s] Invoking command in '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_description': PYTHONPATH=/home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_description/build --no-deps symlink_data
+[0.548s] running develop
+[0.648s] running egg_info
+[0.648s] writing yahboom_M3Pro_description.egg-info/PKG-INFO
+[0.648s] writing dependency_links to yahboom_M3Pro_description.egg-info/dependency_links.txt
+[0.648s] writing entry points to yahboom_M3Pro_description.egg-info/entry_points.txt
+[0.648s] writing requirements to yahboom_M3Pro_description.egg-info/requires.txt
+[0.648s] writing top-level names to yahboom_M3Pro_description.egg-info/top_level.txt
+[0.649s] reading manifest file 'yahboom_M3Pro_description.egg-info/SOURCES.txt'
+[0.650s] writing manifest file 'yahboom_M3Pro_description.egg-info/SOURCES.txt'
+[0.650s] running build_ext
+[0.651s] Creating /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages/yahboom-M3Pro-description.egg-link (link to .)
+[0.651s] 
+[0.651s] Installed /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_description
+[0.651s] running symlink_data
+[0.669s] Invoked command in '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_description' returned '0': PYTHONPATH=/home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_description/build --no-deps symlink_data
