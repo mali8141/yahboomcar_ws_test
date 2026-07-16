@@ -883,7 +883,7 @@
   </link>
   <joint
     name="lwheel1_Joint"
-    type="fixed">
+    type="revolute">
     <origin
       xyz="0.0775753787975409 0.09775 0.0399999999999998"
       rpy="1.5707963267949 0 0" />
@@ -941,7 +941,7 @@
   </link>
   <joint
     name="lwheel2_Joint"
-    type="fixed">
+    type="revolute">
     <origin
       xyz="-0.0814246212024597 0.0977499999999995 0.0399976951545867"
       rpy="1.5707963267949 0 0" />
@@ -999,7 +999,7 @@
   </link>
   <joint
     name="rwheel1_Joint"
-    type="fixed">
+    type="revolute">
     <origin
       xyz="0.0775753787975429 -0.0977499999999993 0.0400000000000004"
       rpy="-1.5707963267949 0 0" />
@@ -1057,7 +1057,7 @@
   </link>
   <joint
     name="rwheel2_Joint"
-    type="fixed">
+    type="revolute">
     <origin
       xyz="-0.0814246212024577 -0.0977500000000009 0.0399976951545873"
       rpy="-1.5707963267949 0 0" />

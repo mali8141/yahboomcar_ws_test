@@ -4,8 +4,12 @@
      For more information, please see http://wiki.ros.org/sw_urdf_exporter -->
 <robot
   name="M3Pro">
+  xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.ros2_control.xacro"/>
+  <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.gazebo.xacro"/>
   <link
     name="base_link">
+    
     <inertial>
       <origin
         xyz="-0.0230945655800945 -0.000624366433481225 0.0924263074305092"
@@ -883,7 +887,7 @@
   </link>
   <joint
     name="lwheel1_Joint"
-    type="fixed">
+    type="continuous">
     <origin
       xyz="0.0775753787975409 0.09775 0.0399999999999998"
       rpy="1.5707963267949 0 0" />
@@ -896,8 +900,8 @@
     <limit
       lower="0"
       upper="0"
-      effort="0"
-      velocity="0" />
+      effort="10"
+      velocity="10" />
   </joint>
   <link
     name="lwheel2">
@@ -941,7 +945,7 @@
   </link>
   <joint
     name="lwheel2_Joint"
-    type="fixed">
+    type="continuous">
     <origin
       xyz="-0.0814246212024597 0.0977499999999995 0.0399976951545867"
       rpy="1.5707963267949 0 0" />
@@ -954,8 +958,8 @@
     <limit
       lower="0"
       upper="0"
-      effort="0"
-      velocity="0" />
+      effort="10"
+      velocity="10" />
   </joint>
   <link
     name="rwheel1">
@@ -999,7 +1003,7 @@
   </link>
   <joint
     name="rwheel1_Joint"
-    type="fixed">
+    type="continuous">
     <origin
       xyz="0.0775753787975429 -0.0977499999999993 0.0400000000000004"
       rpy="-1.5707963267949 0 0" />
@@ -1012,8 +1016,8 @@
     <limit
       lower="0"
       upper="0"
-      effort="0"
-      velocity="0" />
+      effort="10"
+      velocity="10" />
   </joint>
   <link
     name="rwheel2">
@@ -1057,7 +1061,7 @@
   </link>
   <joint
     name="rwheel2_Joint"
-    type="fixed">
+    type="continuous">
     <origin
       xyz="-0.0814246212024577 -0.0977500000000009 0.0399976951545873"
       rpy="-1.5707963267949 0 0" />
@@ -1070,8 +1074,8 @@
     <limit
       lower="0"
       upper="0"
-      effort="0"
-      velocity="0" />
+      effort="10"
+      velocity="10" />
   </joint>
   <link
     name="arm_base_Link">
@@ -1128,14 +1132,7 @@
       xyz="0 0 0" />
   </joint>
 
-  <gazebo>
-    <plugin name="planar_move_plugin" filename="libgazebo_ros_planar_move.so">
-      <commandTopic>cmd_vel</commandTopic>
-      <odometryTopic>odom</odometryTopic>
-      <odometryFrame>odom</odometryFrame>
-      <odometryRate>20.0</odometryRate>
-      <robotBaseFrame>base_link</robotBaseFrame>
-    </plugin>
-  </gazebo>
+<xacro:M3Pro_base_ros2_control name="GazeboSystem"/>
+<xacro:M3Pro_gazebo_ros2_control/>
 
 </robot>
