@@ -147,7 +147,7 @@
     type="fixed">
     <origin
       xyz="-0.0021522 6.1185E-05 0.033"
-      rpy="-6.3725E-05 0 -0.028422" />
+      rpy="0.000064 -0.959931 -0.028422" />
     <parent
       link="arm1" />
     <child
@@ -205,7 +205,7 @@
     type="fixed">
     <origin
       xyz="0 0 0.08285"
-      rpy="6.3702E-05 0 0.027102" />
+      rpy="1.570860 1.543631 1.570860" />
     <parent
       link="arm2" />
     <child
@@ -263,7 +263,7 @@
     type="fixed">
     <origin
       xyz="0 0 0.08285"
-      rpy="0 0 -0.027075" />
+      rpy="0.000026 0.785398 -0.027064" />
     <parent
       link="arm3" />
     <child

@@ -205,6 +205,22 @@ odom -> base_link
 
 RViz uses this TF transformation to update the position of the complete robot model. The robot links and joints are still displayed by \texttt{robot\_state\_publisher}, while the fake driver changes the position of the robot base.
 
+\subsection{Set Gazebo Environment / Control the Robot movement}
+
+4.1 Objective
+
+Get the M3Pro robot (4-wheel mobile base + 5-DOF arm) spawning correctly in
+Gazebo, and enable teleoperated control of the mobile base as a first step
+toward simulation-based testing.
+
+2.1 Gazebo display pipeline
+
+Built a gazebo display launch py launch file that starts
+robot state publisher.
+
+Added a libgazebo ros planar move plugin to the URDF to allow
+teleoperated control of the base via cmd vel, publishing simulated
+odometry on odom.
 
 \end{document}
 

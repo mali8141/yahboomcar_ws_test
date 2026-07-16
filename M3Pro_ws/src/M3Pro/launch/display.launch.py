@@ -17,7 +17,7 @@ def generate_launch_description():
     xacro_file = os.path.join(
         package_share,
         'urdf',
-        'M3Pro.urdf.xacro'
+        'M3Pro.gazebo.xacro'
     )
 
     robot_description = xacro.process_file(
