@@ -3,7 +3,9 @@
 /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/share/ament_index/resource_index/packages/yahboom_M3Pro_description
 /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/package.xml
 /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/urdf/M3Pro.gazebo.xacro
+/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/urdf/M3Pro.planar_move.xacro.save
 /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/urdf/M3Pro.urdf.xacro
+/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/urdf/M3Pro.planar_move.xacro
 /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/urdf/M3Pro.ros2_control.xacro
 /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes/llink1.STL
 /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes/Gripping.STL
@@ -25,6 +27,7 @@
 /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes/llink2.STL
 /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes/rlink2.STL
 /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes/arm1.STL
+/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/launch/gazebo_display_planar_move.launch.py
 /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/launch/gazebo_display.launch.py
 /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/launch/display_launch.py
 /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/launch/rsp.launch.py

@@ -5,8 +5,9 @@
 <robot
   name="M3Pro"
   xmlns:xacro="http://www.ros.org/wiki/xacro">
-  <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.ros2_control.xacro"/>
-  <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.gazebo.xacro"/>
+  <!--<xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.ros2_control.xacro"/>-->
+  <!--<xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.gazebo.xacro"/>-->
+  <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.planar_move.xacro"/>
   <link
     name="base_link">
     
