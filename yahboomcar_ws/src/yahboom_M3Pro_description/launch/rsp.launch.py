@@ -1,4 +1,5 @@
 import os
+import re
 import xacro
 
 from ament_index_python.packages import get_package_share_directory
@@ -18,6 +19,11 @@ def generate_launch_description():
 
     robot_description_config = xacro.process_file(xacro_file)
     robot_description = robot_description_config.toxml()
+
+    # Strip XML comments — gazebo_ros2_control re-passes robot_description
+    # as a "--param" override internally, and embedded "--" sequences
+    # inside <!-- ... --> comments break its argument parser.
+    robot_description = re.sub(r'<!--.*?-->', '', robot_description, flags=re.DOTALL)
 
     node_robot_state_publisher = Node(
         package='robot_state_publisher',

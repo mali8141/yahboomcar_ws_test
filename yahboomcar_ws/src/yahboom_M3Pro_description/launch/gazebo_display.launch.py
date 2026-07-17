@@ -24,7 +24,7 @@ def generate_launch_description():
     )
 
     gazebo = ExecuteProcess(
-        cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_factory.so'],
+        cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so'],
         output='screen'
     )
 
@@ -39,11 +39,35 @@ def generate_launch_description():
             )
         ]
     )
-    
+    load_joint_state_broadcaster = TimerAction(
+        period=6.0,
+        actions=[
+            Node(
+                package='controller_manager',
+                executable='spawner',
+                arguments=['joint_state_broadcaster'],
+                output='screen'
+            )
+        ]
+    )
+
+    load_mecanum_controller = TimerAction(
+        period=7.0,
+        actions=[
+            Node(
+                package='controller_manager',
+                executable='spawner',
+                arguments=['mecanum_drive_controller'],
+                output='screen'
+            )
+        ]
+    )
 
     return LaunchDescription([
         set_gazebo_model_path,
         rsp,
         gazebo,
         spawn_entity,
+        load_joint_state_broadcaster,
+        load_mecanum_controller
     ])

@@ -1,5 +1,6 @@
 import os
 import re
+import xacro
 
 from ament_index_python.packages import get_package_share_directory
 
@@ -14,15 +15,15 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time')
 
     pkg_path = get_package_share_directory('yahboom_M3Pro_description')
-    urdf_file = os.path.join(pkg_path, 'urdf', 'M3Pro.urdf')
+    xacro_file = os.path.join(pkg_path, 'urdf', 'M3Pro.urdf.xacro')
 
-    with open(urdf_file, 'r') as f:
-        robot_description = f.read()
+    robot_description_config = xacro.process_file(xacro_file)
+    robot_description = robot_description_config.toxml()
 
-    # Strip the <?xml ... ?> declaration — lxml (used by spawn_entity.py
-    # downstream) refuses to parse a Python string that still has an
-    # encoding declaration in it.
-    robot_description = re.sub(r'^\s*<\?xml.*?\?>\s*', '', robot_description, count=1)
+    # Strip XML comments — gazebo_ros2_control re-passes robot_description
+    # as a "--param" override internally, and embedded "--" sequences
+    # inside <!-- ... --> comments break its argument parser.
+    robot_description = re.sub(r'<!--.*?-->', '', robot_description, flags=re.DOTALL)
 
     node_robot_state_publisher = Node(
         package='robot_state_publisher',
