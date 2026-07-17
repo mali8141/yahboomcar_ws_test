@@ -11,7 +11,6 @@ setup.py
 config/mecanum_drive_controller.yaml
 launch/display_launch.py
 launch/gazebo_display.launch.py
-launch/gazebo_display_planar_move.launch.py
 launch/rsp.launch.py
 meshes/Camera.STL
 meshes/DCW2.STL
@@ -37,9 +36,6 @@ resource/yahboom_M3Pro_description
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
-urdf/M3Pro.gazebo.xacro
 urdf/M3Pro.planar_move.xacro
-urdf/M3Pro.planar_move.xacro.save
-urdf/M3Pro.ros2_control.xacro
 urdf/M3Pro.urdf.xacro
 yahboom_M3Pro_description/__init__.py

@@ -5,8 +5,7 @@
 <robot
   name="M3Pro"
   xmlns:xacro="http://www.ros.org/wiki/xacro">
-  <!--<xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.ros2_control.xacro"/>-->
-  <!--<xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.gazebo.xacro"/>-->
+  
   <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.planar_move.xacro"/>
   <link
     name="base_link">
@@ -1142,7 +1141,5 @@
   <mu2>1.0</mu2>
 </gazebo>
 
-<xacro:M3Pro_base_ros2_control name="GazeboSystem"/>
-<xacro:M3Pro_gazebo_ros2_control/>
-
+<xacro:M3Pro_gazebo_planar_move/>
 </robot>
