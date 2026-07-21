@@ -1128,5 +1128,5 @@
 
 <xacro:M3Pro_gazebo_planar_move/>
 <xacro:M3Pro_wheel_friction/>
-<xacro:M3Pro.lidar_links/>
+<xacro:M3Pro_lidar_links/>
 </robot>

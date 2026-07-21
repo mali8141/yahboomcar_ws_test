@@ -8,6 +8,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     pkg_path = get_package_share_directory('yahboom_M3Pro_description')
+    world_path = os.path.join(pkg_path, 'worlds', 'maze.world')
 
     share_parent = os.path.dirname(pkg_path)
     existing_model_path = os.environ.get('GAZEBO_MODEL_PATH', '')
@@ -24,7 +25,7 @@ def generate_launch_description():
     )
 
     gazebo = ExecuteProcess(
-        cmd=['gazebo', '--verbose', '-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so'],
+        cmd=['gazebo', '--verbose', world_path, '-s', 'libgazebo_ros_init.so', '-s', 'libgazebo_ros_factory.so'],
         output='screen'
     )
 

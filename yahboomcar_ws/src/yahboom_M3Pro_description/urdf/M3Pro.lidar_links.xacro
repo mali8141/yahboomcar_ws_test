@@ -1,9 +1,10 @@
 <?xml version="1.0"?>
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+    <xacro:macro name="M3Pro_lidar_links" params="">
 
   <!-- ===== Links & Joints ===== -->
 
-  <link name="laser0_frame">
+    <link name="laser0_frame">
     <inertial>
       <origin xyz="0 0 0" rpy="0 0 0"/>
       <mass value="0.0973137194820634"/>
@@ -104,5 +105,6 @@
       </plugin>
     </sensor>
   </gazebo>
+ </xacro:macro>
 
 </robot>
