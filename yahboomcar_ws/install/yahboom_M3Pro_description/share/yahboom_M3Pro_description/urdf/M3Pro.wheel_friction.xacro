@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro">
+  <!-- Lowered wheel-ground friction, specifically to stop the chassis from
+       "wheelie-ing" when using planar_move. planar_move sets the whole
+       chassis velocity directly and never spins these wheel joints, so high
+       friction at the wheel-ground contact fights that commanded velocity
+       and creates a pitch torque at the contact patch. Since the wheels are
+       not doing real propulsion under planar_move, low friction here is
+       safe. Tune mu1/mu2 up slightly (0.05, 0.1 ...) only if the robot
+       starts sliding/skating instead of tipping. -->
+  <xacro:macro name="M3Pro_wheel_friction" params="">
+    <gazebo reference="lwheel1">
+      <mu1>0.01</mu1>
+      <mu2>0.01</mu2>
+    </gazebo>
+    <gazebo reference="lwheel2">
+      <mu1>0.01</mu1>
+      <mu2>0.01</mu2>
+    </gazebo>
+    <gazebo reference="rwheel1">
+      <mu1>0.01</mu1>
+      <mu2>0.01</mu2>
+    </gazebo>
+    <gazebo reference="rwheel2">
+      <mu1>0.01</mu1>
+      <mu2>0.01</mu2>
+    </gazebo>
+  </xacro:macro>
+</robot>

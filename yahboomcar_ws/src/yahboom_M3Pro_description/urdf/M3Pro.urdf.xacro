@@ -7,6 +7,7 @@
   xmlns:xacro="http://www.ros.org/wiki/xacro">
   
   <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.planar_move.xacro"/>
+  <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.wheel_friction.xacro"/>
   <link
     name="base_link">
     
@@ -1124,22 +1125,6 @@
       xyz="0 0 0" />
   </joint>
 
-<gazebo reference="lwheel1">
-  <mu1>1.0</mu1>
-  <mu2>1.0</mu2>
-</gazebo>
-<gazebo reference="lwheel2">
-  <mu1>1.0</mu1>
-  <mu2>1.0</mu2>
-</gazebo>
-<gazebo reference="rwheel1">
-  <mu1>1.0</mu1>
-  <mu2>1.0</mu2>
-</gazebo>
-<gazebo reference="rwheel2">
-  <mu1>1.0</mu1>
-  <mu2>1.0</mu2>
-</gazebo>
-
 <xacro:M3Pro_gazebo_planar_move/>
+<xacro:M3Pro_wheel_friction/>
 </robot>

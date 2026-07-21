@@ -38,4 +38,5 @@ test/test_flake8.py
 test/test_pep257.py
 urdf/M3Pro.planar_move.xacro
 urdf/M3Pro.urdf.xacro
+urdf/M3Pro.wheel_friction.xacro
 yahboom_M3Pro_description/__init__.py
