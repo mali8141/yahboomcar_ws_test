@@ -16,6 +16,7 @@ setup(
         (os.path.join('share',package_name,'meshes'),glob(os.path.join('meshes','*.*'))),
         (os.path.join('share',package_name,'launch'),glob(os.path.join('launch','*.py*'))),
         (os.path.join('share', package_name, 'config'), glob(os.path.join('config', '*.yaml'))),
+        (os.path.join('share', package_name, 'worlds'), glob(os.path.join('worlds', '*.*'))),
     ],
     install_requires=['setuptools'],
     zip_safe=True,

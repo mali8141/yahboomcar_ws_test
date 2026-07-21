@@ -1,0 +1,100 @@
+[0.000000] (-) TimerEvent: {}
+[0.000160] (-) JobUnselected: {'identifier': 'M3Pro'}
+[0.000193] (-) JobUnselected: {'identifier': 'M3Pro_KCF'}
+[0.000215] (-) JobUnselected: {'identifier': 'M3Pro_navigation'}
+[0.000235] (-) JobUnselected: {'identifier': 'calibration'}
+[0.000253] (-) JobUnselected: {'identifier': 'ekf_bringup'}
+[0.000271] (-) JobUnselected: {'identifier': 'imu_complementary_filter'}
+[0.000290] (-) JobUnselected: {'identifier': 'imu_filter_madgwick'}
+[0.000307] (-) JobUnselected: {'identifier': 'imu_tools'}
+[0.000325] (-) JobUnselected: {'identifier': 'interfaces'}
+[0.000344] (-) JobUnselected: {'identifier': 'largemodel'}
+[0.000412] (-) JobUnselected: {'identifier': 'largemodel_arm'}
+[0.000431] (-) JobUnselected: {'identifier': 'laserscan_to_point_publisher'}
+[0.000449] (-) JobUnselected: {'identifier': 'openslam_gmapping'}
+[0.000466] (-) JobUnselected: {'identifier': 'patrol'}
+[0.000483] (-) JobUnselected: {'identifier': 'robot_pose_publisher_ros2'}
+[0.000501] (-) JobUnselected: {'identifier': 'rviz_imu_plugin'}
+[0.000518] (-) JobUnselected: {'identifier': 'slam_gmapping'}
+[0.000536] (-) JobUnselected: {'identifier': 'slam_mapping'}
+[0.000552] (-) JobUnselected: {'identifier': 'text_chat'}
+[0.000689] (-) JobUnselected: {'identifier': 'updatecostmap'}
+[0.001000] (-) JobUnselected: {'identifier': 'yahboom_app_save_map'}
+[0.001094] (-) JobUnselected: {'identifier': 'yahboom_laser_filter'}
+[0.001166] (-) JobUnselected: {'identifier': 'yahboom_mapping'}
+[0.001198] (-) JobUnselected: {'identifier': 'yahboom_multi'}
+[0.001269] (-) JobUnselected: {'identifier': 'yahboom_web_savmap_interfaces'}
+[0.001292] (ira_laser_tools) JobQueued: {'identifier': 'ira_laser_tools', 'dependencies': OrderedDict()}
+[0.001318] (ira_laser_tools) JobStarted: {'identifier': 'ira_laser_tools'}
+[0.006532] (ira_laser_tools) JobProgress: {'identifier': 'ira_laser_tools', 'progress': 'cmake'}
+[0.007063] (ira_laser_tools) Command: {'cmd': ['/usr/bin/cmake', '/home/pawan/yahboomcar_ws_test/M3Pro_ws/src/M3Pro_core/ira_laser_tools', '-DCMAKE_INSTALL_PREFIX=/home/pawan/yahboomcar_ws_test/M3Pro_ws/install/ira_laser_tools'], 'cwd': '/home/pawan/yahboomcar_ws_test/M3Pro_ws/build/ira_laser_tools', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pawan'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pawan'), ('OLDPWD', '/home/pawan'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('SYSTEMD_EXEC_PID', '5920'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'pawan'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pawan'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/pawan-LOQ-15IRX10:@/tmp/.ICE-unix/2144,unix/pawan-LOQ-15IRX10:/tmp/.ICE-unix/2144'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/8fd3aaf9_7e2d_4b2b_9d1e_cc80a095dd3a'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.116'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pawan/yahboomcar_ws_test/M3Pro_ws/build/ira_laser_tools'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.090593] (ira_laser_tools) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099822] (-) TimerEvent: {}
+[0.158893] (ira_laser_tools) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.166450] (ira_laser_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.200060] (-) TimerEvent: {}
+[0.243917] (ira_laser_tools) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.249244] (ira_laser_tools) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.251218] (ira_laser_tools) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.251919] (ira_laser_tools) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.255985] (ira_laser_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.300178] (-) TimerEvent: {}
+[0.344443] (ira_laser_tools) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.349402] (ira_laser_tools) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.349570] (ira_laser_tools) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.349786] (ira_laser_tools) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.354728] (ira_laser_tools) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.400262] (-) TimerEvent: {}
+[0.467823] (ira_laser_tools) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.500380] (-) TimerEvent: {}
+[0.548018] (ira_laser_tools) StdoutLine: {'line': b'-- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.600512] (-) TimerEvent: {}
+[0.601865] (ira_laser_tools) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.606515] (ira_laser_tools) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.614227] (ira_laser_tools) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.625626] (ira_laser_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.639388] (ira_laser_tools) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.678193] (ira_laser_tools) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.680909] (ira_laser_tools) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.700631] (-) TimerEvent: {}
+[0.770911] (ira_laser_tools) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.800840] (-) TimerEvent: {}
+[0.803658] (ira_laser_tools) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.836040] (ira_laser_tools) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.847214] (ira_laser_tools) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.901044] (-) TimerEvent: {}
+[0.931038] (ira_laser_tools) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.931594] (ira_laser_tools) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.000222] (ira_laser_tools) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.001213] (ira_laser_tools) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.001314] (-) TimerEvent: {}
+[1.051240] (ira_laser_tools) StdoutLine: {'line': b'-- Found rclcpp_action: 16.0.19 (/opt/ros/humble/share/rclcpp_action/cmake)\n'}
+[1.081030] (ira_laser_tools) StdoutLine: {'line': b'-- Found rclcpp_lifecycle: 16.0.19 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)\n'}
+[1.101359] (ira_laser_tools) StdoutLine: {'line': b'-- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[1.101542] (-) TimerEvent: {}
+[1.112840] (ira_laser_tools) StdoutLine: {'line': b'-- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[1.130557] (ira_laser_tools) StdoutLine: {'line': b'-- Found laser_geometry: 2.4.1 (/opt/ros/humble/share/laser_geometry/cmake)\n'}
+[1.151872] (ira_laser_tools) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.20 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[1.201637] (-) TimerEvent: {}
+[1.202179] (ira_laser_tools) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:27 (find_package):\n'}
+[1.202278] (ira_laser_tools) StderrLine: {'line': b'  By not providing "Findpcl_ros.cmake" in CMAKE_MODULE_PATH this project has\n'}
+[1.202316] (ira_laser_tools) StderrLine: {'line': b'  asked CMake to find a package configuration file provided by "pcl_ros", but\n'}
+[1.202347] (ira_laser_tools) StderrLine: {'line': b'  CMake did not find one.\n'}
+[1.202381] (ira_laser_tools) StderrLine: {'line': b'\n'}
+[1.202409] (ira_laser_tools) StderrLine: {'line': b'  Could not find a package configuration file provided by "pcl_ros" with any\n'}
+[1.202437] (ira_laser_tools) StderrLine: {'line': b'  of the following names:\n'}
+[1.202464] (ira_laser_tools) StderrLine: {'line': b'\n'}
+[1.202491] (ira_laser_tools) StderrLine: {'line': b'    pcl_rosConfig.cmake\n'}
+[1.202518] (ira_laser_tools) StderrLine: {'line': b'    pcl_ros-config.cmake\n'}
+[1.202545] (ira_laser_tools) StderrLine: {'line': b'\n'}
+[1.202572] (ira_laser_tools) StderrLine: {'line': b'  Add the installation prefix of "pcl_ros" to CMAKE_PREFIX_PATH or set\n'}
+[1.202600] (ira_laser_tools) StderrLine: {'line': b'  "pcl_ros_DIR" to a directory containing one of the above files.  If\n'}
+[1.202626] (ira_laser_tools) StderrLine: {'line': b'  "pcl_ros" provides a separate development package or SDK, be sure it has\n'}
+[1.202657] (ira_laser_tools) StderrLine: {'line': b'  been installed.\n'}
+[1.202683] (ira_laser_tools) StderrLine: {'line': b'\n'}
+[1.202709] (ira_laser_tools) StderrLine: {'line': b'\x1b[0m\n'}
+[1.202736] (ira_laser_tools) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.202770] (ira_laser_tools) StdoutLine: {'line': b'See also "/home/pawan/yahboomcar_ws_test/M3Pro_ws/build/ira_laser_tools/CMakeFiles/CMakeOutput.log".\n'}
+[1.208809] (ira_laser_tools) CommandEnded: {'returncode': 1}
+[1.225195] (ira_laser_tools) JobEnded: {'identifier': 'ira_laser_tools', 'rc': 1}
+[1.235613] (-) EventReactorShutdown: {}
