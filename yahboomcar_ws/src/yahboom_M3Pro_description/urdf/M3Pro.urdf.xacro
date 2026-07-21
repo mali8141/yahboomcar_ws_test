@@ -8,6 +8,7 @@
   
   <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.planar_move.xacro"/>
   <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.wheel_friction.xacro"/>
+  <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.lidar_links.xacro"/>
   <link
     name="base_link">
     
@@ -1127,4 +1128,5 @@
 
 <xacro:M3Pro_gazebo_planar_move/>
 <xacro:M3Pro_wheel_friction/>
+<xacro:M3Pro.lidar_links/>
 </robot>

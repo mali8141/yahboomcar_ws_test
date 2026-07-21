@@ -36,6 +36,7 @@ resource/yahboom_M3Pro_description
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+urdf/M3Pro.lidar_links.xacro
 urdf/M3Pro.planar_move.xacro
 urdf/M3Pro.urdf.xacro
 urdf/M3Pro.wheel_friction.xacro
