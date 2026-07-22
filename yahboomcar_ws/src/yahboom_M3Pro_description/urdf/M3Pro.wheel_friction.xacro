@@ -10,20 +10,20 @@
        starts sliding/skating instead of tipping. -->
   <xacro:macro name="M3Pro_wheel_friction" params="">
     <gazebo reference="lwheel1">
-      <mu1>0.01</mu1>
-      <mu2>0.01</mu2>
+      <mu1>0.51</mu1>
+      <mu2>0.51</mu2>
     </gazebo>
     <gazebo reference="lwheel2">
-      <mu1>0.01</mu1>
-      <mu2>0.01</mu2>
+      <mu1>0.51</mu1>
+      <mu2>0.51</mu2>
     </gazebo>
     <gazebo reference="rwheel1">
-      <mu1>0.01</mu1>
-      <mu2>0.01</mu2>
+      <mu1>0.51</mu1>
+      <mu2>0.51</mu2>
     </gazebo>
     <gazebo reference="rwheel2">
-      <mu1>0.01</mu1>
-      <mu2>0.01</mu2>
+      <mu1>0.51</mu1>
+      <mu2>0.51</mu2>
     </gazebo>
   </xacro:macro>
 </robot>

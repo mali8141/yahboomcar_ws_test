@@ -1,6 +1,7 @@
 \documentclass{article}
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+\usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{listings}
@@ -207,20 +208,135 @@ RViz uses this TF transformation to update the position of the complete robot mo
 
 \subsection{Set Gazebo Environment / Control the Robot movement}
 
-4.1 Objective
+```latex
+\subsection{Base Movement Control in Gazebo Simulation}
 
-Get the M3Pro robot (4-wheel mobile base + 5-DOF arm) spawning correctly in
-Gazebo, and enable teleoperated control of the mobile base as a first step
-toward simulation-based testing.
+\subsubsection{Objective}
 
-2.1 Gazebo display pipeline
+The objective of this stage was to make the ROSMASTER M3Pro mobile base movable and controllable in Gazebo Classic using a holonomic control method suitable for its mecanum-wheel configuration. The simulated robot should be capable of forward and backward motion, lateral movement, and rotation around its vertical axis.
 
-Built a gazebo display launch py launch file that starts
-robot state publisher.
+\subsubsection{Control Approach}
 
-Added a libgazebo ros planar move plugin to the URDF to allow
-teleoperated control of the base via cmd vel, publishing simulated
-odometry on odom.
+The mobile base was controlled using the Gazebo Classic \texttt{libgazebo\_ros\_planar\_move.so} plugin. This plugin subscribes to the \texttt{/cmd\_vel} topic and directly applies linear and angular velocities to the robot chassis.
+
+The planar movement plugin supports velocity commands in the longitudinal direction, lateral direction, and yaw rotation. Therefore, the robot can perform holonomic movements such as sideways strafing, which is suitable for a mecanum-wheeled mobile platform.
+
+In this initial simulation approach, the individual wheel-contact kinematics and mecanum roller dynamics are not modelled. Instead, the commanded chassis velocity is applied directly to the robot base. This provides a simple and reliable method for validating keyboard control, navigation commands, odometry, and the overall simulation architecture.
+
+\subsubsection{Files Added}
+
+The following Xacro files were added to the robot description package:
+
+\begin{itemize}
+    \item \texttt{urdf/M3Pro.planar\_move.xacro}
+
+    This file defines the \texttt{M3Pro\_gazebo\_planar\_move} macro. The macro contains the Gazebo planar movement plugin configuration, including the command velocity topic, odometry topic, odometry frame, robot base frame, and odometry publishing settings.
+
+    \item \texttt{urdf/M3Pro.wheel\_friction.xacro}
+
+    This file defines the \texttt{M3Pro\_wheel\_friction} macro. It configures the Gazebo friction parameters \texttt{mu1} and \texttt{mu2} for all four wheels. The friction coefficients were reduced to near-zero values because the wheels are not used to physically generate the robot motion when the planar movement plugin is active.
+\end{itemize}
+
+\subsubsection{Files Modified}
+
+The following existing files were modified:
+
+\begin{itemize}
+    \item \texttt{urdf/M3Pro.urdf.xacro}
+
+    The planar movement and wheel-friction Xacro files were included in the main robot description. Their corresponding macros were then called so that the plugin and friction parameters became part of the robot model loaded into Gazebo.
+
+    \item \texttt{launch/gazebo\_display.launch.py}
+
+    A \texttt{joint\_state\_publisher} node was added to publish joint states for non-driven joints, including the wheel and camera joints. This allowed RViz2 to resolve and display the complete TF tree of the robot.
+\end{itemize}
+
+\subsubsection{Implementation and Testing}
+
+After integrating the planar movement plugin, the robot was tested by publishing velocity commands directly to the \texttt{/cmd\_vel} topic. The following types of movement were successfully verified:
+
+\begin{itemize}
+    \item Forward and backward movement using the linear velocity component \texttt{linear.x}.
+    \item Sideways strafing using the lateral velocity component \texttt{linear.y}.
+    \item Clockwise and counter-clockwise rotation using the angular velocity component \texttt{angular.z}.
+\end{itemize}
+
+An example command used to test forward movement is shown below:
+
+\begin{verbatim}
+ros2 topic pub /cmd_vel geometry_msgs/msg/Twist \
+"{linear: {x: 0.3, y: 0.0, z: 0.0},
+  angular: {x: 0.0, y: 0.0, z: 0.0}}"
+\end{verbatim}
+
+Similarly, lateral movement was tested by assigning a non-zero value to \texttt{linear.y}, while rotational movement was tested by assigning a non-zero value to \texttt{angular.z}.
+
+
+\subsubsection{Wheel Joint Type and Limit Configuration}
+
+The M3Pro drive wheels must be able to rotate continuously during forward, backward, lateral, and rotational motion. Therefore, the wheel joints should be defined as \texttt{continuous} joints rather than \texttt{revolute} joints.
+
+A \texttt{revolute} joint requires lower and upper angular limits. For example:
+
+\begin{verbatim}
+<joint name="wheel_joint" type="revolute">
+    <limit lower="-1.0"
+           upper="1.0"
+           effort="100"
+           velocity="100"/>
+</joint>
+\end{verbatim}
+
+In this configuration, the wheel can rotate only between $-1$ radian and $+1$ radian. This corresponds to a total angular range of:
+
+\[
+2~\text{rad} \approx 114.6^\circ
+\]
+
+Therefore, the wheel can rotate only approximately one-third of a complete revolution before reaching its position limit. Once the joint reaches either the lower or upper limit, Gazebo prevents any further rotation. Although the velocity limit is set to \texttt{100 rad/s}, this does not remove the angular position restriction.
+
+For this reason, a \texttt{revolute} joint is more suitable for limited-motion joints such as robot arm joints, steering joints, gripper joints, or camera tilt joints.
+
+For the M3Pro drive wheels, the correct configuration is:
+
+\begin{verbatim}
+<joint name="wheel_joint" type="continuous">
+    <limit effort="10"
+           velocity="10"/>
+</joint>
+\end{verbatim}
+
+A \texttt{continuous} joint can rotate indefinitely in both directions. Therefore, the \texttt{lower} and \texttt{upper} position limits are not required.
+
+The \texttt{effort} parameter defines the maximum torque that may be applied to the joint, while the \texttt{velocity} parameter defines the maximum permitted angular velocity. In this simulation, setting both parameters to non-zero values allowed the wheel joints to move freely when the planar movement plugin commanded the robot chassis.
+
+The previous wheel joint configuration used:
+
+\begin{verbatim}
+<limit lower="0"
+       upper="0"
+       effort="0"
+       velocity="0"/>
+\end{verbatim}
+
+This configuration did not permit useful wheel motion. The zero velocity limit prevented wheel rotation, while the zero effort limit did not allow torque to be applied to the joint. In addition, the identical lower and upper limits represented a fixed angular position.
+
+After changing the wheel joints to \texttt{continuous} joints and using:
+
+\begin{verbatim}
+<limit effort="10"
+       velocity="10"/>
+\end{verbatim}
+
+the wheels were able to rotate without angular restrictions. This eliminated the abnormal wheel resistance observed during chassis movement and helped resolve the Gazebo tipping behaviour.
+
+
+\subsubsection{Result}
+
+The M3Pro mobile base is fully functional in the Gazebo Classic simulation. Forward movement, backward movement, lateral strafing, and rotation were successfully tested. The wheel-friction modification eliminated the chassis-tipping problem, while the planar movement plugin provided stable holonomic motion.
+
+The simulated odometry and TF data were also verified using ROS~2 command-line tools and RViz2. Therefore, the base movement stage provides a functional foundation for the subsequent integration of keyboard teleoperation, SLAM, localization, obstacle avoidance, and Nav2-based autonomous navigation.
+
 
 \end{document}
 

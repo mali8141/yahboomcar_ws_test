@@ -40,10 +40,19 @@ def generate_launch_description():
             )
         ]
     )
-
+    joint_state_publisher = Node(
+        package='joint_state_publisher',
+        executable='joint_state_publisher',
+        name='joint_state_publisher',
+        output='screen',
+        parameters=[{'use_sim_time': True}]
+    )
+    
+    
     return LaunchDescription([
         set_gazebo_model_path,
         rsp,
         gazebo,
-        spawn_entity
+        spawn_entity,
+        joint_state_publisher
     ])
