@@ -338,5 +338,202 @@ The M3Pro mobile base is fully functional in the Gazebo Classic simulation. Forw
 The simulated odometry and TF data were also verified using ROS~2 command-line tools and RViz2. Therefore, the base movement stage provides a functional foundation for the subsequent integration of keyboard teleoperation, SLAM, localization, obstacle avoidance, and Nav2-based autonomous navigation.
 
 
+
+\subsection{Lidar Scan Merging and SLAM Mapping}
+
+\subsubsection{Objective}
+
+The objective of this task was to combine the data from the two lidar sensors of the M3Pro robot into a single unified laser scan and use the merged scan for Simultaneous Localization and Mapping (SLAM). The final goal was to generate and save an occupancy-grid map of the simulated test environment.
+
+\subsubsection{Background}
+
+The M3Pro robot is equipped with two 360-degree lidar sensors. Their corresponding coordinate frames are defined as \texttt{laser0\_frame} and \texttt{laser1\_frame}. The sensors are mounted at diagonally opposite corners of the robot chassis.
+
+Although each lidar provides a complete rotational scan, parts of its field of view are blocked by the robot body. This creates self-occlusion and causes incomplete measurements around the chassis. By combining both lidar scans, the blind region of one sensor can be covered by the second sensor, producing a more complete representation of the surrounding environment.
+
+\subsubsection{Lidar Scan Merging Approach}
+
+The existing \texttt{ira\_laser\_tools} package was used to merge the two lidar scans. This package was already available in the \texttt{M3Pro\_ws} workspace and provides the \texttt{laserscan\_multi\_merger} node.
+
+The merger node subscribes to the two raw lidar topics:
+
+\begin{itemize}
+    \item \texttt{/scan0}
+    \item \texttt{/scan1}
+\end{itemize}
+
+The measurements from both sensors are transformed into a common reference frame using the available TF transformations. The combined scan is then published on:
+
+\begin{verbatim}
+/scan_multi
+\end{verbatim}
+
+This merged topic provides a more complete laser scan around the robot and is used as the input for the SLAM system.
+
+\subsubsection{SLAM Approach}
+
+The \texttt{slam\_toolbox} package was used to generate the occupancy-grid map. The existing \texttt{slam\_mapping} package was configured to run \texttt{slam\_toolbox} in online asynchronous mode.
+
+In online asynchronous mode, the SLAM node continuously processes incoming laser scans while the robot moves through the environment. It estimates the robot pose using scan matching and incrementally updates the occupancy-grid map.
+
+The merged lidar topic \texttt{/scan\_multi} was used as the primary sensor input instead of using either lidar individually.
+
+\subsubsection{Configuration Changes}
+
+The following configuration files were reviewed and modified.
+
+\paragraph{\texttt{ira\_laser\_tools/config/laserscan\_merge.yaml}}
+
+The input scan topic names were verified to match the lidar topics published by the Gazebo sensor plugins:
+
+\begin{verbatim}
+scan0: /scan0
+scan1: /scan1
+\end{verbatim}
+
+The merged laser scan was configured to be published on:
+
+\begin{verbatim}
+/scan_multi
+\end{verbatim}
+
+\paragraph{\texttt{slam\_mapping/config/mapper\_params\_online\_async.yaml}}
+
+The following parameters were updated:
+
+\begin{itemize}
+    \item The \texttt{base\_frame} parameter was changed from
+    \texttt{base\_footprint} to \texttt{base\_link}, because the current robot
+    URDF does not contain a \texttt{base\_footprint} frame.
+
+    \item The \texttt{scan\_topic} parameter was changed from
+    \texttt{/scan} to \texttt{/scan\_multi}, allowing
+    \texttt{slam\_toolbox} to use the merged lidar data.
+
+    \item The \texttt{max\_laser\_range} parameter was increased from
+    \texttt{6.0} metres to \texttt{8.0} metres to match the effective range
+    of the simulated lidar sensors and avoid unnecessarily clipping valid
+    measurements.
+\end{itemize}
+
+The relevant configuration is represented as follows:
+
+\begin{verbatim}
+base_frame: base_link
+scan_topic: /scan_multi
+max_laser_range: 8.0
+\end{verbatim}
+
+\subsubsection{Implementation and Testing Process}
+
+The complete lidar merging and mapping pipeline was tested step by step.
+
+\begin{enumerate}
+    \item Both raw lidar topics were first verified individually:
+
+\begin{verbatim}
+ros2 topic echo /scan0
+ros2 topic echo /scan1
+\end{verbatim}
+
+    This confirmed that both Gazebo lidar plugins were publishing valid
+    \texttt{sensor\_msgs/msg/LaserScan} messages.
+
+    \item The \texttt{ira\_laser\_tools} workspace was built, and the
+    \texttt{laserscan\_multi\_merger} node was launched.
+
+    \item The merged topic was verified using:
+
+\begin{verbatim}
+ros2 topic echo /scan_multi
+\end{verbatim}
+
+    The topic publishing frequency was also checked using:
+
+\begin{verbatim}
+ros2 topic hz /scan_multi
+\end{verbatim}
+
+    \item The raw and merged scans were visualized in RViz2. The merged scan
+    successfully covered regions that were blocked in the individual lidar
+    scans, reducing the blind areas caused by the robot chassis.
+
+    \item The \texttt{slam\_mapping} package was built and the following
+    launch file was used:
+
+\begin{verbatim}
+ros2 launch slam_mapping online_async_launch.py
+\end{verbatim}
+
+    This launch file starts the main SLAM node without the additional IMU,
+    EKF, and laser-filter processing chain used in the real-hardware launch
+    configuration.
+
+    \item RViz2 was opened using the existing visualization launch file:
+
+\begin{verbatim}
+ros2 launch slam_mapping slam_view.launch.py
+\end{verbatim}
+
+    The LaserScan display topic in RViz2 was changed to
+    \texttt{/scan\_multi}.
+
+    \item The robot was manually driven through the simulated maze using the
+    existing teleoperation node, which publishes velocity commands on the
+    \texttt{/cmd\_vel} topic.
+
+    \item As the robot moved, \texttt{slam\_toolbox} processed the merged
+    laser scans and progressively constructed the occupancy-grid map.
+\end{enumerate}
+
+\subsubsection{TF Verification}
+
+The TF hierarchy was checked to ensure that the mapping system received the correct robot pose information. The expected transformation chain was:
+
+\[
+\texttt{map}
+\rightarrow
+\texttt{odom}
+\rightarrow
+\texttt{base\_link}
+\]
+
+The \texttt{odom} to \texttt{base\_link} transformation was published by the Gazebo planar movement plugin and represented the local motion of the simulated robot.
+
+The \texttt{map} to \texttt{odom} transformation was published by \texttt{slam\_toolbox}. This transformation corrected accumulated odometry errors based on lidar scan matching and aligned the robot trajectory with the generated map.
+
+The complete TF tree was verified using RViz2 and ROS~2 TF tools.
+
+\subsubsection{Map Generation and Saving}
+
+After the robot had explored the required area and the maze geometry was fully reconstructed, the generated occupancy-grid map was saved using the existing map-saving launch file:
+
+\begin{verbatim}
+ros2 launch slam_mapping save_map.launch.py
+\end{verbatim}
+
+The map-saving process used \texttt{nav2\_map\_server} and generated the following files:
+
+\begin{itemize}
+    \item \texttt{yahboom\_map.yaml}
+    \item \texttt{yahboom\_map.pgm}
+\end{itemize}
+
+The \texttt{PGM} file contains the occupancy-grid image, while the \texttt{YAML} file contains the associated map metadata, including resolution, origin, occupancy threshold, free-space threshold, and map image location.
+
+\subsubsection{Result}
+
+The complete dual-lidar SLAM pipeline was successfully implemented and tested in Gazebo Classic. Both raw lidar scans were merged into the unified \texttt{/scan\_multi} topic, and the resulting scan provided improved environmental coverage around the robot.
+
+The merged lidar data was successfully used by \texttt{slam\_toolbox} to generate a live occupancy-grid map. The reconstructed maze geometry closely matched the ground-truth Gazebo world, confirming that the lidar transformations, scan merging, odometry, TF hierarchy, and SLAM configuration were functioning correctly.
+
+The final map was saved successfully as \texttt{yahboom\_map.yaml} and \texttt{yahboom\_map.pgm}.
+
+\subsubsection{Next Step}
+
+The saved occupancy-grid map will be used in the next stage of the project for Nav2-based localization, global path planning, local path planning, and autonomous navigation. The initial launch and configuration structure for this stage is already available in the \texttt{M3Pro\_navigation} package.
+
+
+
 \end{document}
 

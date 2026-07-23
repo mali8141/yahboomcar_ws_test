@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.7.8)  21 JUL 2026 22:05
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.7.8)  22 JUL 2026 10:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -284,24 +284,67 @@ Overfull \hbox (8.77728pt too wide) in paragraph at lines 338--339
 []\T1/cmr/m/n/10 The sim-u-lated odom-e-try and TF data were also ver-i-fied us-ing ROS 2 command-
  []
 
-[12] (./main.aux)
+[12]
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <10> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 387.
+
+Overfull \hbox (7.99713pt too wide) in paragraph at lines 387--388
+ \T1/cmtt/m/n/10 ira_laser_tools/config/laserscan_merge.yaml[] \T1/cmr/m/n/10 The in-put scan topic names
+ []
+
+
+Overfull \hbox (7.10846pt too wide) in paragraph at lines 402--403
+ \T1/cmtt/m/n/10 slam_mapping/config/mapper_params_online_async.yaml[] \T1/cmr/m/n/10 The fol-low-ing pa-
+ []
+
+
+Overfull \hbox (15.80692pt too wide) in paragraph at lines 405--408
+[]\T1/cmr/m/n/10 The \T1/cmtt/m/n/10 base_frame \T1/cmr/m/n/10 pa-ram-e-ter was changed from \T1/cmtt/m/n/10 base_footprint \T1/cmr/m/n/10 to \T1/cmtt/m/n/10 base_link\T1/cmr/m/n/10 ,
+ []
+
+[13]
+Overfull \hbox (103.68823pt too wide) in paragraph at lines 439--441
+[]\T1/cmr/m/n/10 This con-firmed that both Gazebo li-dar plu-g-ins were pub-lish-ing valid \T1/cmtt/m/n/10 sensor_msgs/msg/LaserScan
+ []
+
+
+Overfull \hbox (20.91678pt too wide) in paragraph at lines 442--444
+[]\T1/cmr/m/n/10 The \T1/cmtt/m/n/10 ira_laser_tools \T1/cmr/m/n/10 workspace was built, and the \T1/cmtt/m/n/10 laserscan_multi_merger
+ []
+
+[14]
+Overfull \hbox (5.66437pt too wide) in paragraph at lines 503--504
+\T1/cmr/m/n/10 trans-for-ma-tion cor-rected ac-cu-mu-lated odom-e-try er-rors based on li-dar scan match-
+ []
+
+
+Overfull \hbox (7.00201pt too wide) in paragraph at lines 526--527
+\T1/cmr/m/n/10 in Gazebo Clas-sic. Both raw li-dar scans were merged into the uni-fied \T1/cmtt/m/n/10 /scan_multi
+ []
+
+
+Overfull \hbox (25.21881pt too wide) in paragraph at lines 530--531
+[]\T1/cmr/m/n/10 The fi-nal map was saved suc-cess-fully as \T1/cmtt/m/n/10 yahboom_map.yaml \T1/cmr/m/n/10 and \T1/cmtt/m/n/10 yahboom_map.pgm\T1/cmr/m/n/10 . 
+ []
+
+[15] [16] (./main.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 4643 strings out of 478287
- 65724 string characters out of 5849290
+ 4647 strings out of 478287
+ 65773 string characters out of 5849290
  582552 words of memory out of 5000000
- 22802 multiletter control sequences out of 15000+600000
- 481008 words of font info for 54 fonts, out of 8000000 for 9000
+ 22805 multiletter control sequences out of 15000+600000
+ 481634 words of font info for 56 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,6n,62p,1129b,1225s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-t1.enc}{/usr/share/texmf/fonts/enc/dvips/cm-super/cm-super-ts1.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1200.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1728.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt0900.pfb></usr/share/texmf/fonts/type1/public/cm-super/sftt1000.pfb>
-Output written on main.pdf (12 pages, 582966 bytes).
+Output written on main.pdf (16 pages, 593933 bytes).
 PDF statistics:
- 125 PDF objects out of 1000 (max. 8388607)
- 69 compressed objects within 1 object stream
+ 138 PDF objects out of 1000 (max. 8388607)
+ 78 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  41 words of extra memory for PDF output out of 10000 (max. 10000000)
 
