@@ -8,7 +8,6 @@ setup.py
 ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/requires.txt
 ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/top_level.txt
 ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/zip-safe
-config/mecanum_drive_controller.yaml
 launch/display_launch.py
 launch/gazebo_display.launch.py
 launch/rsp.launch.py
@@ -32,13 +31,17 @@ meshes/rlink2.STL
 meshes/rlink3.STL
 meshes/rwheel1.STL
 meshes/rwheel2.STL
+models/drop_tray/model.config
+models/drop_tray/model.sdf
+models/grasp_cube/model.config
+models/grasp_cube/model.sdf
 resource/yahboom_M3Pro_description
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py
+urdf/M3Pro.camera_links.xacro
 urdf/M3Pro.lidar_links.xacro
 urdf/M3Pro.planar_move.xacro
 urdf/M3Pro.urdf.xacro
-urdf/M3Pro.wheel_friction.xacro
 worlds/maze.world
 yahboom_M3Pro_description/__init__.py

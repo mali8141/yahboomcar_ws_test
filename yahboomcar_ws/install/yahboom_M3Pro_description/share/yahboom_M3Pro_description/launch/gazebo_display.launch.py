@@ -40,6 +40,39 @@ def generate_launch_description():
             )
         ]
     )
+    
+    spawn_cube = TimerAction(
+        period=4.0,
+        actions=[
+            Node(
+                package='gazebo_ros',
+                executable='spawn_entity.py',
+                arguments=[
+                '-file', os.path.join(pkg_path, 'models', 'grasp_cube', 'model.sdf'),
+                '-entity', 'grasp_cube',
+                '-x', '0.3', '-y', '0.0', '-z', '0.05'
+                ],
+                output='screen'
+            )
+        ]
+    )
+
+    spawn_tray = TimerAction(
+        period=4.5,
+        actions=[
+            Node(
+                package='gazebo_ros',
+                executable='spawn_entity.py',
+                arguments=[
+                '-file', os.path.join(pkg_path, 'models', 'drop_tray', 'model.sdf'),
+                '-entity', 'drop_tray',
+                '-x', '0.0', '-y', '0.4', '-z', '0.005'
+                ],
+                output='screen'
+            )
+        ]
+    )
+    
     joint_state_publisher = Node(
         package='joint_state_publisher',
         executable='joint_state_publisher',
@@ -54,5 +87,7 @@ def generate_launch_description():
         rsp,
         gazebo,
         spawn_entity,
+        spawn_cube,
+        spawn_tray,
         joint_state_publisher
     ])

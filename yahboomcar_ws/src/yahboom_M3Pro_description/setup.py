@@ -17,6 +17,8 @@ setup(
         (os.path.join('share',package_name,'launch'),glob(os.path.join('launch','*.py*'))),
         (os.path.join('share', package_name, 'config'), glob(os.path.join('config', '*.yaml'))),
         (os.path.join('share', package_name, 'worlds'), glob(os.path.join('worlds', '*.*'))),
+        (os.path.join('share', package_name, 'models', 'grasp_cube'), glob(os.path.join('models', 'grasp_cube', '*.*'))),
+        (os.path.join('share', package_name, 'models', 'drop_tray'), glob(os.path.join('models', 'drop_tray', '*.*'))),
     ],
     install_requires=['setuptools'],
     zip_safe=True,

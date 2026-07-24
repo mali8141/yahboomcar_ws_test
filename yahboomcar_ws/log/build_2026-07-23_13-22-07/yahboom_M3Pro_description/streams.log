@@ -1,0 +1,22 @@
+[0.485s] Invoking command in '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/src/yahboom_M3Pro_description': PYTHONPATH=/home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_M3Pro_description build --build-base /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_description/build install --record /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_description/install.log --single-version-externally-managed install_data
+[0.634s] running egg_info
+[0.635s] writing ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/PKG-INFO
+[0.635s] writing dependency_links to ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/dependency_links.txt
+[0.635s] writing entry points to ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/entry_points.txt
+[0.635s] writing requirements to ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/requires.txt
+[0.635s] writing top-level names to ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/top_level.txt
+[0.636s] reading manifest file '../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/SOURCES.txt'
+[0.637s] writing manifest file '../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/SOURCES.txt'
+[0.637s] running build
+[0.637s] running build_py
+[0.637s] running install
+[0.638s] running install_lib
+[0.638s] running install_data
+[0.638s] copying urdf/M3Pro.urdf.xacro -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/urdf
+[0.638s] copying urdf/M3Pro.camera_links.xacro -> /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/urdf
+[0.639s] running install_egg_info
+[0.640s] removing '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages/yahboom_M3Pro_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.640s] Copying ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info to /home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages/yahboom_M3Pro_description-0.0.0-py3.10.egg-info
+[0.641s] running install_scripts
+[0.654s] writing list of installed files to '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_description/install.log'
+[0.668s] Invoked command in '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/src/yahboom_M3Pro_description' returned '0': PYTHONPATH=/home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_M3Pro_description build --build-base /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_description/build install --record /home/pawan/yahboomcar_ws_test/yahboomcar_ws/build/yahboom_M3Pro_description/install.log --single-version-externally-managed install_data

@@ -7,7 +7,7 @@
   xmlns:xacro="http://www.ros.org/wiki/xacro">
   
   <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.planar_move.xacro"/>
-  <!-- <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.wheel_friction.xacro"/> -->
+  <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.camera_links.xacro"/>
   <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.lidar_links.xacro"/>
   <link
     name="base_link">
@@ -153,7 +153,7 @@
     type="fixed">
     <origin
       xyz="-0.0021522 6.1185E-05 0.033"
-      rpy="-6.3725E-05 0 -0.028422" />
+      rpy="-0.000064 -0.959931 -0.028422" />
     <parent
       link="arm1" />
     <child
@@ -211,7 +211,7 @@
     type="fixed">
     <origin
       xyz="0 0 0.08285"
-      rpy="6.3702E-05 0 0.027102" />
+      rpy="1.570860 1.543631 1.570860" />
     <parent
       link="arm2" />
     <child
@@ -269,7 +269,7 @@
     type="fixed">
     <origin
       xyz="0 0 0.08285"
-      rpy="0 0 0" />
+      rpy="0.000026 0.785398 -0.027064" />
     <parent
       link="arm3" />
     <child
@@ -327,7 +327,7 @@
     type="fixed">
     <origin
       xyz="0.00057305 0 0.074815"
-      rpy="0 0 0" />
+      rpy="0.000026 0.785398 -0.027064" />
     <parent
       link="arm4" />
     <child
@@ -1131,7 +1131,7 @@
   </joint>
 
 <xacro:M3Pro_gazebo_planar_move/>
-<!-- <xacro:M3Pro_wheel_friction/> -->
+<xacro:M3Pro_camera_links/>
 <xacro:M3Pro_lidar_links/>
 
 </robot>
