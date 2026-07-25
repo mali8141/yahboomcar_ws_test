@@ -31,10 +31,6 @@ meshes/rlink2.STL
 meshes/rlink3.STL
 meshes/rwheel1.STL
 meshes/rwheel2.STL
-models/drop_tray/model.config
-models/drop_tray/model.sdf
-models/grasp_cube/model.config
-models/grasp_cube/model.sdf
 resource/yahboom_M3Pro_description
 test/test_copyright.py
 test/test_flake8.py
