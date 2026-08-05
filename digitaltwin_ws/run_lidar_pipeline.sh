@@ -5,12 +5,11 @@
 
 set -e
 
-YAHBOOM_WS=~/yahboomcar_ws_test/yahboomcar_ws
-M3PRO_WS=~/yahboomcar_ws_test/M3Pro_ws
+# Single merged workspace now (was yahboomcar_ws + M3Pro_ws separately).
+WS_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 
 source /opt/ros/humble/setup.bash
-source "$YAHBOOM_WS/install/setup.bash"
-source "$M3PRO_WS/install/setup.bash"
+source "$WS_DIR/install/setup.bash"
 
 PIDS=()
 
@@ -55,17 +54,18 @@ PIDS+=($!)
 sleep 8   # give Gazebo time to spawn the robot before the merger looks for /scan0,/scan1
 
 echo "[2/4] Starting lidar scan merger..."
-setsid ros2 run ira_laser_tools laserscan_multi_merger --ros-args --params-file "$M3PRO_WS/install/ira_laser_tools/share/ira_laser_tools/config/laserscan_merge.yaml" &
+setsid ros2 run ira_laser_tools laserscan_multi_merger --ros-args --params-file \
+    "$WS_DIR/install/ira_laser_tools/share/ira_laser_tools/config/laserscan_merge.yaml" &
 PIDS+=($!)
 sleep 3
 
 echo "[3/4] Starting SLAM (slam_toolbox)..."
-setsid ros2 launch slam_mapping online_async_launch.py use_sim_time:=true &
+setsid ros2 launch slam_engine online_async_launch.py use_sim_time:=true &
 PIDS+=($!)
 sleep 3
 
 echo "[4/4] Starting RViz2..."
-setsid ros2 launch slam_mapping slam_view.launch.py use_sim_time:=true &
+setsid ros2 launch slam_engine slam_view.launch.py use_sim_time:=true &
 PIDS+=($!)
 
 echo ""

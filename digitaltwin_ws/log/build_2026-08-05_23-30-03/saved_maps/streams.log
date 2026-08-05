@@ -1,0 +1,49 @@
+[0.016s] Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps': CMAKE_PREFIX_PATH=/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake /home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/slam/saved_maps -DCMAKE_INSTALL_PREFIX=/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps
+[0.182s] -- The C compiler identification is GNU 11.4.0
+[0.182s] -- The CXX compiler identification is GNU 11.4.0
+[0.182s] -- Detecting C compiler ABI info
+[0.185s] -- Detecting C compiler ABI info - done
+[0.191s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.191s] -- Detecting C compile features
+[0.192s] -- Detecting C compile features - done
+[0.195s] -- Detecting CXX compiler ABI info
+[0.258s] -- Detecting CXX compiler ABI info - done
+[0.264s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.264s] -- Detecting CXX compile features
+[0.265s] -- Detecting CXX compile features - done
+[0.266s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.373s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.463s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.529s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.529s] -- Added test 'lint_cmake' to check CMake code style
+[0.529s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.530s] -- Added test 'xmllint' to check XML markup files
+[0.530s] -- Configuring done
+[0.532s] -- Generating done
+[0.533s] -- Build files have been written to: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps
+[0.538s] Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps' returned '0': CMAKE_PREFIX_PATH=/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake /home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/slam/saved_maps -DCMAKE_INSTALL_PREFIX=/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps
+[0.538s] Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps': CMAKE_PREFIX_PATH=/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps -- -j20 -l20
+[0.581s] Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps' returned '0': CMAKE_PREFIX_PATH=/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps -- -j20 -l20
+[0.582s] Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps': CMAKE_PREFIX_PATH=/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps
+[0.589s] -- Install configuration: ""
+[0.589s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/launch
+[0.590s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/launch/save_map.launch.py
+[0.590s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/maps
+[0.590s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/maps/yahboom_map.yaml
+[0.590s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/maps/yahboom_map.pgm
+[0.590s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/ament_index/resource_index/package_run_dependencies/saved_maps
+[0.591s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/ament_index/resource_index/parent_prefix_path/saved_maps
+[0.591s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/environment/ament_prefix_path.sh
+[0.591s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/environment/ament_prefix_path.dsv
+[0.591s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/environment/path.sh
+[0.591s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/environment/path.dsv
+[0.591s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/local_setup.bash
+[0.591s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/local_setup.sh
+[0.592s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/local_setup.zsh
+[0.593s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/local_setup.dsv
+[0.593s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/package.dsv
+[0.593s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/ament_index/resource_index/packages/saved_maps
+[0.593s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/cmake/saved_mapsConfig.cmake
+[0.593s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/cmake/saved_mapsConfig-version.cmake
+[0.593s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/package.xml
+[0.594s] Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps' returned '0': CMAKE_PREFIX_PATH=/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps

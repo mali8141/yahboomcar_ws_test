@@ -1,0 +1,513 @@
+[0.069s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.069s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=20, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x73453eb68bb0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x73453ec75fc0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x73453ec75fc0>>)
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.175s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.176s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.176s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.176s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.183s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc/Img) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc/Img) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc/Img) by extension 'ignore_ament_install'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc/Img) by extensions ['colcon_pkg']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc/Img) by extension 'colcon_pkg'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc/Img) by extensions ['colcon_meta']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc/Img) by extension 'colcon_meta'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc/Img) by extensions ['ros']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc/Img) by extension 'ros'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc/Img) by extensions ['cmake', 'python']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc/Img) by extension 'cmake'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc/Img) by extension 'python'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc/Img) by extensions ['python_setup_py']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(Doc/Img) by extension 'python_setup_py'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.184s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(scripts) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.185s] Level 1:colcon.colcon_core.package_identification:_identify(src/M3Pro_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/M3Pro_navigation) by extension 'ignore'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/M3Pro_navigation) by extension 'ignore_ament_install'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/M3Pro_navigation) by extensions ['colcon_pkg']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/M3Pro_navigation) by extension 'colcon_pkg'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/M3Pro_navigation) by extensions ['colcon_meta']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/M3Pro_navigation) by extension 'colcon_meta'
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/M3Pro_navigation) by extensions ['ros']
+[0.186s] Level 1:colcon.colcon_core.package_identification:_identify(src/M3Pro_navigation) by extension 'ros'
+[0.188s] DEBUG:colcon.colcon_core.package_identification:Package 'src/M3Pro_navigation' with type 'ros.ament_cmake' and name 'M3Pro_navigation'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'ros'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['cmake', 'python']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'cmake'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'python'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['python_setup_py']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'python_setup_py'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/ira_laser_tools) by extensions ['ignore', 'ignore_ament_install']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/ira_laser_tools) by extension 'ignore'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/ira_laser_tools) by extension 'ignore_ament_install'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/ira_laser_tools) by extensions ['colcon_pkg']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/ira_laser_tools) by extension 'colcon_pkg'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/ira_laser_tools) by extensions ['colcon_meta']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/ira_laser_tools) by extension 'colcon_meta'
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/ira_laser_tools) by extensions ['ros']
+[0.188s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/ira_laser_tools) by extension 'ros'
+[0.189s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar/ira_laser_tools' with type 'ros.ament_cmake' and name 'ira_laser_tools'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/yahboom_laser_filter) by extensions ['ignore', 'ignore_ament_install']
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/yahboom_laser_filter) by extension 'ignore'
+[0.189s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/yahboom_laser_filter) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/yahboom_laser_filter) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/yahboom_laser_filter) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/yahboom_laser_filter) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/yahboom_laser_filter) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/yahboom_laser_filter) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/yahboom_laser_filter) by extension 'ros'
+[0.190s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar/yahboom_laser_filter' with type 'ros.ament_cmake' and name 'yahboom_laser_filter'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extensions ['ignore', 'ignore_ament_install']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'ignore'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'ignore_ament_install'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extensions ['colcon_pkg']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'colcon_pkg'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extensions ['colcon_meta']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'colcon_meta'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extensions ['ros']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'ros'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extensions ['cmake', 'python']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'cmake'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'python'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extensions ['python_setup_py']
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam) by extension 'python_setup_py'
+[0.190s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam/saved_maps) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam/saved_maps) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam/saved_maps) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam/saved_maps) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam/saved_maps) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam/saved_maps) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam/saved_maps) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam/saved_maps) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam/saved_maps) by extension 'ros'
+[0.191s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam/saved_maps' with type 'ros.ament_cmake' and name 'saved_maps'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam/slam_engine) by extensions ['ignore', 'ignore_ament_install']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam/slam_engine) by extension 'ignore'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam/slam_engine) by extension 'ignore_ament_install'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam/slam_engine) by extensions ['colcon_pkg']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam/slam_engine) by extension 'colcon_pkg'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam/slam_engine) by extensions ['colcon_meta']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam/slam_engine) by extension 'colcon_meta'
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam/slam_engine) by extensions ['ros']
+[0.191s] Level 1:colcon.colcon_core.package_identification:_identify(src/slam/slam_engine) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/slam/slam_engine' with type 'ros.ament_cmake' and name 'slam_engine'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_M3Pro_description) by extensions ['ignore', 'ignore_ament_install']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_M3Pro_description) by extension 'ignore'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_M3Pro_description) by extension 'ignore_ament_install'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_M3Pro_description) by extensions ['colcon_pkg']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_M3Pro_description) by extension 'colcon_pkg'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_M3Pro_description) by extensions ['colcon_meta']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_M3Pro_description) by extension 'colcon_meta'
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_M3Pro_description) by extensions ['ros']
+[0.192s] Level 1:colcon.colcon_core.package_identification:_identify(src/yahboom_M3Pro_description) by extension 'ros'
+[0.192s] DEBUG:colcon.colcon_core.package_identification:Package 'src/yahboom_M3Pro_description' with type 'ros.ament_python' and name 'yahboom_M3Pro_description'
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.192s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.213s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.214s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.214s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.215s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 6 installed packages in /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install
+[0.216s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 419 installed packages in /opt/ros/humble
+[0.217s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'M3Pro_navigation' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'M3Pro_navigation' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'M3Pro_navigation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'M3Pro_navigation' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'M3Pro_navigation' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'M3Pro_navigation' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'M3Pro_navigation' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'M3Pro_navigation' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'M3Pro_navigation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'M3Pro_navigation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation', 'merge_install': False, 'path': '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/M3Pro_navigation', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_clean_cache' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_clean_first' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'cmake_force_configure' from command line to 'False'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'ament_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'catkin_cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'ira_laser_tools' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.248s] DEBUG:colcon.colcon_core.verb:Building package 'ira_laser_tools' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/ira_laser_tools', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools', 'merge_install': False, 'path': '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/lidar/ira_laser_tools', 'symlink_install': False, 'test_result_base': None}
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'saved_maps' build argument 'cmake_args' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'saved_maps' build argument 'cmake_target' from command line to 'None'
+[0.248s] Level 5:colcon.colcon_core.verb:set package 'saved_maps' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'saved_maps' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'saved_maps' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'saved_maps' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'saved_maps' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'saved_maps' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'saved_maps' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'saved_maps' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps', 'merge_install': False, 'path': '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/slam/saved_maps', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'slam_engine' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'slam_engine' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'slam_engine' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'slam_engine' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'slam_engine' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'slam_engine' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'slam_engine' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'slam_engine' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'slam_engine' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'slam_engine' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/slam_engine', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine', 'merge_install': False, 'path': '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/slam/slam_engine', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yahboom_M3Pro_description' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yahboom_M3Pro_description' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yahboom_M3Pro_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yahboom_M3Pro_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yahboom_M3Pro_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yahboom_M3Pro_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yahboom_M3Pro_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yahboom_M3Pro_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yahboom_M3Pro_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.249s] DEBUG:colcon.colcon_core.verb:Building package 'yahboom_M3Pro_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description', 'merge_install': False, 'path': '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/yahboom_M3Pro_description', 'symlink_install': False, 'test_result_base': None}
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yahboom_laser_filter' build argument 'cmake_args' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yahboom_laser_filter' build argument 'cmake_target' from command line to 'None'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yahboom_laser_filter' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yahboom_laser_filter' build argument 'cmake_clean_cache' from command line to 'False'
+[0.249s] Level 5:colcon.colcon_core.verb:set package 'yahboom_laser_filter' build argument 'cmake_clean_first' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'yahboom_laser_filter' build argument 'cmake_force_configure' from command line to 'False'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'yahboom_laser_filter' build argument 'ament_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'yahboom_laser_filter' build argument 'catkin_cmake_args' from command line to 'None'
+[0.250s] Level 5:colcon.colcon_core.verb:set package 'yahboom_laser_filter' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.250s] DEBUG:colcon.colcon_core.verb:Building package 'yahboom_laser_filter' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_laser_filter', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter', 'merge_install': False, 'path': '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/lidar/yahboom_laser_filter', 'symlink_install': False, 'test_result_base': None}
+[0.250s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.250s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.251s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/M3Pro_navigation' with build type 'ament_cmake'
+[0.251s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/M3Pro_navigation'
+[0.252s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.252s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.252s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.255s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/lidar/ira_laser_tools' with build type 'ament_cmake'
+[0.255s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/lidar/ira_laser_tools'
+[0.255s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.255s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.257s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/slam/saved_maps' with build type 'ament_cmake'
+[0.257s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/slam/saved_maps'
+[0.257s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.257s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.260s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/slam/slam_engine' with build type 'ament_cmake'
+[0.260s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/slam/slam_engine'
+[0.260s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.260s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.262s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/yahboom_M3Pro_description' with build type 'ament_python'
+[0.262s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboom_M3Pro_description', 'ament_prefix_path')
+[0.262s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/hook/ament_prefix_path.ps1'
+[0.263s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/hook/ament_prefix_path.dsv'
+[0.263s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/hook/ament_prefix_path.sh'
+[0.263s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.264s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.266s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/lidar/yahboom_laser_filter' with build type 'ament_cmake'
+[0.266s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/lidar/yahboom_laser_filter'
+[0.266s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.266s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.271s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation -- -j20 -l20
+[0.273s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/ira_laser_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/ira_laser_tools -- -j20 -l20
+[0.274s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps -- -j20 -l20
+[0.276s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/slam_engine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/slam_engine -- -j20 -l20
+[0.455s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/yahboom_M3Pro_description'
+[0.456s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.456s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.462s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/slam_engine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/slam_engine -- -j20 -l20
+[0.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/slam_engine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/slam_engine
+[0.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps -- -j20 -l20
+[0.473s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps
+[0.474s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation -- -j20 -l20
+[0.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation
+[0.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/ira_laser_tools -- -j20 -l20
+[0.477s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/ira_laser_tools': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/ira_laser_tools
+[0.482s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_laser_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_laser_filter -- -j20 -l20
+[0.486s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_engine)
+[0.495s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/slam_engine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/slam_engine
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine' for CMake module files
+[0.496s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine' for CMake config files
+[0.497s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_engine', 'cmake_prefix_path')
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/hook/cmake_prefix_path.ps1'
+[0.497s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/hook/cmake_prefix_path.dsv'
+[0.498s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/hook/cmake_prefix_path.sh'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/bin'
+[0.498s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/lib/pkgconfig/slam_engine.pc'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/lib/python3.10/site-packages'
+[0.499s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/bin'
+[0.499s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/package.ps1'
+[0.500s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/package.dsv'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/package.sh'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/package.bash'
+[0.501s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/package.zsh'
+[0.502s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/colcon-core/packages/slam_engine)
+[0.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(slam_engine)
+[0.502s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine' for CMake module files
+[0.502s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine' for CMake config files
+[0.503s] Level 1:colcon.colcon_core.shell:create_environment_hook('slam_engine', 'cmake_prefix_path')
+[0.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/hook/cmake_prefix_path.ps1'
+[0.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/hook/cmake_prefix_path.dsv'
+[0.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/hook/cmake_prefix_path.sh'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/bin'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/lib/pkgconfig/slam_engine.pc'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/lib/python3.10/site-packages'
+[0.505s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/bin'
+[0.505s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/package.ps1'
+[0.506s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/package.dsv'
+[0.506s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/package.sh'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/package.bash'
+[0.507s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/package.zsh'
+[0.507s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/colcon-core/packages/slam_engine)
+[0.508s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(saved_maps)
+[0.508s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps' for CMake module files
+[0.508s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps
+[0.509s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps' for CMake config files
+[0.509s] Level 1:colcon.colcon_core.shell:create_environment_hook('saved_maps', 'cmake_prefix_path')
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/hook/cmake_prefix_path.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/hook/cmake_prefix_path.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/hook/cmake_prefix_path.sh'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/bin'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/lib/pkgconfig/saved_maps.pc'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/lib/python3.10/site-packages'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/bin'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/package.ps1'
+[0.510s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/package.dsv'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/package.sh'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/package.bash'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/package.zsh'
+[0.511s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/colcon-core/packages/saved_maps)
+[0.512s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(saved_maps)
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps' for CMake module files
+[0.512s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps' for CMake config files
+[0.512s] Level 1:colcon.colcon_core.shell:create_environment_hook('saved_maps', 'cmake_prefix_path')
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/hook/cmake_prefix_path.ps1'
+[0.512s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/hook/cmake_prefix_path.dsv'
+[0.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/hook/cmake_prefix_path.sh'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/bin'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/lib/pkgconfig/saved_maps.pc'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/lib/python3.10/site-packages'
+[0.513s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/bin'
+[0.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/package.ps1'
+[0.514s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/package.dsv'
+[0.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/package.sh'
+[0.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/package.bash'
+[0.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/package.zsh'
+[0.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/colcon-core/packages/saved_maps)
+[0.515s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ira_laser_tools)
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools' for CMake module files
+[0.515s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools' for CMake config files
+[0.516s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/ira_laser_tools
+[0.516s] Level 1:colcon.colcon_core.shell:create_environment_hook('ira_laser_tools', 'cmake_prefix_path')
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/share/ira_laser_tools/hook/cmake_prefix_path.ps1'
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/share/ira_laser_tools/hook/cmake_prefix_path.dsv'
+[0.516s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/share/ira_laser_tools/hook/cmake_prefix_path.sh'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/lib'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/bin'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/lib/pkgconfig/ira_laser_tools.pc'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/lib/python3.10/site-packages'
+[0.517s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/bin'
+[0.517s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/share/ira_laser_tools/package.ps1'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/share/ira_laser_tools/package.dsv'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/share/ira_laser_tools/package.sh'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/share/ira_laser_tools/package.bash'
+[0.518s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/share/ira_laser_tools/package.zsh'
+[0.518s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/share/colcon-core/packages/ira_laser_tools)
+[0.519s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ira_laser_tools)
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools' for CMake module files
+[0.519s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools' for CMake config files
+[0.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('ira_laser_tools', 'cmake_prefix_path')
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/share/ira_laser_tools/hook/cmake_prefix_path.ps1'
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/share/ira_laser_tools/hook/cmake_prefix_path.dsv'
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/share/ira_laser_tools/hook/cmake_prefix_path.sh'
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/lib'
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/bin'
+[0.520s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/lib/pkgconfig/ira_laser_tools.pc'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/lib/python3.10/site-packages'
+[0.521s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/bin'
+[0.521s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/share/ira_laser_tools/package.ps1'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/share/ira_laser_tools/package.dsv'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/share/ira_laser_tools/package.sh'
+[0.522s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/share/ira_laser_tools/package.bash'
+[0.523s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/share/ira_laser_tools/package.zsh'
+[0.523s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/ira_laser_tools/share/colcon-core/packages/ira_laser_tools)
+[0.523s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(M3Pro_navigation)
+[0.523s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation' for CMake module files
+[0.524s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation
+[0.524s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation' for CMake config files
+[0.524s] Level 1:colcon.colcon_core.shell:create_environment_hook('M3Pro_navigation', 'cmake_prefix_path')
+[0.524s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/hook/cmake_prefix_path.ps1'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/hook/cmake_prefix_path.dsv'
+[0.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/hook/cmake_prefix_path.sh'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/bin'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/lib/pkgconfig/M3Pro_navigation.pc'
+[0.525s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/lib/python3.10/site-packages'
+[0.526s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/bin'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/package.ps1'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/package.dsv'
+[0.526s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/package.sh'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/package.bash'
+[0.527s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/package.zsh'
+[0.527s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/colcon-core/packages/M3Pro_navigation)
+[0.527s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(M3Pro_navigation)
+[0.527s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation' for CMake module files
+[0.528s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation' for CMake config files
+[0.528s] Level 1:colcon.colcon_core.shell:create_environment_hook('M3Pro_navigation', 'cmake_prefix_path')
+[0.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/hook/cmake_prefix_path.ps1'
+[0.528s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/hook/cmake_prefix_path.dsv'
+[0.528s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/hook/cmake_prefix_path.sh'
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/bin'
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/lib/pkgconfig/M3Pro_navigation.pc'
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/lib/python3.10/site-packages'
+[0.529s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/bin'
+[0.529s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/package.ps1'
+[0.530s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/package.dsv'
+[0.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/package.sh'
+[0.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/package.bash'
+[0.530s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/package.zsh'
+[0.530s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/colcon-core/packages/M3Pro_navigation)
+[0.543s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_laser_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_laser_filter -- -j20 -l20
+[0.544s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_laser_filter': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_laser_filter
+[0.556s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yahboom_laser_filter)
+[0.556s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_laser_filter' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_laser_filter
+[0.556s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter' for CMake module files
+[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter' for CMake config files
+[0.557s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboom_laser_filter', 'cmake_prefix_path')
+[0.557s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/share/yahboom_laser_filter/hook/cmake_prefix_path.ps1'
+[0.557s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/share/yahboom_laser_filter/hook/cmake_prefix_path.dsv'
+[0.558s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/share/yahboom_laser_filter/hook/cmake_prefix_path.sh'
+[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/lib'
+[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/bin'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/lib/pkgconfig/yahboom_laser_filter.pc'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/lib/python3.10/site-packages'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/bin'
+[0.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/share/yahboom_laser_filter/package.ps1'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/share/yahboom_laser_filter/package.dsv'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/share/yahboom_laser_filter/package.sh'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/share/yahboom_laser_filter/package.bash'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/share/yahboom_laser_filter/package.zsh'
+[0.561s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/share/colcon-core/packages/yahboom_laser_filter)
+[0.561s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yahboom_laser_filter)
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter' for CMake module files
+[0.561s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter' for CMake config files
+[0.561s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboom_laser_filter', 'cmake_prefix_path')
+[0.561s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/share/yahboom_laser_filter/hook/cmake_prefix_path.ps1'
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/share/yahboom_laser_filter/hook/cmake_prefix_path.dsv'
+[0.562s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/share/yahboom_laser_filter/hook/cmake_prefix_path.sh'
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/lib'
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/bin'
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/lib/pkgconfig/yahboom_laser_filter.pc'
+[0.562s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/lib/python3.10/site-packages'
+[0.563s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/bin'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/share/yahboom_laser_filter/package.ps1'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/share/yahboom_laser_filter/package.dsv'
+[0.563s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/share/yahboom_laser_filter/package.sh'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/share/yahboom_laser_filter/package.bash'
+[0.564s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/share/yahboom_laser_filter/package.zsh'
+[0.564s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_laser_filter/share/colcon-core/packages/yahboom_laser_filter)
+[0.735s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/yahboom_M3Pro_description': PYTHONPATH=/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_M3Pro_description build --build-base /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/build install --record /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/install.log --single-version-externally-managed install_data
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description' for CMake module files
+[0.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/yahboom_M3Pro_description' returned '0': PYTHONPATH=/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_M3Pro_description build --build-base /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/build install --record /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/install.log --single-version-externally-managed install_data
+[0.924s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description' for CMake config files
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib'
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/bin'
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/pkgconfig/yahboom_M3Pro_description.pc'
+[0.925s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages'
+[0.925s] Level 1:colcon.colcon_core.shell:create_environment_hook('yahboom_M3Pro_description', 'pythonpath')
+[0.925s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/hook/pythonpath.ps1'
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/hook/pythonpath.dsv'
+[0.926s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/hook/pythonpath.sh'
+[0.926s] Level 1:colcon.colcon_core.environment:checking '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/bin'
+[0.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(yahboom_M3Pro_description)
+[0.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/package.ps1'
+[0.927s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/package.dsv'
+[0.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/package.sh'
+[0.927s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/package.bash'
+[0.928s] INFO:colcon.colcon_core.shell:Creating package script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/package.zsh'
+[0.928s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/colcon-core/packages/yahboom_M3Pro_description)
+[0.928s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[0.928s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[0.928s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[0.928s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.932s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[0.932s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[0.932s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[0.940s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.940s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/local_setup.ps1'
+[0.941s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/_local_setup_util_ps1.py'
+[0.942s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/setup.ps1'
+[0.944s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/local_setup.sh'
+[0.945s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/_local_setup_util_sh.py'
+[0.945s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/setup.sh'
+[0.947s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/local_setup.bash'
+[0.947s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/setup.bash'
+[0.949s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/local_setup.zsh'
+[0.949s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/setup.zsh'

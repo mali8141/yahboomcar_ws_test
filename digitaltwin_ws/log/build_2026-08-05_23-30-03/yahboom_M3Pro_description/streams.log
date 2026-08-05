@@ -1,0 +1,67 @@
+[0.421s] Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/yahboom_M3Pro_description': PYTHONPATH=/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_M3Pro_description build --build-base /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/build install --record /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/install.log --single-version-externally-managed install_data
+[0.592s] running egg_info
+[0.592s] creating ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info
+[0.592s] writing ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/PKG-INFO
+[0.592s] writing dependency_links to ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/dependency_links.txt
+[0.592s] writing entry points to ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/entry_points.txt
+[0.592s] writing requirements to ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/requires.txt
+[0.592s] writing top-level names to ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/top_level.txt
+[0.592s] writing manifest file '../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/SOURCES.txt'
+[0.594s] reading manifest file '../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/SOURCES.txt'
+[0.595s] writing manifest file '../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/SOURCES.txt'
+[0.595s] running build
+[0.595s] running build_py
+[0.595s] creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/build
+[0.595s] creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/build/lib
+[0.595s] creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/build/lib/yahboom_M3Pro_description
+[0.595s] copying yahboom_M3Pro_description/__init__.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/build/lib/yahboom_M3Pro_description
+[0.595s] running install
+[0.595s] running install_lib
+[0.596s] creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages/yahboom_M3Pro_description
+[0.596s] copying /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/build/lib/yahboom_M3Pro_description/__init__.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages/yahboom_M3Pro_description
+[0.596s] byte-compiling /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages/yahboom_M3Pro_description/__init__.py to __init__.cpython-310.pyc
+[0.596s] running install_data
+[0.596s] creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/ament_index
+[0.596s] creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/ament_index/resource_index
+[0.596s] creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/ament_index/resource_index/packages
+[0.596s] copying resource/yahboom_M3Pro_description -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/ament_index/resource_index/packages
+[0.596s] copying package.xml -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description
+[0.596s] creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/urdf
+[0.596s] copying urdf/M3Pro.urdf.xacro -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/urdf
+[0.597s] copying urdf/M3Pro.planar_move.xacro -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/urdf
+[0.597s] copying urdf/M3Pro.camera_links.xacro -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/urdf
+[0.597s] copying urdf/M3Pro.lidar_links.xacro -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/urdf
+[0.597s] copying urdf/M3Pro.wheel_friction.xacro -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/urdf
+[0.597s] creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.597s] copying meshes/llink1.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.597s] copying meshes/Gripping.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.597s] copying meshes/rlink1.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.598s] copying meshes/llink3.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.598s] copying meshes/arm5.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.600s] copying meshes/arm3.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.602s] copying meshes/lwheel2.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.603s] copying meshes/rwheel2.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.604s] copying meshes/rlink3.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.604s] copying meshes/DCW2.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.605s] copying meshes/lwheel1.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.605s] copying meshes/arm4.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.606s] copying meshes/arm2.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.608s] copying meshes/rwheel1.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.609s] copying meshes/arm_base_Link.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.609s] copying meshes/Camera.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.609s] copying meshes/base_link.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.613s] copying meshes/llink2.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.613s] copying meshes/rlink2.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.613s] copying meshes/arm1.STL -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/meshes
+[0.616s] creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/launch
+[0.616s] copying launch/gazebo_display.launch.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/launch
+[0.616s] copying launch/display_launch.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/launch
+[0.616s] copying launch/rsp.launch.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/launch
+[0.616s] creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/config
+[0.617s] creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/worlds
+[0.617s] copying worlds/maze.world -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/worlds
+[0.617s] running install_egg_info
+[0.618s] Copying ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages/yahboom_M3Pro_description-0.0.0-py3.10.egg-info
+[0.618s] running install_scripts
+[0.632s] writing list of installed files to '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/install.log'
+[0.648s] Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/yahboom_M3Pro_description' returned '0': PYTHONPATH=/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_M3Pro_description build --build-base /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/build install --record /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/install.log --single-version-externally-managed install_data
