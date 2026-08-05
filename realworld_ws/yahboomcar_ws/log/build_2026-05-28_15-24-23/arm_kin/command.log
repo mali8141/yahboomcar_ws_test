@@ -1,0 +1,2 @@
+Invoking command in '/home/pawan/yahboomcar_ws/build/arm_kin': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pawan/yahboomcar_ws/src/arm_kin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pawan/yahboomcar_ws/install/arm_kin
+Invoked command in '/home/pawan/yahboomcar_ws/build/arm_kin' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pawan/yahboomcar_ws/src/arm_kin -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/pawan/yahboomcar_ws/install/arm_kin

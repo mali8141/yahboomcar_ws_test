@@ -1,0 +1,10 @@
+{
+  "package_name": "yahboomcar_msgs",
+  "non_idl_tuples": [
+    "/home/pawan/yahboomcar_ws/src/yahboomcar_msgs:msg/ImageMsg.msg",
+    "/home/pawan/yahboomcar_ws/src/yahboomcar_msgs:msg/PointArray.msg",
+    "/home/pawan/yahboomcar_ws/src/yahboomcar_msgs:msg/Position.msg",
+    "/home/pawan/yahboomcar_ws/src/yahboomcar_msgs:msg/Target.msg",
+    "/home/pawan/yahboomcar_ws/src/yahboomcar_msgs:msg/TargetArray.msg"
+  ]
+}

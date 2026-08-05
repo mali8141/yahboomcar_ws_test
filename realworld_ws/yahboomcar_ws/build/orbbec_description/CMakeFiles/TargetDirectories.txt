@@ -1,0 +1,9 @@
+/home/pawan/yahboomcar_ws/build/orbbec_description/CMakeFiles/uninstall.dir
+/home/pawan/yahboomcar_ws/build/orbbec_description/CMakeFiles/orbbec_description_uninstall.dir
+/home/pawan/yahboomcar_ws/build/orbbec_description/CMakeFiles/test.dir
+/home/pawan/yahboomcar_ws/build/orbbec_description/CMakeFiles/edit_cache.dir
+/home/pawan/yahboomcar_ws/build/orbbec_description/CMakeFiles/rebuild_cache.dir
+/home/pawan/yahboomcar_ws/build/orbbec_description/CMakeFiles/list_install_components.dir
+/home/pawan/yahboomcar_ws/build/orbbec_description/CMakeFiles/install.dir
+/home/pawan/yahboomcar_ws/build/orbbec_description/CMakeFiles/install/local.dir
+/home/pawan/yahboomcar_ws/build/orbbec_description/CMakeFiles/install/strip.dir

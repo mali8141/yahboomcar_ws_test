@@ -1,0 +1,47 @@
+[0.402s] Invoking command in '/home/pawan/yahboomcar_ws/src/yahboomcar_ctrl': PYTHONPATH=/home/pawan/yahboomcar_ws/build/yahboomcar_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboomcar_ctrl build --build-base /home/pawan/yahboomcar_ws/build/yahboomcar_ctrl/build install --record /home/pawan/yahboomcar_ws/build/yahboomcar_ctrl/install.log --single-version-externally-managed install_data
+[0.553s] running egg_info
+[0.553s] creating ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info
+[0.553s] writing ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/PKG-INFO
+[0.553s] writing dependency_links to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/dependency_links.txt
+[0.553s] writing entry points to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/entry_points.txt
+[0.553s] writing requirements to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/requires.txt
+[0.553s] writing top-level names to ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/top_level.txt
+[0.553s] writing manifest file '../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/SOURCES.txt'
+[0.554s] reading manifest file '../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/SOURCES.txt'
+[0.555s] writing manifest file '../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info/SOURCES.txt'
+[0.555s] running build
+[0.555s] running build_py
+[0.555s] creating /home/pawan/yahboomcar_ws/build/yahboomcar_ctrl/build
+[0.555s] creating /home/pawan/yahboomcar_ws/build/yahboomcar_ctrl/build/lib
+[0.555s] creating /home/pawan/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl
+[0.556s] copying yahboomcar_ctrl/__init__.py -> /home/pawan/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl
+[0.556s] copying yahboomcar_ctrl/yahboom_joy_M3Pro.py -> /home/pawan/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl
+[0.556s] copying yahboomcar_ctrl/yahboom_keyboard.py -> /home/pawan/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl
+[0.556s] copying yahboomcar_ctrl/yahboom_joy_R2.py -> /home/pawan/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl
+[0.556s] running install
+[0.556s] running install_lib
+[0.556s] creating /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.10/site-packages/yahboomcar_ctrl
+[0.556s] copying /home/pawan/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl/__init__.py -> /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.10/site-packages/yahboomcar_ctrl
+[0.556s] copying /home/pawan/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl/yahboom_joy_M3Pro.py -> /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.10/site-packages/yahboomcar_ctrl
+[0.556s] copying /home/pawan/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl/yahboom_keyboard.py -> /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.10/site-packages/yahboomcar_ctrl
+[0.556s] copying /home/pawan/yahboomcar_ws/build/yahboomcar_ctrl/build/lib/yahboomcar_ctrl/yahboom_joy_R2.py -> /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.10/site-packages/yahboomcar_ctrl
+[0.557s] byte-compiling /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.10/site-packages/yahboomcar_ctrl/__init__.py to __init__.cpython-310.pyc
+[0.557s] byte-compiling /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.10/site-packages/yahboomcar_ctrl/yahboom_joy_M3Pro.py to yahboom_joy_M3Pro.cpython-310.pyc
+[0.558s] byte-compiling /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.10/site-packages/yahboomcar_ctrl/yahboom_keyboard.py to yahboom_keyboard.cpython-310.pyc
+[0.559s] byte-compiling /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.10/site-packages/yahboomcar_ctrl/yahboom_joy_R2.py to yahboom_joy_R2.cpython-310.pyc
+[0.559s] running install_data
+[0.559s] creating /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/share/ament_index
+[0.559s] creating /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/share/ament_index/resource_index
+[0.559s] creating /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/share/ament_index/resource_index/packages
+[0.559s] copying resource/yahboomcar_ctrl -> /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/share/ament_index/resource_index/packages
+[0.560s] copying package.xml -> /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/share/yahboomcar_ctrl
+[0.560s] creating /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/share/yahboomcar_ctrl/launch
+[0.560s] copying launch/yahboomcar_joy_launch.py -> /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/share/yahboomcar_ctrl/launch
+[0.560s] running install_egg_info
+[0.561s] Copying ../../build/yahboomcar_ctrl/yahboomcar_ctrl.egg-info to /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.10/site-packages/yahboomcar_ctrl-0.0.0-py3.10.egg-info
+[0.561s] running install_scripts
+[0.574s] Installing yahboom_joy_M3Pro script to /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/lib/yahboomcar_ctrl
+[0.574s] Installing yahboom_joy_R2 script to /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/lib/yahboomcar_ctrl
+[0.574s] Installing yahboom_keyboard script to /home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/lib/yahboomcar_ctrl
+[0.574s] writing list of installed files to '/home/pawan/yahboomcar_ws/build/yahboomcar_ctrl/install.log'
+[0.588s] Invoked command in '/home/pawan/yahboomcar_ws/src/yahboomcar_ctrl' returned '0': PYTHONPATH=/home/pawan/yahboomcar_ws/build/yahboomcar_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws/install/yahboomcar_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboomcar_ctrl build --build-base /home/pawan/yahboomcar_ws/build/yahboomcar_ctrl/build install --record /home/pawan/yahboomcar_ws/build/yahboomcar_ctrl/install.log --single-version-externally-managed install_data
