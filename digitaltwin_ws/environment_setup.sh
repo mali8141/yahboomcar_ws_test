@@ -85,13 +85,16 @@ if ! rosdep install --from-paths "${SRC_DIR}" --ignore-src -r -y; then
 fi
 
 # ---------------------------------------------------------------------------
-# 3. Manual fallback list — known gaps rosdep won't catch
+# 3. Manual fallback list
 #
-#    These are packages actually exercised by the kept subsystems
-#    (description, navigation, mapping_slam, lidar) that are either
-#    undeclared in package.xml (slam_mapping, yahboom_mapping,
-#    yahboom_M3Pro_description) or use non-standard rosdep keys
-#    (ira_laser_tools' libpcl-all-dev / libvtk-qt).
+#    Now that package.xml files declare their real dependencies correctly
+#    (yahboom_M3Pro_description, slam_engine, saved_maps, yahboom_laser_filter
+#    were all fixed), rosdep should resolve most of this on its own.
+#
+#    This list remains necessary mainly for ira_laser_tools, whose
+#    package.xml uses non-standard rosdep keys (libpcl-all-dev, libvtk-qt)
+#    that don't map to real apt packages — plus a safety net in case
+#    rosdep's local database is out of date on a given machine.
 # ---------------------------------------------------------------------------
 log "Installing known dependencies not covered by package.xml declarations"
 
@@ -110,6 +113,7 @@ APT_PACKAGES=(
     # --- Navigation (M3Pro_navigation only declares nav2_bringup itself) ---
     ros-humble-navigation2
     ros-humble-nav2-bringup
+    ros-humble-nav2-map-server
 
     # --- Dual-LiDAR merge pipeline (ira_laser_tools uses non-rosdep keys) ---
     libpcl-dev
