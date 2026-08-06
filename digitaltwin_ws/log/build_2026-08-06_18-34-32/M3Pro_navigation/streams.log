@@ -1,0 +1,49 @@
+[0.023s] Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation -- -j20 -l20
+[0.219s] Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation -- -j20 -l20
+[0.220s] Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation
+[0.229s] -- Install configuration: ""
+[0.229s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch
+[0.235s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/cartographer_localization_launch.py
+[0.235s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/localization.launch.py
+[0.235s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/carto_nav.launch.py
+[0.235s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/rtab_bringup.launch.py
+[0.235s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/.ipynb_checkpoints
+[0.235s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/.ipynb_checkpoints/cartographer_localization_launch-checkpoint.py
+[0.235s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/.ipynb_checkpoints/carto_nav.launch-checkpoint.py
+[0.236s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/.ipynb_checkpoints/localization_imu_odom.launch-checkpoint.py
+[0.236s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/.ipynb_checkpoints/base_bringup.launch-checkpoint.py
+[0.236s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/navigation2.launch.py
+[0.236s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/cartographer_localization.launch.py
+[0.236s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/nav_rviz.launch.py
+[0.236s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/base_bringup.launch.py
+[0.236s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/localization_imu_odom.launch.py
+[0.236s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/cartographer_bringup_launch.py
+[0.236s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/navigation_cartodwb_launch.py
+[0.236s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/app_Navigation2.xml
+[0.236s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/navigation_launch.py
+[0.236s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/map
+[0.236s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/map/slam_rviz.rviz
+[0.236s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/param
+[0.237s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/param/yahboom_M3Pro.lua
+[0.237s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/param/yahboom_M3Pro_carto.yaml
+[0.237s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/param/dwb_nav_params.yaml
+[0.237s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/param/yahboom_M3Pro.yaml
+[0.237s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/rviz
+[0.237s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/rviz/nav2_default_view.rviz
+[0.238s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/rviz/nav2.rviz
+[0.238s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/ament_index/resource_index/package_run_dependencies/M3Pro_navigation
+[0.238s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/ament_index/resource_index/parent_prefix_path/M3Pro_navigation
+[0.238s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/environment/ament_prefix_path.sh
+[0.238s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/environment/ament_prefix_path.dsv
+[0.239s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/environment/path.sh
+[0.239s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/environment/path.dsv
+[0.239s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/local_setup.bash
+[0.239s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/local_setup.sh
+[0.239s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/local_setup.zsh
+[0.239s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/local_setup.dsv
+[0.239s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/package.dsv
+[0.240s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/ament_index/resource_index/packages/M3Pro_navigation
+[0.240s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/cmake/M3Pro_navigationConfig.cmake
+[0.240s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/cmake/M3Pro_navigationConfig-version.cmake
+[0.240s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/package.xml
+[0.265s] Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation

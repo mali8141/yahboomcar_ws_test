@@ -1,0 +1,20 @@
+[0.471s] Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/yahboom_M3Pro_description': PYTHONPATH=/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_M3Pro_description build --build-base /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/build install --record /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/install.log --single-version-externally-managed install_data
+[0.622s] running egg_info
+[0.623s] writing ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/PKG-INFO
+[0.623s] writing dependency_links to ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/dependency_links.txt
+[0.623s] writing entry points to ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/entry_points.txt
+[0.623s] writing requirements to ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/requires.txt
+[0.623s] writing top-level names to ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/top_level.txt
+[0.624s] reading manifest file '../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/SOURCES.txt'
+[0.626s] writing manifest file '../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info/SOURCES.txt'
+[0.626s] running build
+[0.626s] running build_py
+[0.626s] running install
+[0.626s] running install_lib
+[0.627s] running install_data
+[0.627s] running install_egg_info
+[0.628s] removing '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages/yahboom_M3Pro_description-0.0.0-py3.10.egg-info' (and everything under it)
+[0.628s] Copying ../../build/yahboom_M3Pro_description/yahboom_M3Pro_description.egg-info to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages/yahboom_M3Pro_description-0.0.0-py3.10.egg-info
+[0.629s] running install_scripts
+[0.642s] writing list of installed files to '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/install.log'
+[0.658s] Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/yahboom_M3Pro_description' returned '0': PYTHONPATH=/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/yahboom_M3Pro_description build --build-base /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/build install --record /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/install.log --single-version-externally-managed install_data
