@@ -1,0 +1,25 @@
+[0.021s] Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps -- -j20 -l20
+[0.266s] Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps -- -j20 -l20
+[0.267s] Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps
+[0.290s] -- Install configuration: ""
+[0.290s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/launch
+[0.290s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/launch/save_map.launch.py
+[0.291s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/maps
+[0.291s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/maps/yahboom_map.yaml
+[0.291s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/maps/yahboom_map.pgm
+[0.291s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/ament_index/resource_index/package_run_dependencies/saved_maps
+[0.291s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/ament_index/resource_index/parent_prefix_path/saved_maps
+[0.291s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/environment/ament_prefix_path.sh
+[0.291s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/environment/ament_prefix_path.dsv
+[0.291s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/environment/path.sh
+[0.291s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/environment/path.dsv
+[0.291s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/local_setup.bash
+[0.291s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/local_setup.sh
+[0.291s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/local_setup.zsh
+[0.292s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/local_setup.dsv
+[0.292s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/package.dsv
+[0.292s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/ament_index/resource_index/packages/saved_maps
+[0.292s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/cmake/saved_mapsConfig.cmake
+[0.292s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/cmake/saved_mapsConfig-version.cmake
+[0.292s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/saved_maps/share/saved_maps/package.xml
+[0.301s] Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps

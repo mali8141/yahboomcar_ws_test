@@ -1,0 +1,4 @@
+Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/ira_laser_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/ira_laser_tools -- -j20 -l20
+Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/ira_laser_tools -- -j20 -l20
+Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/ira_laser_tools': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/ira_laser_tools
+Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/ira_laser_tools' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/ira_laser_tools

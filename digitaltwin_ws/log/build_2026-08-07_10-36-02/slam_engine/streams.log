@@ -1,0 +1,33 @@
+[0.016s] Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/slam_engine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/slam_engine -- -j20 -l20
+[0.192s] Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/slam_engine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --build /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/slam_engine -- -j20 -l20
+[0.194s] Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/slam_engine': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/slam_engine
+[0.198s] -- Install configuration: ""
+[0.198s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/launch
+[0.198s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/launch/online_async_launch.py
+[0.198s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/launch/.ipynb_checkpoints
+[0.198s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/launch/.ipynb_checkpoints/save_map.launch-checkpoint.py
+[0.198s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/launch/slam_view.launch.py
+[0.198s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/launch/slam_toolbox.launch.py
+[0.199s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/launch/save_map.launch.py
+[0.199s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/config
+[0.199s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/config/mapper_params_online_async.yaml
+[0.199s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/rviz
+[0.199s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/rviz/rvizconfig2.rviz
+[0.199s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/rviz/slam_rviz.rviz
+[0.199s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/rviz/rvizconfig1.rviz
+[0.199s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/ament_index/resource_index/package_run_dependencies/slam_engine
+[0.199s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/ament_index/resource_index/parent_prefix_path/slam_engine
+[0.199s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/environment/ament_prefix_path.sh
+[0.200s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/environment/ament_prefix_path.dsv
+[0.200s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/environment/path.sh
+[0.200s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/environment/path.dsv
+[0.200s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/local_setup.bash
+[0.200s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/local_setup.sh
+[0.200s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/local_setup.zsh
+[0.200s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/local_setup.dsv
+[0.200s] -- Installing: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/package.dsv
+[0.200s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/ament_index/resource_index/packages/slam_engine
+[0.200s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/cmake/slam_engineConfig.cmake
+[0.200s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/cmake/slam_engineConfig-version.cmake
+[0.201s] -- Up-to-date: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/slam_engine/share/slam_engine/package.xml
+[0.206s] Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/slam_engine' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description:/home/pawan/yahboomcar_ws_test/yahboomcar_ws/install/yahboom_M3Pro_description:/opt/ros/humble /usr/bin/cmake --install /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/slam_engine
