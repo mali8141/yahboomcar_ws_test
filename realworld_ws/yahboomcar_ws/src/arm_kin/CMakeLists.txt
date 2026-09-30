@@ -14,18 +14,14 @@ find_package(arm_interface REQUIRED)
 find_package(kdl_parser REQUIRED)  # ���� kdl_parser ��
 find_package(orocos_kdl REQUIRED)
 
-# �ֶ�ָ�� ROS 2 ��·�����ؼ����滻Ϊ��� ROS 2 �汾·����
-link_directories(/opt/ros/humble/lib)  # ���� libkdl_parser.so ����Ŀ¼
-
 # ͷ�ļ�·��
 include_directories(
   include
   /usr/include/eigen3
-  /opt/ros/humble/include  # ROS 2 ͷ�ļ�·��
 )
 
 # ������ִ���ļ�
-add_executable(kin_srv src/kin_srv.cpp)
+add_executable(kin_srv src/kin_srv.cpp src/fk_ik_kin_stub.cpp)
 
 # ���� ROS 2 ����
 ament_target_dependencies(kin_srv
@@ -36,12 +32,6 @@ ament_target_dependencies(kin_srv
   orocos_kdl
 )
 
-# ���ӿ⣨���� kdl_parser ���Զ���⣩
-target_link_libraries(kin_srv
-  libarmkin.so  # �Զ���� libarmkin.so
-  orocos-kdl  # KDL ��
-  kdl_parser  # �������ҵ� libkdl_parser.so ��
-)
 
 # ��װ����
 target_include_directories(kin_srv PUBLIC

@@ -14,23 +14,32 @@
 # limitations under the License.
 
 from launch import LaunchDescription
+from launch.actions import DeclareLaunchArgument
+from launch.substitutions import LaunchConfiguration
 from ament_index_python.packages import get_package_share_directory
 import launch_ros.actions
 import os
-import yaml
-from launch.substitutions import EnvironmentVariable
-import pathlib
-import launch.actions
-from launch.actions import DeclareLaunchArgument
+
 
 def generate_launch_description():
+    use_sim_time = LaunchConfiguration("use_sim_time")
+
     return LaunchDescription([
+        DeclareLaunchArgument(
+            'use_sim_time',
+            default_value='false',
+            description='Use simulation (Gazebo) clock',
+        ),
         launch_ros.actions.Node(
             package='robot_localization',
             executable='ekf_node',
             name='ekf_filter_node',
             output='screen',
-            parameters=[os.path.join(get_package_share_directory("ekf_bringup"), 'params', 'yahboom_M3Pro_ekf.yaml')],
-            remappings=[('/odometry/filtered','/odom')]
-           ),
-])
+            # yaml first, then explicit override so use_sim_time:=true from CLI wins
+            parameters=[
+                os.path.join(get_package_share_directory("ekf_bringup"), 'params', 'yahboom_M3Pro_ekf.yaml'),
+                {'use_sim_time': use_sim_time},
+            ],
+            remappings=[('/odometry/filtered','/odom')],
+        ),
+    ])

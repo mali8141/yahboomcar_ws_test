@@ -82,7 +82,7 @@ class JoyTeleop(Node):
     def buttonCallback(self, joy_data):
         if not isinstance(joy_data, Joy):
             return
-        if self.user_name == "root":
+        if self.user_name == "jetson":
             self.user_jetson(joy_data)
         else:
             self.user_pc(joy_data)

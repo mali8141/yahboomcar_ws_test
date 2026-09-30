@@ -9,8 +9,8 @@
 #include <algorithm>
 #include <dirent.h>
 
-#include <image_transport/image_transport.h>
-#include <cv_bridge/cv_bridge.h>
+#include <image_transport/image_transport.hpp>
+#include <cv_bridge/cv_bridge.hpp>
 
 #include "sensor_msgs/msg/image.hpp"
 #include "sensor_msgs/image_encodings.hpp"
