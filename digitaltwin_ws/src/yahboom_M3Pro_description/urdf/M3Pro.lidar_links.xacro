@@ -32,10 +32,12 @@
     <child link="laser1_frame"/>
   </joint>
 
-  <!-- ===== Gazebo LiDAR Sensor Plugins ===== -->
+  <!-- ===== Gazebo Harmonic LiDAR Sensors ===== -->
+  <!-- Sensor data is bridged to ROS via ros_gz_bridge in gazebo_display.launch.py -->
 
   <gazebo reference="laser0_frame">
-    <sensor name="laser0" type="ray">
+    <sensor name="laser0" type="gpu_lidar">
+      <topic>scan0</topic>
       <pose>0 0 0 0 0 0</pose>
       <visualize>true</visualize>
       <update_rate>10</update_rate>
@@ -59,19 +61,12 @@
           <stddev>0.01</stddev>
         </noise>
       </ray>
-      <plugin name="laser0_plugin" filename="libgazebo_ros_ray_sensor.so">
-        <ros>
-          <namespace>/</namespace>
-          <remapping>~/out:=scan0</remapping>
-        </ros>
-        <output_type>sensor_msgs/LaserScan</output_type>
-        <frame_name>laser0_frame</frame_name>
-      </plugin>
     </sensor>
   </gazebo>
 
   <gazebo reference="laser1_frame">
-    <sensor name="laser1" type="ray">
+    <sensor name="laser1" type="gpu_lidar">
+      <topic>scan1</topic>
       <pose>0 0 0 0 0 0</pose>
       <visualize>true</visualize>
       <update_rate>10</update_rate>
@@ -85,9 +80,9 @@
           </horizontal>
         </scan>
         <range>
-          <min>0.12</min>
-          <max>8.0</max>
-          <resolution>0.015</resolution>
+          <min>0.05</min>
+          <max>12.0</max>
+          <resolution>0.54</resolution>
         </range>
         <noise>
           <type>gaussian</type>
@@ -95,14 +90,6 @@
           <stddev>0.01</stddev>
         </noise>
       </ray>
-      <plugin name="laser1_plugin" filename="libgazebo_ros_ray_sensor.so">
-        <ros>
-          <namespace>/</namespace>
-          <remapping>~/out:=scan1</remapping>
-        </ros>
-        <output_type>sensor_msgs/LaserScan</output_type>
-        <frame_name>laser1_frame</frame_name>
-      </plugin>
     </sensor>
   </gazebo>
  </xacro:macro>

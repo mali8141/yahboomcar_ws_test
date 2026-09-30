@@ -1,0 +1,29 @@
+[
+  {
+    "x": 3.0,
+    "y": -2.5,
+    "z": 0.0,
+    "bands": [
+      { "freq_min": 200,  "freq_max": 400,  "intensity": 0.9 },
+      { "freq_min": 1000, "freq_max": 1200, "intensity": 0.5 }
+    ]
+  },
+  {
+    "x": -5.0,
+    "y": 1.0,
+    "z": 0.0,
+    "bands": [
+      { "freq_min": 500, "freq_max": 800, "intensity": 1.0 }
+    ]
+  },
+  {
+    "x": 0.0,
+    "y": 4.0,
+    "z": 0.0,
+    "bands": [
+      { "freq_min": 80,   "freq_max": 150,  "intensity": 0.7 },
+      { "freq_min": 2000, "freq_max": 3000, "intensity": 0.4 },
+      { "freq_min": 6000, "freq_max": 8000, "intensity": 0.2 }
+    ]
+  }
+]

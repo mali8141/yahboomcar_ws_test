@@ -2,21 +2,19 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
   <xacro:macro name="M3Pro_gazebo_planar_move" params="">
     <gazebo>
-      <plugin name="planar_move_plugin" filename="libgazebo_ros_planar_move.so">
-        <ros>
-          <namespace>/</namespace>
-          <remapping>cmd_vel:=cmd_vel</remapping>
-          <remapping>odom:=odom</remapping>
-        </ros>
-        <update_rate>50</update_rate>
-        <publish_rate>50</publish_rate>
-        <publish_odom>true</publish_odom>
-        <publish_odom_tf>true</publish_odom_tf>
-        <odometry_frame>odom</odometry_frame>
-        <robot_base_frame>base_link</robot_base_frame>
-        <covariance_x>0.0001</covariance_x>
-        <covariance_y>0.0001</covariance_y>
-        <covariance_yaw>0.01</covariance_yaw>
+      <plugin filename="gz-sim-diff-drive-system" name="gz::sim::systems::DiffDrive">
+        <left_joint>lwheel1_Joint</left_joint>
+        <left_joint>lwheel2_Joint</left_joint>
+        <right_joint>rwheel1_Joint</right_joint>
+        <right_joint>rwheel2_Joint</right_joint>
+        <wheel_separation>0.293</wheel_separation>
+        <wheel_radius>0.04</wheel_radius>
+        <odom_publish_frequency>50</odom_publish_frequency>
+        <topic>cmd_vel</topic>
+        <odom_topic>odom</odom_topic>
+        <tf_topic>tf</tf_topic>
+        <frame_id>odom</frame_id>
+        <child_frame_id>base_footprint</child_frame_id>
       </plugin>
     </gazebo>
   </xacro:macro>

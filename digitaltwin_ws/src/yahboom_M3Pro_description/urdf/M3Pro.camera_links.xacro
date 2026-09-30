@@ -2,7 +2,9 @@
 <robot xmlns:xacro="http://www.ros.org/wiki/xacro">
   <xacro:macro name="M3Pro_camera_links" params="">
 
-  <!-- Optical frame: required so image/point cloud axes match REP-103 -->
+  <!-- Color optical frame: Z forward, X right, Y down (REP-103).
+       Camera_Joint already applies rpy="1.5708 0 0", so the -π/2 roll
+       here counter-rotates back to a clean optical frame. -->
   <link name="camera_color_optical_frame"/>
   <joint name="camera_color_optical_joint" type="fixed">
     <origin xyz="0 0 0" rpy="-1.5708 0 -1.5708"/>
@@ -10,9 +12,27 @@
     <child link="camera_color_optical_frame"/>
   </joint>
 
+  <!-- Depth optical frame shares the same transform as color for this sensor. -->
+  <link name="camera_depth_optical_frame"/>
+  <joint name="camera_depth_optical_joint" type="fixed">
+    <origin xyz="0 0 0" rpy="-1.5708 0 -1.5708"/>
+    <parent link="Camera"/>
+    <child link="camera_depth_optical_frame"/>
+  </joint>
+
+  <!-- Gazebo Harmonic RGBD camera sensor.
+       Publishes (via ros_gz_bridge):
+         /camera/color/image_raw          sensor_msgs/Image
+         /camera/depth/image_raw          sensor_msgs/Image
+         /camera/color/camera_info        sensor_msgs/CameraInfo
+         /camera/points                   sensor_msgs/PointCloud2
+       frame_id must match camera_color_optical_frame so TF resolves correctly. -->
   <gazebo reference="Camera">
-    <sensor name="camera_rgbd" type="depth">
+    <sensor name="camera_rgbd" type="rgbd_camera">
+      <topic>camera</topic>
       <update_rate>15</update_rate>
+      <always_on>true</always_on>
+      <visualize>false</visualize>
       <camera>
         <horizontal_fov>1.047</horizontal_fov>
         <image>
@@ -20,26 +40,23 @@
           <height>480</height>
           <format>R8G8B8</format>
         </image>
+        <depth_camera>
+          <output>depths</output>
+          <clip>
+            <near>0.1</near>
+            <far>10.0</far>
+          </clip>
+        </depth_camera>
         <clip>
           <near>0.1</near>
           <far>10.0</far>
         </clip>
+        <noise>
+          <type>gaussian</type>
+          <mean>0.0</mean>
+          <stddev>0.007</stddev>
+        </noise>
       </camera>
-      <plugin name="camera_rgbd_plugin" filename="libgazebo_ros_camera.so">
-        <ros>
-          <namespace>/camera</namespace>
-          <remapping>image_raw:=color/image_raw</remapping>
-          <remapping>camera_info:=color/camera_info</remapping>
-          <remapping>depth/image_raw:=depth/image_raw</remapping>
-          <remapping>depth/camera_info:=depth/camera_info</remapping>
-          <remapping>points:=depth/points</remapping>
-        </ros>
-        <camera_name>camera</camera_name>
-        <frame_name>camera_color_optical_frame</frame_name>
-        <hack_baseline>0.07</hack_baseline>
-        <min_depth>0.1</min_depth>
-        <max_depth>10.0</max_depth>
-      </plugin>
     </sensor>
   </gazebo>
 

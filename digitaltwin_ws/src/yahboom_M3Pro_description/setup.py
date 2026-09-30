@@ -27,6 +27,9 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
+            'odom_to_tf = yahboom_M3Pro_description.odom_to_tf:main',
+            'ground_truth_publisher = yahboom_M3Pro_description.ground_truth_publisher:main',
+            'battery_simulator = yahboom_M3Pro_description.battery_simulator:main',
         ],
     },
 )

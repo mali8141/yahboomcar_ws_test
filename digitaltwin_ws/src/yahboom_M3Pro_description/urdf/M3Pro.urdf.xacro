@@ -8,8 +8,25 @@
   
   <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.planar_move.xacro"/>
   <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.camera_links.xacro"/>
+  <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.imu.xacro"/>
   <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.lidar_links.xacro"/>
   <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.wheel_friction.xacro"/>
+  <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.pose_publisher.xacro"/>
+  <!-- base_footprint is the conventional root frame used by the EKF          -->
+  <!-- (base_link_frame: base_footprint in yahboom_M3Pro_ekf.yaml) and        -->
+  <!-- matches the real robot URDF so realworld_ws bringup needs no sim hacks.-->
+  <link name="base_footprint">
+    <visual>
+      <geometry><box size="0.001 0.001 0.001"/></geometry>
+    </visual>
+  </link>
+
+  <joint name="link2footprint" type="fixed">
+    <parent link="base_footprint"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
   <link
     name="base_link">
     
@@ -1012,7 +1029,7 @@
     <child
       link="rwheel1" />
     <axis
-      xyz="0 0 -1" />
+      xyz="0 0 1" />
     <limit
   
       
@@ -1069,7 +1086,7 @@
     <child
       link="rwheel2" />
     <axis
-      xyz="0 0 -1" />
+      xyz="0 0 1" />
     <limit
    
       
@@ -1121,7 +1138,7 @@
     name="arm_base_Joint"
     type="fixed">
     <origin
-      xyz="0.033617 -1.0031E-05 0.0"
+      xyz="0.033617 -1.0031E-05 0.191"
       rpy="6.3751E-05 0 0" />
     <parent
       link="base_link" />
@@ -1133,7 +1150,8 @@
 
 <xacro:M3Pro_gazebo_planar_move/>
 <xacro:M3Pro_camera_links/>
+<xacro:M3Pro_imu/>
 <xacro:M3Pro_lidar_links/>
 <xacro:M3Pro_wheel_friction/>
-
+<xacro:M3Pro_pose_publisher/>
 </robot>

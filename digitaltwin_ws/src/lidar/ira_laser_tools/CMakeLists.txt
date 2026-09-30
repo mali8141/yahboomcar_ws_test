@@ -61,18 +61,14 @@ target_include_directories(laserscan_multi_merger PUBLIC ${EIGEN_INCLUDE_DIRS})
 target_include_directories(laserscan_multi_merger PUBLIC ${PCL_INCLUDE_DIRS})
 target_link_libraries(laserscan_multi_merger ${PCL_LIBRARIES})
 
-add_executable(laserscan_virtualizer src/laserscan_virtualizer.cpp)
-ament_target_dependencies(laserscan_virtualizer ${dependencies})
-target_include_directories(laserscan_virtualizer PUBLIC ${EIGEN_INCLUDE_DIRS})
-target_include_directories(laserscan_virtualizer PUBLIC ${PCL_INCLUDE_DIRS})
-target_link_libraries(laserscan_virtualizer ${PCL_LIBRARIES})
+
 
 #############
 ## Install ##
 #############
 
 ## Mark executables and/or libraries for installation
-install(TARGETS laserscan_multi_merger laserscan_virtualizer
+install(TARGETS laserscan_multi_merger 
   ARCHIVE DESTINATION lib
   LIBRARY DESTINATION lib
   RUNTIME DESTINATION lib/${PROJECT_NAME}

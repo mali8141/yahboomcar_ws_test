@@ -1,0 +1,4 @@
+{
+    "ros.distro": "jazzy",
+    "cmake.sourceDirectory": "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/M3Pro_navigation"
+}
