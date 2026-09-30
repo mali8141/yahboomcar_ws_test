@@ -8,17 +8,17 @@ driver already publishes.
 
 | File | Purpose |
 |---|---|
-| `yahboomcar_ws/src/yahboom_M3Pro_description/urdf/M3Pro.camera_links.xacro` | Adds the optical frame and the Gazebo RGB-D camera sensor plugin |
+| `digitaltwin_ws/src/yahboom_M3Pro_description/urdf/M3Pro.camera_links.xacro` | Adds the optical frame and the Gazebo Harmonic `rgbd_camera` sensor; data bridged to ROS via `ros_gz_bridge` and `ros_gz_image` in `gazebo_display.launch.py` |
 
 ## Files modified
 
 | File | Change |
 |---|---|
-| `yahboomcar_ws/src/yahboom_M3Pro_description/urdf/M3Pro.urdf.xacro` | Added the `xacro:include` for the camera xacro and an instantiation of the `M3Pro_camera_links` macro (currently commented out — see **Current status** below) |
+| `digitaltwin_ws/src/yahboom_M3Pro_description/urdf/M3Pro.urdf.xacro` | Added the `xacro:include` for the camera xacro and an instantiation of the `M3Pro_camera_links` macro |
 
 ## Existing hardware-side node referenced (not yet compatible with sim)
 
-- `M3Pro_ws/src/ros_robot_app/laserscan_to_point_publisher/laserscan_to_point_publisher/pub_rgb_image.py`
+- `realworld_ws/src/ros_robot_app/laserscan_to_point_publisher/laserscan_to_point_publisher/pub_rgb_image.py`
   — subscribes to the camera's RGB topic on the real robot; blocked from
   working in simulation by the topic-doubling issue described below.
 
@@ -27,11 +27,15 @@ driver already publishes.
 The imported SolidWorks URDF already contained a `Camera` link (mesh +
 inertial only, attached to `base_link` via a `revolute` joint with
 `lower=upper=0`, i.e. effectively fixed) but no sensor behavior — it was
-purely visual/geometric. Gazebo needs an explicit sensor plugin attached
-to that link to actually generate image and depth data.
+purely visual/geometric. Gazebo Harmonic needs an explicit sensor block
+attached to that link (`type="rgbd_camera"`) to actually generate image and
+depth data; unlike Gazebo Classic, there is no `libgazebo_ros_camera.so`
+plugin — the sensor is declared natively in the URDF/SDF and its output is
+bridged to ROS via `ros_gz_bridge` (for topic types parameter_bridge handles)
+and `ros_gz_image` (for raw `Image` messages).
 
 To keep the simulated stream consumable by the same nodes the real
-hardware feeds, the plugin publishes under the `/camera/...` namespace
+hardware feeds, the sensor publishes under the `/camera/...` namespace
 and topic names (`color/image_raw`, `depth/image_raw`, `depth/points`,
 etc.) that mirror the real depth-camera driver's layout, and adds a
 dedicated `camera_color_optical_frame` so image and point-cloud axes
@@ -43,25 +47,25 @@ correctly-shaped data with an incorrectly-oriented frame.
 ## How it works
 
 ```
-Gazebo depth camera sensor (on Camera link)
-        │  libgazebo_ros_camera.so
+Gazebo Harmonic rgbd_camera sensor (on Camera link)
+        │  type="rgbd_camera", bridged via ros_gz_bridge + ros_gz_image
         ├──► /camera/color/image_raw        (sensor_msgs/Image, RGB)
         ├──► /camera/color/camera_info
         ├──► /camera/depth/image_raw         (sensor_msgs/Image, depth)
         ├──► /camera/depth/camera_info
-        └──► /camera/depth/points            (sensor_msgs/PointCloud2)
+        └──► /camera/points                  (sensor_msgs/PointCloud2)
 ```
 
 Sensor configuration (`M3Pro.camera_links.xacro`):
 
 | Parameter | Value |
 |---|---|
-| Sensor type | `depth` (RGB-D) |
+| Sensor type | `rgbd_camera` (Gazebo Harmonic built-in) |
 | Resolution | 640 × 480, `R8G8B8` |
 | `horizontal_fov` | 1.047 rad (~60°) |
 | Clip near/far | 0.1 m / 10.0 m |
 | `update_rate` | 15 Hz |
-| `frame_name` | `camera_color_optical_frame` |
+| Frame | `camera_color_optical_frame` (aliased from `M3Pro/Camera/camera_rgbd` via `static_transform_publisher`) |
 
 A fixed joint (`camera_color_optical_joint`) rotates from the `Camera`
 link's URDF frame into the optical frame via `rpy="-1.5708 0 -1.5708"`,
@@ -71,40 +75,33 @@ convention.
 
 ## Known issue: topic namespace doubling
 
-The plugin's ROS block sets `<namespace>/camera</namespace>` and then
-remaps `image_raw:=color/image_raw`. Combined with the plugin's own
-default namespacing behavior, this currently produces a doubled
-namespace at runtime (`/camera/camera/color/image_raw` instead of the
-intended `/camera/color/image_raw`). This has been identified as the
-blocker preventing `pub_rgb_image.py` from working against the simulated
-camera, since that script subscribes to the un-doubled topic name used
-by the real hardware driver. **Fix pending**: either drop the leading
-`<namespace>` tag and let the `camera_name`/remappings fully qualify the
-topic, or adjust the remap targets to account for the namespace prefix
-being applied twice.
+The Gazebo Harmonic `rgbd_camera` sensor publishes under the topic prefix
+declared via `<topic>camera</topic>`. Combined with `ros_gz_bridge`'s
+topic mapping rules, this can produce a doubled namespace at runtime
+(`/camera/camera/color/image_raw` instead of `/camera/color/image_raw`).
+This has been identified as the blocker preventing `pub_rgb_image.py`
+from working against the simulated camera. **Fix pending**: adjust
+the `ros_gz_bridge` or `ros_gz_image` topic mapping in
+`gazebo_display.launch.py` to avoid the double prefix.
 
 ## Current status
 
-Camera link visuals were confirmed to render correctly in Gazebo. As with
-the LiDAR integration, the include/instantiation is currently commented
-out in `M3Pro.urdf.xacro` while the base-movement tipping fix was being
-isolated and validated on its own:
+Camera link visuals confirmed rendering correctly in Gazebo Harmonic.
+The include/instantiation in `M3Pro.urdf.xacro` is active:
 
 ```xml
-<!-- <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.camera_links.xacro"/> -->
+<xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.camera_links.xacro"/>
 ...
-<!-- <xacro:M3Pro_camera_links/> -->
+<xacro:M3Pro_camera_links/>
 ```
 
-To re-enable, uncomment both lines, rebuild
-(`colcon build --packages-select yahboom_M3Pro_description --symlink-install`),
-and resolve the namespace-doubling issue above before relying on
-`pub_rgb_image.py` in simulation.
+The namespace-doubling issue is still pending before `pub_rgb_image.py`
+can be used against the simulation.
 
 ## How to test
 
 ```bash
-source yahboomcar_ws/install/setup.bash
+source digitaltwin_ws/install/setup.bash
 ros2 launch yahboom_M3Pro_description gazebo_display.launch.py
 # in a second terminal:
 ros2 topic list | grep camera

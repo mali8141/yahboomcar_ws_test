@@ -9,14 +9,14 @@ real hardware's sensing pipeline.
 
 | File | Purpose |
 |---|---|
-| `yahboomcar_ws/src/yahboom_M3Pro_description/urdf/M3Pro.lidar_links.xacro` | Adds `laser0_frame` / `laser1_frame` links and the two Gazebo ray-sensor plugins that simulate the physical LiDARs |
+| `digitaltwin_ws/src/yahboom_M3Pro_description/urdf/M3Pro.lidar_links.xacro` | Adds `laser0_frame` / `laser1_frame` links and the two Gazebo Harmonic `gpu_lidar` sensors; data bridged to ROS via `ros_gz_bridge` in `gazebo_display.launch.py` |
 
 ## Files modified
 
 | File | Change |
 |---|---|
-| `yahboomcar_ws/src/yahboom_M3Pro_description/urdf/M3Pro.urdf.xacro` | Added the `xacro:include` for the lidar xacro and an instantiation of the `M3Pro_lidar_links` macro (currently commented out — see **Current status** below) |
-| `M3Pro_ws/src/slam_mapping/config/mapper_params_online_async.yaml` | `base_frame` corrected to `base_link`; `scan_topic` corrected to `/scan_multi` |
+| `digitaltwin_ws/src/yahboom_M3Pro_description/urdf/M3Pro.urdf.xacro` | Added the `xacro:include` for the lidar xacro and an instantiation of the `M3Pro_lidar_links` macro |
+| `digitaltwin_ws/src/slam/slam_engine/config/mapper_params_online_async.yaml` | `base_frame` corrected to `base_link`; `scan_topic` corrected to `/scan_multi` |
 
 ## Existing hardware-side pipeline reused as-is
 
@@ -24,9 +24,9 @@ These packages already existed for the real robot and are reused unchanged
 so that simulation and hardware share the same downstream scan-processing
 pipeline:
 
-- `M3Pro_ws/src/M3Pro_core/ira_laser_tools` — `laserscan_multi_merger`
+- `digitaltwin_ws/src/lidar/ira_laser_tools` — `laserscan_multi_merger`
   node + `config/laserscan_merge.yaml`
-- `M3Pro_ws/src/M3Pro_core/yahboom_laser_filter` — `laser_filter_node`
+- `digitaltwin_ws/src/lidar/yahboom_laser_filter` — `laser_filter_node`
   + `launch/laser_filter_node_multi.xml`
 
 ## Why these changes were necessary
@@ -37,7 +37,7 @@ simulate a single idealized 360° sensor (which would diverge from the
 real perception stack), the digital twin models **both** physical units
 separately, so that everything downstream — the merge node, the filter
 node, SLAM, Nav2 — runs identically whether the scans originate from
-Gazebo's ray sensors or the real hardware drivers.
+Gazebo's gpu_lidar sensors or the real hardware drivers.
 
 The SLAM config fixes were necessary because the default
 `mapper_params_online_async.yaml` (adapted from a generic `slam_toolbox`
@@ -48,10 +48,10 @@ in this robot's TF tree / topic layout: the URDF's root/base frame is
 ## How the pipeline works
 
 ```
-Gazebo ray sensor "laser0"  ──►  /scan0  ─┐
-                                            ├──► laserscan_multi_merger ──► /scan_multi ──► laser_filter_node ──► /scan
-Gazebo ray sensor "laser1"  ──►  /scan1  ─┘         (ira_laser_tools)        │                 (yahboom_laser_filter)
-                                                                              └──► consumed directly by slam_toolbox
+Gazebo gpu_lidar "laser0"  ──►  /scan0  ─┐
+                                           ├──► laserscan_multi_merger ──► /scan_multi ──► laser_filter_node ──► /scan
+Gazebo gpu_lidar "laser1"  ──►  /scan1  ─┘         (ira_laser_tools)        │                 (yahboom_laser_filter)
+                                                                             └──► consumed directly by slam_toolbox
 ```
 
 ### Sensor definitions (`M3Pro.lidar_links.xacro`)
@@ -63,12 +63,21 @@ robot:
 | Frame | Offset (x, y, z) | Gazebo topic | Range |
 |---|---|---|---|
 | `laser0_frame` | `-0.11617, 0.09156, 0.1253` | `/scan0` | 0.05 – 12.0 m |
-| `laser1_frame` | `0.10766, -0.09078, 0.1253` | `/scan1` | 0.12 – 8.0 m |
+| `laser1_frame` | `0.10766, -0.09078, 0.1253` | `/scan1` | 0.05 – 12.0 m |
 
-Each is a Gazebo `ray` sensor with `libgazebo_ros_ray_sensor.so`, a
-360-sample full-circle horizontal scan (`-3.14159` to `3.14159` rad),
-10 Hz update rate, and Gaussian noise (`stddev = 0.01`) to avoid
-unrealistically perfect scans.
+Each is a Gazebo Harmonic `gpu_lidar` sensor, publishing on an internal gz-sim
+topic that is bridged to ROS via `ros_gz_bridge` in `gazebo_display.launch.py`.
+Each sensor has a 360-sample full-circle horizontal scan (`-3.14159` to
+`3.14159` rad), 10 Hz update rate, and Gaussian noise (`stddev = 0.01`).
+
+Unlike Gazebo Classic (`libgazebo_ros_ray_sensor.so`), Gazebo Harmonic sensors
+do not embed a ROS plugin in the URDF — sensor output is always bridged via
+`ros_gz_bridge`. A consequence is that Gazebo Harmonic scopes the sensor's
+`frame_id` as `<model>/<link>/<sensor>` (e.g. `M3Pro/laser0_frame/laser0`)
+rather than the bare link name. `gazebo_display.launch.py` publishes identity
+`static_transform_publisher` aliases to map these scoped names back to the
+URDF frame names (`laser0_frame`, `laser1_frame`) expected by the merger and
+SLAM.
 
 ### Merge and filter (existing, reused)
 
@@ -92,27 +101,26 @@ filename.
 
 ## Current status
 
-Map creation with this pipeline has been confirmed working. However, in
-the current `M3Pro.urdf.xacro`, the lidar include/instantiation is
-temporarily commented out while the base-movement tipping fix
-(`M3Pro.wheel_friction.xacro`, see `02-robot-base-movement.md`) was being
-isolated and validated in isolation:
+Dual-LiDAR SLAM mapping is complete and validated. Both LiDARs are active and
+instantiated in `M3Pro.urdf.xacro`:
 
 ```xml
-<!-- <xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.lidar_links.xacro"/> -->
+<xacro:include filename="$(find yahboom_M3Pro_description)/urdf/M3Pro.lidar_links.xacro"/>
 ...
-<!-- <xacro:M3Pro_lidar_links/> -->
+<xacro:M3Pro_lidar_links/>
 ```
 
-To re-enable both LiDARs, uncomment both lines and rebuild
-(`colcon build --packages-select yahboom_M3Pro_description --symlink-install`).
+If the include is commented out for isolation testing, re-enable and rebuild:
+```
+colcon build --packages-select yahboom_M3Pro_description --symlink-install
+```
 
 ## How to test
 
 ```bash
-source yahboomcar_ws/install/setup.bash
+source digitaltwin_ws/install/setup.bash
 ros2 launch yahboom_M3Pro_description gazebo_display.launch.py
-# in a second terminal (after sourcing M3Pro_ws too):
+# in a second terminal:
 ros2 launch ira_laser_tools merge_multi.launch.py
 ros2 topic echo /scan_multi --once
 ```

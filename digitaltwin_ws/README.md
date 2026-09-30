@@ -1,6 +1,6 @@
 # Digital Twin — ROSMASTER M3Pro
 
-Gazebo Classic / ROS 2 Humble digital twin of the Yahboom ROSMASTER M3Pro,
+Gazebo Harmonic / ROS 2 Jazzy digital twin of the Yahboom ROSMASTER M3Pro,
 developed as part of the thesis *"Autonomous Navigation and Path Planning
 for the ROSMaster M3Pro Mobile Manipulator: A Digital Twin Approach Using
 ROS 2."*
@@ -24,6 +24,12 @@ necessary, and how the pipeline works end to end.
    LiDAR sensors, scan merging/filtering, SLAM topic wiring
 4. [Depth Camera Integration](scripts/04-depth-camera-integration.md) —
    simulated RGB-D camera, optical-frame correction, known topic issue
+5. [SLAM Mapping](scripts/05-slam-mapping.md) —
+   slam_toolbox setup, map saving, topic wiring
+6. [Nav2 Navigation](scripts/06-nav2-navigation.md) —
+   Nav2 stack, EKF, costmaps, path planning
+7. [Simulated Audio Field](scripts/07-sim-audio-field.md) —
+   pre-baked audio field, IDW interpolation, `audio_field_builder`, `sim_audio_publisher`, pipeline design and limitations
 
 The full thesis write-up (`main.tex`/`main.pdf`) is in [`Doc/`](Doc/).
 
@@ -42,6 +48,29 @@ and the initial `colcon build`. It's safe to re-run any time.
 After setup, in every new terminal:
 ```bash
 source install/setup.bash
+```
+
+## Useing Gazebo sim with realworld_ws
+
+The sim can be used in conjunction with the real-hardware workspace (`realworld_ws`) to test sim-to-real transfer of SLAM and navigation pipelines. The sim publishes the same topics as the real robot, so any nodes that work in the sim should work on the real robot without much modification.
+
+To use the sim with `realworld_ws`, first start the sim bridge in one terminal:
+```sh
+source install/setup.bash
+ros2 launch yahboom_M3Pro_description gazebo_display.launch.py
+```
+
+Then in another terminal, start the real-hardware workspace:
+```sh
+cd ../realworld_ws/custom_scripts
+./start_core_robot.sh --sim
+```
+
+In another terminal, you can then run any of the other compatible `realworld_ws` scripts. Not all sensors of the real robot have been simulated yet, so some scripts might fail.
+
+As a replacment for the joy controller the following can be used to control the robot in the sim:
+```sh
+ros2 run teleop_twist_keyboard teleop_twist_keyboard
 ```
 
 ## Repository layout
@@ -73,7 +102,7 @@ each roadmap step is reached, rather than carried as unused dead weight.
 
 ## Environment this was developed and tested on
 
-- Ubuntu 22.04, X11 (not Wayland)
-- ROS 2 Humble
-- Gazebo Classic (11)
+- Ubuntu 24.04
+- ROS 2 Jazzy
+- Gazebo Harmonic (gz-sim)
 - Development laptop: Lenovo LOQ, NVIDIA GeForce RTX 5050

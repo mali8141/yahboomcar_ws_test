@@ -1,0 +1,701 @@
+:root {
+  color: #17223a;
+  background: #eef2f7;
+  font-family: Inter, ui-sans-serif, system-ui, sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+header,
+main,
+.tabs,
+footer {
+  max-width: 1400px;
+  margin: auto;
+  padding: 1.25rem;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+h1,
+h2,
+p {
+  margin-top: 0;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+h2 {
+  font-size: 1.1rem;
+}
+
+.eyebrow {
+  margin-bottom: 0.25rem;
+  color: #51627e;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.connection-form {
+  display: flex;
+  align-items: end;
+  gap: 0.5rem;
+}
+
+label {
+  display: block;
+  margin: 0.65rem 0 0.25rem;
+  font-size: 0.85rem;
+  font-weight: 650;
+}
+
+input,
+button {
+  border-radius: 0.4rem;
+  font: inherit;
+}
+
+input {
+  width: 100%;
+  border: 1px solid #b5c0d1;
+  padding: 0.55rem 0.65rem;
+  background: #fff;
+}
+
+.connection-form input {
+  min-width: 18rem;
+}
+
+button {
+  border: 0;
+  padding: 0.62rem 0.8rem;
+  cursor: pointer;
+  background: #155eef;
+  color: #fff;
+  font-weight: 650;
+}
+
+button:hover {
+  background: #004eea;
+}
+
+button:disabled {
+  cursor: default;
+  opacity: 0.55;
+}
+
+.tabs {
+  display: flex;
+  gap: 0.4rem;
+  padding-bottom: 0;
+}
+
+.tabs button {
+  border: 1px solid transparent;
+  background: transparent;
+  color: #4b5d7a;
+}
+
+.tabs button.active {
+  border-color: #d8e0eb;
+  background: #fff;
+  color: #155eef;
+}
+
+.navigation-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 20rem;
+  gap: 1.25rem;
+}
+
+.panel {
+  border: 1px solid #d8e0eb;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  background: #fff;
+  box-shadow: 0 2px 8px #15264a0b;
+}
+
+.map-panel {
+  grid-row: span 2;
+}
+
+.panel-heading {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.panel-heading p,
+.help {
+  color: #5e6b82;
+  font-size: 0.85rem;
+}
+
+.map-viewport {
+  position: relative;
+  display: grid;
+  place-items: center;
+  height: min(68vh, 42rem);
+  min-height: 24rem;
+  overflow: hidden;
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+  background: #d3d9e2;
+}
+
+.map-canvas-shell {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  overscroll-behavior: contain;
+}
+
+.map-canvas-shell canvas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  max-width: none;
+  max-height: none;
+  touch-action: none;
+}
+
+.map-controls {
+  position: absolute;
+  z-index: 1;
+  top: 0.75rem;
+  right: 0.75rem;
+  display: flex;
+  gap: 0.35rem;
+}
+
+.map-controls button {
+  min-width: 2.25rem;
+  min-height: 2.25rem;
+  padding: 0.35rem 0.55rem;
+  border: 1px solid #c5cedb;
+  border-radius: 0.35rem;
+  background: #fff;
+  color: #25324a;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+
+.map-controls button:last-child { font-size: 0.8rem; }
+
+canvas {
+  display: block;
+  image-rendering: pixelated;
+  cursor: crosshair;
+}
+
+.help {
+  margin-bottom: 0;
+}
+
+.card form button {
+  width: 100%;
+  margin-top: 1rem;
+}
+
+.charge-btn {
+  width: 100%;
+  margin-top: 1rem;
+  background: #b45309;
+}
+
+.charge-btn:hover {
+  background: #92400e;
+}
+
+.patrol-btn {
+  width: 100%;
+  margin-top: 0.5rem;
+  background: #15803d;
+}
+
+.patrol-btn:hover {
+  background: #166534;
+}
+
+.patrol-btn:disabled {
+  background: #15803d;
+}
+
+.message {
+  min-height: 1.3em;
+  margin: 0.75rem 0 0;
+  font-size: 0.9rem;
+}
+
+.map-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(min(15rem, 100%), 1fr));
+  gap: 0.75rem;
+  margin-top: 1rem;
+}
+
+.history-layout {
+  display: grid;
+  grid-template-columns: 18rem minmax(0, 1fr);
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.run-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.run-entry {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 0.2rem;
+  border: 1px solid #d8e0eb;
+  background: #f8fafc;
+  color: #17223a;
+  text-align: left;
+}
+
+.run-entry span { color: #5e6b82; font-size: 0.78rem; }
+.run-entry.selected { border-color: #155eef; background: #eef4ff; }
+.history-map { margin-top: 0; min-height: 28rem; }
+
+.machine-results {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: 0.6rem;
+  margin-top: 0.75rem;
+}
+
+.machine-result {
+  display: grid;
+  gap: 0.2rem;
+  border-left: 3px solid #7c3aed;
+  padding: 0.55rem 0.7rem;
+  background: #f7f3ff;
+}
+
+.machine-result span { font-weight: 700; color: #5b21b6; }
+.machine-result small { color: #5e6b82; }
+
+.map-entry {
+  display: grid;
+  min-width: 0;
+  gap: 0.65rem;
+  border: 1px solid #d8e0eb;
+  border-radius: 0.5rem;
+  padding: 0.85rem;
+}
+
+.map-entry.current {
+  border-color: #155eef;
+  box-shadow: inset 0 0 0 1px #155eef;
+}
+
+.map-entry h3,
+.map-entry p {
+  margin: 0;
+}
+
+.map-entry h3 {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.region-info input {
+  width: 9rem;
+  padding: 0.3rem 0.45rem;
+}
+
+.map-thumbnail {
+  display: grid;
+  place-items: center;
+  min-height: 10rem;
+  overflow: hidden;
+  border-radius: 0.35rem;
+  background: #d3d9e2;
+}
+
+.map-thumbnail canvas {
+  width: 100%;
+  max-height: 12rem;
+}
+
+.map-entry button {
+  width: 100%;
+  min-width: 0;
+}
+
+.map-thumbnail.unavailable {
+  color: #5e6b82;
+  font-size: 0.85rem;
+}
+
+.secondary-btn {
+  border: 1px solid #b5c0d1;
+  background: #fff;
+  color: #17223a;
+}
+
+.secondary-btn:hover { background: #eef2f7; }
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 10;
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  background: #17223acc;
+}
+
+.route-editor {
+  width: min(1100px, 100%);
+  max-height: 92vh;
+  overflow: auto;
+  border-radius: 0.75rem;
+  padding: 1rem;
+  background: #fff;
+}
+
+.editor-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 22rem;
+  gap: 1rem;
+  margin-top: 1rem;
+  /* Both columns can scroll independently; parent handles overflow */
+  align-items: start;
+}
+
+.editor-map-col {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  /* Stick to the top while the waypoint panel scrolls */
+  position: sticky;
+  top: 0;
+}
+
+.editor-map { height: min(62vh, 42rem); min-height: 28rem; }
+
+/* ── Waypoint panel (right column) ── */
+.waypoint-panel {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #d8e0eb;
+  border-radius: 0.6rem;
+  background: #fff;
+  overflow: hidden;
+  /* Cap height so it doesn't push the modal taller than the map */
+  max-height: 72vh;
+}
+
+.waypoint-panel-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.65rem 0.75rem;
+  border-bottom: 1px solid #d8e0eb;
+  background: #f8fafc;
+  flex-shrink: 0;
+}
+
+.waypoint-panel-header h3 {
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.roi-toggle-btn {
+  font-size: 0.78rem;
+  padding: 0.3rem 0.6rem;
+}
+
+.roi-active {
+  border-color: #b42318;
+  color: #b42318;
+}
+
+/* Scrollable list */
+.waypoint-scroll {
+  flex: 1;
+  overflow-y: auto;
+  padding: 0.5rem 0.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+/* Individual waypoint row */
+.waypoint-row {
+  display: flex;
+  gap: 0.35rem;
+  align-items: stretch;
+  border: 1px solid #e4e9f0;
+  border-radius: 0.4rem;
+  padding: 0.4rem;
+  background: #fafbfc;
+  transition: background 0.15s, border-color 0.15s;
+}
+
+.waypoint-row:hover { background: #f0f4fa; }
+
+.waypoint-moving {
+  border-color: #155eef;
+  background: #eef4ff;
+  box-shadow: 0 0 0 2px #155eef44;
+}
+
+/* Up/down reorder buttons */
+.waypoint-reorder {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+/* Waypoint content right of the reorder buttons */
+.waypoint-body {
+  flex: 1;
+  min-width: 0;
+}
+
+.waypoint-coords {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.waypoint-index {
+  font-weight: 700;
+  font-size: 0.78rem;
+  color: #51627e;
+  min-width: 1.1rem;
+}
+
+.waypoint-pos {
+  flex: 1;
+  font-size: 0.8rem;
+  color: #17223a;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.waypoint-actions {
+  display: flex;
+  gap: 0.2rem;
+  flex-shrink: 0;
+}
+
+.yaw-label {
+  display: block;
+  margin: 0.3rem 0 0;
+  font-size: 0.75rem;
+  font-weight: 650;
+}
+
+.ignore-regions-label {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0.35rem 0 0;
+  font-size: 0.75rem;
+  font-weight: 650;
+}
+
+.sample-audio-label {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  margin: 0.35rem 0 0;
+  font-size: 0.75rem;
+  font-weight: 650;
+  color: #0f766e;
+}
+
+.ignore-regions-label input {
+  width: auto;
+  margin: 0;
+}
+
+.sample-audio-label input {
+  width: auto;
+  margin: 0;
+}
+
+/* ── Small icon buttons ── */
+.icon-btn {
+  padding: 0.18rem 0.38rem;
+  font-size: 0.75rem;
+  line-height: 1;
+  min-width: 1.6rem;
+  background: #eef2f7;
+  color: #17223a;
+  border: 1px solid #d8e0eb;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.icon-btn:hover { background: #dde4ef; }
+
+.icon-btn:disabled {
+  opacity: 0.3;
+  cursor: default;
+}
+
+.danger-icon-btn { color: #b42318; border-color: #f5c6c2; background: #fff4f2; }
+.danger-icon-btn:hover { background: #fde8e4; }
+
+.relocate-btn { color: #155eef; border-color: #b8d0fc; background: #eef4ff; }
+.relocate-btn:hover { background: #ddeaff; }
+.relocate-active { background: #155eef; color: #fff; border-color: #155eef; }
+.relocate-active:hover { background: #004eea; }
+
+/* Regions section inside scroll */
+.regions-section {
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid #e4e9f0;
+}
+
+.regions-heading {
+  margin: 0 0 0.35rem;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #51627e;
+}
+
+.region-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.35rem 0.5rem;
+  border-left: 3px solid #b42318;
+  border-radius: 0 0.3rem 0.3rem 0;
+  background: #fff4f2;
+  margin-bottom: 0.3rem;
+}
+
+.region-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.1rem;
+  font-size: 0.78rem;
+  color: #7a271a;
+  min-width: 0;
+}
+
+.region-coords {
+  font-size: 0.72rem;
+  color: #a84032;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* Save footer inside panel */
+.waypoint-panel-footer {
+  flex-shrink: 0;
+  padding: 0.65rem 0.75rem;
+  border-top: 1px solid #d8e0eb;
+  background: #f8fafc;
+}
+
+.waypoint-panel-footer button {
+  width: 100%;
+}
+
+.danger-btn { background: #b42318; }
+.danger-btn:hover { background: #912018; }
+
+.map-entry p {
+  color: #5e6b82;
+  font-size: 0.85rem;
+}
+
+footer {
+  color: #5e6b82;
+  font-size: 0.85rem;
+}
+
+/* ── Battery indicator ── */
+.battery-bar-wrap {
+  height: 0.55rem;
+  background: #e2e8f0;
+  border-radius: 0.3rem;
+  overflow: hidden;
+  margin-top: 0.3rem;
+}
+
+.battery-bar {
+  height: 100%;
+  border-radius: 0.3rem;
+  transition: width 0.4s ease, background 0.4s ease;
+}
+
+.battery-bar.high   { background: #22c55e; }
+.battery-bar.medium { background: #f59e0b; }
+.battery-bar.low    { background: #ef4444; }
+
+@media (max-width: 780px) {
+  header,
+  main {
+    display: block;
+  }
+
+  .connection-form {
+    flex-wrap: wrap;
+    margin-top: 1rem;
+  }
+
+  .connection-form input {
+    min-width: 0;
+  }
+
+  .panel-heading {
+    align-items: stretch;
+    flex-direction: column;
+  }
+
+  .panel-heading > button {
+    width: 100%;
+  }
+
+  .navigation-layout {
+    display: block;
+  }
+
+  .editor-layout { display: block; }
+  .editor-map-col { position: static; }
+  .waypoint-panel { max-height: none; margin-top: 1rem; }
+
+  .card {
+    margin-top: 1.25rem;
+  }
+}
