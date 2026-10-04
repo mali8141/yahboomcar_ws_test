@@ -11,8 +11,12 @@ set(CMAKE_DEPENDS_DEPENDENCY_FILES
   "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/lidar/ira_laser_tools/src/laserscan_multi_merger.cpp" "CMakeFiles/laserscan_multi_merger.dir/src/laserscan_multi_merger.cpp.o" "gcc" "CMakeFiles/laserscan_multi_merger.dir/src/laserscan_multi_merger.cpp.o.d"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_FORWARD_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

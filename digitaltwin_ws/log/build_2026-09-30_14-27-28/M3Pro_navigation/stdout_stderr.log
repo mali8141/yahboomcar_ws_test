@@ -1,0 +1,43 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+WARNING: Package name "M3Pro_navigation" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/.ipynb_checkpoints/base_bringup.launch-checkpoint.py
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/.ipynb_checkpoints/carto_nav.launch-checkpoint.py
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/.ipynb_checkpoints/cartographer_localization_launch-checkpoint.py
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/.ipynb_checkpoints/localization_imu_odom.launch-checkpoint.py
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/localization_bringup_launch.py
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/launch/mapping_bringup_launch.py
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/param/yahboom_M3Pro.yaml
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/ament_index/resource_index/package_run_dependencies/M3Pro_navigation
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/ament_index/resource_index/parent_prefix_path/M3Pro_navigation
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/environment/ament_prefix_path.sh
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/environment/path.sh
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/environment/path.dsv
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/local_setup.bash
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/local_setup.sh
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/local_setup.zsh
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/local_setup.dsv
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/package.dsv
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/ament_index/resource_index/packages/M3Pro_navigation
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/cmake/M3Pro_navigationConfig.cmake
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/cmake/M3Pro_navigationConfig-version.cmake
+-- Symlinking: /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/M3Pro_navigation/share/M3Pro_navigation/package.xml

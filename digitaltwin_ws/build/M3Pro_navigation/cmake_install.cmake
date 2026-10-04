@@ -42,72 +42,8 @@ if(NOT DEFINED CMAKE_OBJDUMP)
   set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/M3Pro_navigation" TYPE DIRECTORY FILES
-    "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/M3Pro_navigation/launch"
-    "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/M3Pro_navigation/map"
-    "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/M3Pro_navigation/param"
-    "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/M3Pro_navigation/rviz"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/package_run_dependencies" TYPE FILE FILES "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/M3Pro_navigation")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/parent_prefix_path" TYPE FILE FILES "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/M3Pro_navigation")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/M3Pro_navigation/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/M3Pro_navigation/environment" TYPE FILE FILES "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation/ament_cmake_environment_hooks/ament_prefix_path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/M3Pro_navigation/environment" TYPE FILE FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/M3Pro_navigation/environment" TYPE FILE FILES "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation/ament_cmake_environment_hooks/path.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/M3Pro_navigation" TYPE FILE FILES "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation/ament_cmake_environment_hooks/local_setup.bash")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/M3Pro_navigation" TYPE FILE FILES "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation/ament_cmake_environment_hooks/local_setup.sh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/M3Pro_navigation" TYPE FILE FILES "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation/ament_cmake_environment_hooks/local_setup.zsh")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/M3Pro_navigation" TYPE FILE FILES "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation/ament_cmake_environment_hooks/local_setup.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/M3Pro_navigation" TYPE FILE FILES "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation/ament_cmake_environment_hooks/package.dsv")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/ament_index/resource_index/packages" TYPE FILE FILES "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation/ament_cmake_index/share/ament_index/resource_index/packages/M3Pro_navigation")
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/M3Pro_navigation/cmake" TYPE FILE FILES
-    "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation/ament_cmake_core/M3Pro_navigationConfig.cmake"
-    "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation/ament_cmake_core/M3Pro_navigationConfig-version.cmake"
-    )
-endif()
-
-if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/M3Pro_navigation" TYPE FILE FILES "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/M3Pro_navigation/package.xml")
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation/ament_cmake_symlink_install/ament_cmake_symlink_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

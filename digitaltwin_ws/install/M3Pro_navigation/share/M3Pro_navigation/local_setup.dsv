@@ -1,2 +1,1 @@
-source;share/M3Pro_navigation/environment/ament_prefix_path.sh
-source;share/M3Pro_navigation/environment/path.sh
+/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/M3Pro_navigation/ament_cmake_environment_hooks/local_setup.dsv

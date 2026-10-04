@@ -1,2 +1,1 @@
-source;share/slam_engine/environment/ament_prefix_path.sh
-source;share/slam_engine/environment/path.sh
+/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/slam_engine/ament_cmake_environment_hooks/local_setup.dsv

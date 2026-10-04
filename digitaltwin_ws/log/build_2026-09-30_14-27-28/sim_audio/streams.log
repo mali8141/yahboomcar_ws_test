@@ -1,0 +1,19 @@
+[0.984s] Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build --no-deps symlink_data
+[1.201s] running develop
+[1.328s] running egg_info
+[1.340s] writing sim_audio.egg-info/PKG-INFO
+[1.340s] writing dependency_links to sim_audio.egg-info/dependency_links.txt
+[1.340s] writing entry points to sim_audio.egg-info/entry_points.txt
+[1.340s] writing requirements to sim_audio.egg-info/requires.txt
+[1.340s] writing top-level names to sim_audio.egg-info/top_level.txt
+[1.365s] reading manifest file 'sim_audio.egg-info/SOURCES.txt'
+[1.365s] writing manifest file 'sim_audio.egg-info/SOURCES.txt'
+[1.379s] running build_ext
+[1.379s] Creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim-audio.egg-link (link to .)
+[1.379s] Installing audio_field_builder script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/sim_audio
+[1.379s] Installing sim_audio_publisher script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/sim_audio
+[1.379s] Installing view_audio_field script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/sim_audio
+[1.379s] 
+[1.379s] Installed /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio
+[1.379s] running symlink_data
+[1.401s] Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build --no-deps symlink_data

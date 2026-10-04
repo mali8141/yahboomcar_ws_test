@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: sim-audio
+Version: 0.1.0
+Summary: Simulated audio field tools for the Gazebo digital twin.
+Maintainer: WISES
+Maintainer-email: todo@todo.com
+License: MIT

@@ -1,0 +1,24 @@
+[1.184s] Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/build --no-deps symlink_data --force
+[1.414s] running develop
+[1.542s] running egg_info
+[1.554s] writing yahboom_M3Pro_description.egg-info/PKG-INFO
+[1.554s] writing dependency_links to yahboom_M3Pro_description.egg-info/dependency_links.txt
+[1.554s] writing entry points to yahboom_M3Pro_description.egg-info/entry_points.txt
+[1.555s] writing requirements to yahboom_M3Pro_description.egg-info/requires.txt
+[1.555s] writing top-level names to yahboom_M3Pro_description.egg-info/top_level.txt
+[1.579s] reading manifest file 'yahboom_M3Pro_description.egg-info/SOURCES.txt'
+[1.580s] writing manifest file 'yahboom_M3Pro_description.egg-info/SOURCES.txt'
+[1.593s] running build_ext
+[1.593s] Creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/python3.12/site-packages/yahboom-M3Pro-description.egg-link (link to .)
+[1.594s] Installing battery_simulator script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/yahboom_M3Pro_description
+[1.594s] Installing ground_truth_publisher script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/yahboom_M3Pro_description
+[1.594s] Installing odom_to_tf script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/yahboom_M3Pro_description
+[1.594s] 
+[1.594s] Installed /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description
+[1.594s] running symlink_data
+[1.594s] symbolically linking /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/resource/yahboom_M3Pro_description -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/ament_index/resource_index/packages
+[1.594s] symbolically linking /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/package.xml -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description
+[1.595s] symbolically linking /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/urdf/M3Pro.planar_move.xacro -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/urdf
+[1.595s] symbolically linking /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/urdf/M3Pro.lidar_links.xacro -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/urdf
+[1.595s] error: [Errno 2] No such file or directory: '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/share/yahboom_M3Pro_description/urdf/M3Pro.pose_publisher.xacro'
+[1.616s] Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description' returned '1': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/yahboom_M3Pro_description/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_M3Pro_description/build --no-deps symlink_data --force

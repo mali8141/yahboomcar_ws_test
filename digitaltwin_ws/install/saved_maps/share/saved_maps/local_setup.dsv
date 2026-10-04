@@ -1,2 +1,1 @@
-source;share/saved_maps/environment/ament_prefix_path.sh
-source;share/saved_maps/environment/path.sh
+/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/saved_maps/ament_cmake_environment_hooks/local_setup.dsv

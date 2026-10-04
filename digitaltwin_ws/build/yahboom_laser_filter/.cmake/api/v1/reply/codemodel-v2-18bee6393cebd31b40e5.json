@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-be7a7fddea39fd72d330.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.15"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "yahboom_laser_filter",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "laser_filter_node::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-laser_filter_node-0a462e3c0bbed75c40ac.json",
+					"name" : "laser_filter_node",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-727d68d4687d690d1b5b.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "yahboom_laser_filter_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-yahboom_laser_filter_uninstall-99d76c5afaa9c12d32e2.json",
+					"name" : "yahboom_laser_filter_uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/yahboom_laser_filter",
+		"source" : "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/lidar/yahboom_laser_filter"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

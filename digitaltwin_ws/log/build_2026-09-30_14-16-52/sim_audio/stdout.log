@@ -1,0 +1,24 @@
+running develop
+running egg_info
+creating sim_audio.egg-info
+writing sim_audio.egg-info/PKG-INFO
+writing dependency_links to sim_audio.egg-info/dependency_links.txt
+writing entry points to sim_audio.egg-info/entry_points.txt
+writing requirements to sim_audio.egg-info/requires.txt
+writing top-level names to sim_audio.egg-info/top_level.txt
+writing manifest file 'sim_audio.egg-info/SOURCES.txt'
+reading manifest file 'sim_audio.egg-info/SOURCES.txt'
+writing manifest file 'sim_audio.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim-audio.egg-link (link to .)
+Installing audio_field_builder script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/sim_audio
+Installing sim_audio_publisher script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/sim_audio
+Installing view_audio_field script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/sim_audio
+
+Installed /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio
+running symlink_data
+creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/share/ament_index
+creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/share/ament_index/resource_index
+creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/share/ament_index/resource_index/packages
+symbolically linking /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/resource/sim_audio -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/share/ament_index/resource_index/packages
+symbolically linking /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/package.xml -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/share/sim_audio

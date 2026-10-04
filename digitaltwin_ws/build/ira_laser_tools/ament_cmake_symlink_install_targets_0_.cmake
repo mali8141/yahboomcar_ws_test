@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/ira_laser_tools/laserscan_multi_merger" "TARGETS" "laserscan_multi_merger" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "lib/ira_laser_tools")

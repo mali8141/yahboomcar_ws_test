@@ -1,3 +1,4 @@
 [console_scripts]
-
-
+battery_simulator = yahboom_M3Pro_description.battery_simulator:main
+ground_truth_publisher = yahboom_M3Pro_description.ground_truth_publisher:main
+odom_to_tf = yahboom_M3Pro_description.odom_to_tf:main
