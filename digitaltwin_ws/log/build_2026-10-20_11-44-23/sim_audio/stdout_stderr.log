@@ -1,0 +1,44 @@
+running develop
+Removing /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim-audio.egg-link (link to .)
+running egg_info
+writing ../../build/sim_audio/sim_audio.egg-info/PKG-INFO
+writing dependency_links to ../../build/sim_audio/sim_audio.egg-info/dependency_links.txt
+writing entry points to ../../build/sim_audio/sim_audio.egg-info/entry_points.txt
+writing requirements to ../../build/sim_audio/sim_audio.egg-info/requires.txt
+writing top-level names to ../../build/sim_audio/sim_audio.egg-info/top_level.txt
+reading manifest file '../../build/sim_audio/sim_audio.egg-info/SOURCES.txt'
+writing manifest file '../../build/sim_audio/sim_audio.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build
+creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib
+creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio
+copying sim_audio/__init__.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio
+copying sim_audio/view_audio_field.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio
+copying sim_audio/audio_field_builder.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio
+copying sim_audio/audio_speaker.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio
+copying sim_audio/sim_audio_publisher.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio
+running install
+running install_lib
+creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio
+copying /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio/__init__.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio
+copying /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio/view_audio_field.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio
+copying /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio/audio_field_builder.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio
+copying /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio/audio_speaker.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio
+copying /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio/sim_audio_publisher.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio
+byte-compiling /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio/__init__.py to __init__.cpython-312.pyc
+byte-compiling /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio/view_audio_field.py to view_audio_field.cpython-312.pyc
+byte-compiling /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio/audio_field_builder.py to audio_field_builder.cpython-312.pyc
+byte-compiling /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio/audio_speaker.py to audio_speaker.cpython-312.pyc
+byte-compiling /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio/sim_audio_publisher.py to sim_audio_publisher.cpython-312.pyc
+running install_data
+copying resource/sim_audio -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/share/ament_index/resource_index/packages
+copying package.xml -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/share/sim_audio
+running install_egg_info
+Copying ../../build/sim_audio/sim_audio.egg-info to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio-0.1.0-py3.12.egg-info
+running install_scripts
+Installing audio_field_builder script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/sim_audio
+Installing audio_speaker script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/sim_audio
+Installing sim_audio_publisher script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/sim_audio
+Installing view_audio_field script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/sim_audio
+writing list of installed files to '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/install.log'

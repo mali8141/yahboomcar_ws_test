@@ -22,6 +22,7 @@ setup(
             'audio_field_builder = sim_audio.audio_field_builder:main',
             'sim_audio_publisher  = sim_audio.sim_audio_publisher:main',
             'view_audio_field     = sim_audio.view_audio_field:main',
+            'audio_speaker        = sim_audio.audio_speaker:main',
         ],
     },
 )

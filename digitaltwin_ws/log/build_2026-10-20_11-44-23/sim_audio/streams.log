@@ -1,0 +1,48 @@
+[0.529s] Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build
+[0.726s] running develop
+[0.853s] Removing /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim-audio.egg-link (link to .)
+[0.873s] Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build
+[0.874s] Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/sim_audio': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim_audio build --build-base /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build install --record /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/install.log --install-scripts $base/lib/sim_audio --single-version-externally-managed install_data --force
+[1.048s] running egg_info
+[1.060s] writing ../../build/sim_audio/sim_audio.egg-info/PKG-INFO
+[1.060s] writing dependency_links to ../../build/sim_audio/sim_audio.egg-info/dependency_links.txt
+[1.060s] writing entry points to ../../build/sim_audio/sim_audio.egg-info/entry_points.txt
+[1.060s] writing requirements to ../../build/sim_audio/sim_audio.egg-info/requires.txt
+[1.061s] writing top-level names to ../../build/sim_audio/sim_audio.egg-info/top_level.txt
+[1.084s] reading manifest file '../../build/sim_audio/sim_audio.egg-info/SOURCES.txt'
+[1.085s] writing manifest file '../../build/sim_audio/sim_audio.egg-info/SOURCES.txt'
+[1.085s] running build
+[1.085s] running build_py
+[1.085s] creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build
+[1.085s] creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib
+[1.085s] creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio
+[1.085s] copying sim_audio/__init__.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio
+[1.085s] copying sim_audio/view_audio_field.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio
+[1.085s] copying sim_audio/audio_field_builder.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio
+[1.086s] copying sim_audio/audio_speaker.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio
+[1.086s] copying sim_audio/sim_audio_publisher.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio
+[1.086s] running install
+[1.090s] running install_lib
+[1.102s] creating /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio
+[1.102s] copying /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio/__init__.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio
+[1.102s] copying /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio/view_audio_field.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio
+[1.102s] copying /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio/audio_field_builder.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio
+[1.102s] copying /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio/audio_speaker.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio
+[1.102s] copying /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build/lib/sim_audio/sim_audio_publisher.py -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio
+[1.102s] byte-compiling /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio/__init__.py to __init__.cpython-312.pyc
+[1.102s] byte-compiling /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio/view_audio_field.py to view_audio_field.cpython-312.pyc
+[1.105s] byte-compiling /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio/audio_field_builder.py to audio_field_builder.cpython-312.pyc
+[1.107s] byte-compiling /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio/audio_speaker.py to audio_speaker.cpython-312.pyc
+[1.108s] byte-compiling /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio/sim_audio_publisher.py to sim_audio_publisher.cpython-312.pyc
+[1.109s] running install_data
+[1.109s] copying resource/sim_audio -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/share/ament_index/resource_index/packages
+[1.109s] copying package.xml -> /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/share/sim_audio
+[1.110s] running install_egg_info
+[1.122s] Copying ../../build/sim_audio/sim_audio.egg-info to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio-0.1.0-py3.12.egg-info
+[1.125s] running install_scripts
+[1.207s] Installing audio_field_builder script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/sim_audio
+[1.208s] Installing audio_speaker script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/sim_audio
+[1.208s] Installing sim_audio_publisher script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/sim_audio
+[1.208s] Installing view_audio_field script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/sim_audio
+[1.208s] writing list of installed files to '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/install.log'
+[1.228s] Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/sim_audio' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim_audio build --build-base /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build install --record /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/install.log --install-scripts $base/lib/sim_audio --single-version-externally-managed install_data --force

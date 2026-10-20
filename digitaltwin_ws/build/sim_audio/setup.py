@@ -1,1 +1,0 @@
-/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/sim_audio/setup.py
