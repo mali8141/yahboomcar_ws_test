@@ -1,0 +1,24 @@
+[0.554s] Invoking command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/sim_audio': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim_audio build --build-base /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build install --record /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/install.log --install-scripts $base/lib/sim_audio --single-version-externally-managed install_data
+[0.731s] running egg_info
+[0.742s] writing ../../build/sim_audio/sim_audio.egg-info/PKG-INFO
+[0.743s] writing dependency_links to ../../build/sim_audio/sim_audio.egg-info/dependency_links.txt
+[0.743s] writing entry points to ../../build/sim_audio/sim_audio.egg-info/entry_points.txt
+[0.743s] writing requirements to ../../build/sim_audio/sim_audio.egg-info/requires.txt
+[0.743s] writing top-level names to ../../build/sim_audio/sim_audio.egg-info/top_level.txt
+[0.767s] reading manifest file '../../build/sim_audio/sim_audio.egg-info/SOURCES.txt'
+[0.767s] writing manifest file '../../build/sim_audio/sim_audio.egg-info/SOURCES.txt'
+[0.768s] running build
+[0.768s] running build_py
+[0.768s] running install
+[0.772s] running install_lib
+[0.784s] running install_data
+[0.784s] running install_egg_info
+[0.797s] removing '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio-0.1.0-py3.12.egg-info' (and everything under it)
+[0.797s] Copying ../../build/sim_audio/sim_audio.egg-info to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages/sim_audio-0.1.0-py3.12.egg-info
+[0.797s] running install_scripts
+[0.880s] Installing audio_field_builder script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/sim_audio
+[0.881s] Installing audio_speaker script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/sim_audio
+[0.881s] Installing sim_audio_publisher script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/sim_audio
+[0.881s] Installing view_audio_field script to /home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/sim_audio
+[0.881s] writing list of installed files to '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/install.log'
+[0.898s] Invoked command in '/home/pawan/yahboomcar_ws_test/digitaltwin_ws/src/sim_audio' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pawan/yahboomcar_ws_test/digitaltwin_ws/install/sim_audio/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/sim_audio build --build-base /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/build install --record /home/pawan/yahboomcar_ws_test/digitaltwin_ws/build/sim_audio/install.log --install-scripts $base/lib/sim_audio --single-version-externally-managed install_data
